@@ -60,7 +60,7 @@ export default function WhyChoseUs1() {
 													width="120px"
 													height="120px"
 													trailColor="#F6F6F6"
-													pathColor="#FF6B00"
+													pathColor="#FFBF00"
 													textColor="#222"
 												/>
 											</div>
@@ -74,7 +74,7 @@ export default function WhyChoseUs1() {
 													width="120px"
 													height="120px"
 													trailColor="#F6F6F6"
-													pathColor="#FF6B00"
+													pathColor="#FFBF00"
 													textColor="#222" />
 											</div>
 										</div>
@@ -87,7 +87,7 @@ export default function WhyChoseUs1() {
 													width="120px"
 													height="120px"
 													trailColor="#F6F6F6"
-													pathColor="#FF6B00"
+													pathColor="#FFBF00"
 													textColor="#222" />
 											</div>
 										</div>
