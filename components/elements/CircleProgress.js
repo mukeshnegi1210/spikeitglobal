@@ -16,7 +16,7 @@ export default function CircleProgress({ percentage, pathColor, trailColor, widt
 						backgroundColor: "transparent",
 						textColor: `${textColor ? textColor : "#3498DB"}`,
 						pathColor: `${pathColor ? pathColor : "#fff"}`,
-						trailColor: `${trailColor ? trailColor : "#086AD8"}`,
+						trailColor: `${trailColor ? trailColor : "#FF6B00"}`,
 						strokeLinecap: "butt"
 
 					})} />

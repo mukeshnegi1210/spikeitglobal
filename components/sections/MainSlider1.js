@@ -21,15 +21,10 @@ export default function MainSlider1() {
 									<div className="sub-title-slider wow fadeInUpSmall">
 										<i className="icon-angle-downs " />
 										<span className="fw-600 text-white font-man">
-											5m+ Trusted Our Clients</span>
+											Accelerate Your Cloud Transformation with SpikeIT </span>
 									</div>
-									<h1 className="title-slider text-white wow fadeInUpSmall" data-wow-delay=".2s">Modern &amp; Digital <br /> IT Solutions For
-										Your
-										<br /> Tech Business
-									</h1>
-									<p className="des text-white fw-500 mb-40 wow fadeInUpSmall" data-wow-delay=".3s">25+ Years Of Experience In Tech
-										Services
-									</p>
+									<h1 className="title-slider text-white wow fadeInUpSmall" data-wow-delay=".2s">We Move You to the Cloud <br /> Smarter , Safer, Faster</h1>
+									
 									<div className="btn-main wow fadeInUpSmall" data-wow-delay=".4s">
 										<Link href="/service1" className="button-src ">Explore Our Service
 											<i className="icon-angle-right" /></Link>

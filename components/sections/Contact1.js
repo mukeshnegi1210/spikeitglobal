@@ -11,11 +11,8 @@ export default function Contact1() {
 							<div className="content">
 								<div className="heading-title mb-40">
 									<span className="sub-title texts-blue font-man wow fadeInUpSmall" data-wow-delay=".2s">Work Inquiry</span>
-									<h2 className="title text-white wow fadeInUpSmall" data-wow-delay=".3s">Let’s Work For your
-										Next Projects ?</h2>
-									<p className="des font-man text-white wow fadeInUpSmall" data-wow-delay=".4s">We denounce with righteous indignation
-										and
-										like men beguiled and demoralized by the charms</p>
+									<h2 className="title text-white wow fadeInUpSmall" data-wow-delay=".3s">Ready to Transform Your Business?</h2>
+									<p className="des font-man text-white wow fadeInUpSmall" data-wow-delay=".4s">Let’s collaborate on your next project and unlock the power of digital innovation together.</p>
 								</div>
 								<div className="contact-wrap flex-three mb-40 wow fadeInUpSmall" data-wow-delay=".4s">
 									<div className="icon">
@@ -23,7 +20,7 @@ export default function Contact1() {
 									</div>
 									<div className="contact-content">
 										<span className="font-man">Call For Inquiry</span>
-										<p>+236 (456) 896 22</p>
+										<p>+1 732-820-0276</p>
 									</div>
 								</div>
 								<div className="contact-wrap flex-three wow fadeInUpSmall" data-wow-delay=".5s">
@@ -32,7 +29,7 @@ export default function Contact1() {
 									</div>
 									<div className="contact-content">
 										<span className="font-man">Send Us Email</span>
-										<p>infotech@gmail.com</p>
+										<p>info@spikeitglobal.com</p>
 									</div>
 								</div>
 							</div>

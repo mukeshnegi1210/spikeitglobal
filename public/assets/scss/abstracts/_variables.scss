@@ -27,12 +27,20 @@ $white:#FFFFFF;
 $main:#222222;
 $main-black:#020626;
 $black-it:#020101;
-$primary: #086AD8;
-$blue:#002FF5;
-$blue-dark:#18185E;
-$blue-dark2:#252593;
-$blue-dark3:#070C37;
-$blue-light:#008DF3;
+$primary: #FF6B00;
+
+$blue:        #FF6B00;   // Vibrant orange (was: #FF6B00)
+$blue-dark:   #E66D28;   // Rich orange tone (was: #E66D28)
+$blue-dark2:  #C25118;   // Deeper warm orange (was: #C25118)
+$blue-dark3:  #A23C10;   // Dark burnt orange (was: #A23C10)
+$blue-light:  #FF8C42;   // Soft accent orange (was: #FF8C42)
+
+// $primary: #086AD8;
+// $blue:#FF6B00;
+// $blue-dark:#E66D28;
+// $blue-dark2:#C25118;
+// $blue-dark3:#A23C10;
+// $blue-light:#FF8C42;
 $green:#00E676;
 $buguni:#6200EA;
 $red:#FD4A18;

@@ -13,14 +13,9 @@ export default function Feature1() {
 						<div className="col-lg-12 col-xl-5">
 							<div className="content">
 								<div className="heading-title mb-40">
-									<span className="sub-title texts-blue font-man wow fadeInUpSmall">Best IT Solutions</span>
-									<h2 className="title wow fadeInUpSmall" data-wow-delay=".3s">We Prominent Truly
-										IT Your solutions</h2>
-									<p className="des wow fadeInUpSmall" data-wow-delay=".4s">We denounce with righteous indignation and like men who are
-										so
-										beguiled and demoralized by the charms of pleasure of the moment, so
-										blinded
-										by desire foresee the pain</p>
+									<span className="sub-title texts-blue font-man wow fadeInUpSmall">Leading Cloud & Digital Transformation Solutions</span>
+									<h2 className="title wow fadeInUpSmall" data-wow-delay=".3s"> We Empower your Business with Innovative Cloud & Digital Strategies. </h2>
+									<p className="des wow fadeInUpSmall" data-wow-delay=".4s">We help you navigate the complexities of transformation to unlock lasting value and growth.</p>
 								</div>
 								<div className="flex progres-wrap mb-50  wow fadeInUpSmall" data-wow-delay=".4s">
 									<div className="progress-box1 flex-three">
@@ -30,7 +25,7 @@ export default function Feature1() {
 											</div>
 										</div>
 										<div className="content-progress">
-											<h5>Business <br />Strategy</h5>
+											<h5> Business Strategy Alignment</h5>
 										</div>
 									</div>
 									<div className="progress-box2 flex-three">
@@ -40,13 +35,13 @@ export default function Feature1() {
 											</div>
 										</div>
 										<div className="content-progress">
-											<h5>Technology <br />Solutions</h5>
+											<h5> Technology Solutions Excellence</h5>
 										</div>
 									</div>
 								</div>
 								<div className="btn-wrap-about flex-three wow fadeInUpSmall" data-wow-delay=".5s">
 									<Link href="/#" className="button-src">Read More <i className="icon-angle-right" /></Link>
-									<div className="flex-three">
+									{/* <div className="flex-three">
 										<div className="flex-three">
 											<ul className="image-list flex-three">
 												<li>
@@ -64,7 +59,7 @@ export default function Feature1() {
 											</ul>
 										</div>
 										<span className="font-man customer">10m+ Customers</span>
-									</div>
+									</div> */}
 								</div>
 							</div>
 						</div>

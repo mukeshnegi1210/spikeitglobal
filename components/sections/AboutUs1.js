@@ -22,25 +22,25 @@ export default function AboutUs1() {
 						<div className="col-12 col-md-6 col-lg-6 col-xl-4">
 							<div className="about-us-content wow fadeInUpSmall" data-wow-delay=".2s">
 								<div className="heading-title">
-									<span className="sub-title texts-blue font-man">About Company</span>
-									<h2 className="title">Make your life easier with help from
-										<span className="animationtext clip texts-blue">
+									<span className="sub-title texts-blue font-man">Simplify Your Digital Journey with SpikeIT</span>
+									<h2 className="title"> Your Trusted Partner in <br /> Cloud-Driven Transformation
+										{/* <span className="animationtext clip texts-blue">
 											<TextAnimation text1="Wiatech" text2="Wetech" />
-										</span>
+										</span> */}
 									</h2>
 								</div>
 								<ul className="icon-listing">
 									<li className="flex-three">
 										<i className="icon-Check" />
-										<p className="font-man">Professional Team Member</p>
+										<p className="font-man"> <strong>Smooth Cloud Migrations</strong> <br /> Fast, secure, and hassle-free transitions.</p>
 									</li>
 									<li className="flex-three">
 										<i className="icon-Check" />
-										<p className="font-man">Awards Winning IT Solutions Company</p>
+										<p className="font-man"> <strong>Custom Solutions</strong> <br /> Aligned with your unique business goals.</p>
 									</li>
 									<li className="flex-three">
 										<i className="icon-Check" />
-										<p className="font-man">Dedicated Tech Services</p>
+										<p className="font-man"><strong>Expert Support</strong> <br /> Continuous guidance and optimization.</p>
 									</li>
 								</ul>
 								<Link href="/about-company" className="button-src">Read More <i className="icon-angle-right" /></Link>
@@ -48,12 +48,11 @@ export default function AboutUs1() {
 						</div>
 						<div className="col-12 col-md-12 col-lg-12 col-xl-4">
 							<div className="about-us-counter wow fadeInUpSmall" data-wow-delay=".3s">
-								<h3 className="title">We’ve 25+ Years Of Experience <br />
-									In Tech Services
+								<h3 className="title">12+ Years of Driving Innovation Through Technology
 								</h3>
-								<p className="des">Sed ut perspiciatis unde omnis iste natus error sit
-									voluptatem accusantium doloremque laudantium
-									totam rem aperiam, eaque epsa inventore
+								<p className="des">At SpikeIT, we specialize in enabling cloud-driven digital transformation.
+With deep industry expertise and a future-focused mindset, we help businesses modernize, scale, and thrive in an ever-evolving digital world.
+
 								</p>
 								<div className="line" />
 								<div className="flex-one counter-wrap-about">

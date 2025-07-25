@@ -9,18 +9,16 @@ export default function MarqueText1() {
 					<div className="marquee-inner to-left">
 						<ul className="marqee-list d-flex">
 							<li className="marquee-item">
-								<span className="text-slider">IT Services</span><i className="icon-asterisk" />
-								<span className="text-slider">Cyber Security</span><i className="icon-asterisk" />
-								<span className="text-slider">Data Security</span><i className="icon-asterisk" />
-								<span className="text-slider">IT Services</span><i className="icon-asterisk" />
-								<span className="text-slider">Cyber Security</span><i className="icon-asterisk" />
-								<span className="text-slider">Data Security</span><i className="icon-asterisk" />
-								<span className="text-slider">IT Services</span><i className="icon-asterisk" />
-								<span className="text-slider">Cyber Security</span><i className="icon-asterisk" />
-								<span className="text-slider">Data Security</span><i className="icon-asterisk" />
-								<span className="text-slider">IT Services</span><i className="icon-asterisk" />
-								<span className="text-slider">Cyber Security</span><i className="icon-asterisk" />
-								<span className="text-slider">Data Security</span><i className="icon-asterisk" />
+								<span className="text-slider">Strategy and Consultation</span><i className="icon-asterisk" />
+								<span className="text-slider">Cloud Services </span><i className="icon-asterisk" />
+								<span className="text-slider">Data & AI</span><i className="icon-asterisk" />
+								<span className="text-slider">Infrastructure Services</span><i className="icon-asterisk" />
+								<span className="text-slider">Cyber Security Services</span><i className="icon-asterisk" />
+								<span className="text-slider">Software Engineering</span><i className="icon-asterisk" />
+								<span className="text-slider">Web Development</span><i className="icon-asterisk" />
+								<span className="text-slider">Project Management</span><i className="icon-asterisk" />
+								<span className="text-slider">ITSM</span><i className="icon-asterisk" />
+								
 							</li>
 						</ul>
 					</div>

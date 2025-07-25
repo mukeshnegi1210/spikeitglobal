@@ -5,9 +5,7 @@ import { myPortfolio } from "@/utils/swiperOptions"
 
 export default function CaseStudies3() {
 	return (
-		<>
-
-			<section className="case-studies-h5 pt-122 pb-130">
+		<>			<section className="case-studies-h5 pt-122 pb-130">
 				<div className="tf-container full">
 					<div className="row mb-70">
 						<div className="col-lg-12">
@@ -41,30 +39,13 @@ export default function CaseStudies3() {
 									<SwiperSlide>
 										<div className="tf-portfolio">
 											<Link href="/project-details" className="image">
-												<img src="/assets/images/image-box/case2.jpg" alt="image" />
-											</Link>
-											<div className="content">
-												<div className="inner-title">
-													<h3 className="title"><Link href="/project-details">Travel &amp; Tour Mobile Apps
-														Design</Link></h3>
-													<p>Mobile Apps Design</p>
-												</div>
-												<div className="btn-main">
-													<Link href="/project-details" className="link-portfolio"><i className="icon-arrow-rights" /></Link>
-												</div>
-											</div>
-										</div>
-									</SwiperSlide>
-									<SwiperSlide>
-										<div className="tf-portfolio">
-											<Link href="/project-details" className="image">
 												<img src="/assets/images/image-box/case3.jpg" alt="image" />
 											</Link>
 											<div className="content">
 												<div className="inner-title">
-													<h3 className="title"><Link href="/project-details">Professional Website Design</Link>
-													</h3>
-													<p>Web Design &amp; Development</p>
+													<h3 className="title"><Link href="/project-details">Professional UI/UX
+														Design</Link></h3>
+													<p>UI/UX Design</p>
 												</div>
 												<div className="btn-main">
 													<Link href="/project-details" className="link-portfolio"><i className="icon-arrow-rights" /></Link>
@@ -72,50 +53,16 @@ export default function CaseStudies3() {
 											</div>
 										</div>
 									</SwiperSlide>
-									<SwiperSlide>
-										<div className="tf-portfolio">
-											<Link href="/project-details" className="image">
-												<img src="/assets/images/image-box/case1.jpg" alt="image" />
-											</Link>
-											<div className="content">
-												<div className="inner-title">
-													<h3 className="title"><Link href="/project-details">Professional Website Design</Link>
-													</h3>
-													<p>Web Design &amp; Development</p>
-												</div>
-												<div className="btn-main">
-													<Link href="/project-details" className="link-portfolio"><i className="icon-arrow-rights" /></Link>
-												</div>
-											</div>
-										</div>
-									</SwiperSlide>
-									<SwiperSlide>
+										<SwiperSlide>
 										<div className="tf-portfolio">
 											<Link href="/project-details" className="image">
 												<img src="/assets/images/image-box/case2.jpg" alt="image" />
 											</Link>
 											<div className="content">
 												<div className="inner-title">
-													<h3 className="title"><Link href="/project-details">Travel &amp; Tour Mobile Apps
+													<h3 className="title"><Link href="/project-details">Professional Mobile Apps
 														Design</Link></h3>
 													<p>Mobile Apps Design</p>
-												</div>
-												<div className="btn-main">
-													<Link href="/project-details" className="link-portfolio"><i className="icon-arrow-rights" /></Link>
-												</div>
-											</div>
-										</div>
-									</SwiperSlide>
-									<SwiperSlide>
-										<div className="tf-portfolio">
-											<Link href="/project-details" className="image">
-												<img src="/assets/images/image-box/case3.jpg" alt="image" />
-											</Link>
-											<div className="content">
-												<div className="inner-title">
-													<h3 className="title"><Link href="/project-details">Professional Website Design</Link>
-													</h3>
-													<p>Web Design &amp; Development</p>
 												</div>
 												<div className="btn-main">
 													<Link href="/project-details" className="link-portfolio"><i className="icon-arrow-rights" /></Link>
