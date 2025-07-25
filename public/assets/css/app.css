@@ -268,8 +268,9 @@
 .main-header.header-style4 .header-lower {
   background-color: #020626;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  padding-left: 66px;
-  padding-right: 66px;
+  padding:10px 66px;
+  /* padding-right: 66px; */
+  
 }
 
 .main-header.header-style4 .header-lower .main-menu .navigation>li>a {
