@@ -23,7 +23,7 @@ export default function Service1() {
 	}
 
 	return (
-		<Layout headerStyle={5} footerStyle={5}>
+		<Layout headerStyle={1} footerStyle={5}>
 			<section className="banner-home5 bg-1 relative">
 				<img src="/assets/images/page/mask-hero.png" alt="image" className="mask-hero" />
 				<div className="tf-container">
