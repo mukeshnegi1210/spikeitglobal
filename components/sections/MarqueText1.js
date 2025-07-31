@@ -17,7 +17,7 @@ export default function MarqueText1() {
 								<span className="text-slider">Software Engineering</span><i className="icon-asterisk" />
 								<span className="text-slider">Web Development</span><i className="icon-asterisk" />
 								<span className="text-slider">Project Management</span><i className="icon-asterisk" />
-								<span className="text-slider">ITSM</span><i className="icon-asterisk" />
+								<span className="text-slider">Service Management-ServiceNow</span><i className="icon-asterisk" />
 								
 							</li>
 						</ul>

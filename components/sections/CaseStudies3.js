@@ -5,7 +5,8 @@ import { myPortfolio } from "@/utils/swiperOptions"
 
 export default function CaseStudies3() {
 	return (
-		<>			<section className="case-studies-h5 pt-122 pb-130">
+		<>
+			<section className="case-studies-h5 pt-122 pb-130">
 				<div className="tf-container full">
 					<div className="row mb-70">
 						<div className="col-lg-12">
@@ -53,7 +54,7 @@ export default function CaseStudies3() {
 											</div>
 										</div>
 									</SwiperSlide>
-										<SwiperSlide>
+									<SwiperSlide>
 										<div className="tf-portfolio">
 											<Link href="/project-details" className="image">
 												<img src="/assets/images/image-box/case2.jpg" alt="image" />

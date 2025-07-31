@@ -108,7 +108,7 @@ export default function MobileMenu() {
 								<Link href="/project-management-services">Project Management</Link>
 							</li>
 							<li className={`${checkCurrentMenuItem("/itsm-services")}`}>
-								<Link href="/itsm-services">ITSM</Link>
+								<Link href="/itsm-services">Service Management-ServiceNow</Link>
 							</li>
 						</ul>
 						<div class="dropdown2-btn" onClick={() => handleAccordion(3)} />

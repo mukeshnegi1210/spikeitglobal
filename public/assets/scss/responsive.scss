@@ -602,7 +602,8 @@
 @media only screen and (max-width: 1024px) {
   .grid-col-project {
     grid-template-columns: repeat(2, 1fr);
-}
+  }
+
   .video-faq {
     margin-bottom: 1em;
   }
@@ -757,9 +758,10 @@
 }
 
 @media only screen and (max-width: 991px) {
-  .our-blog .sidebar-blog{
+  .our-blog .sidebar-blog {
     margin-bottom: 50px;
   }
+
   #footer .footer-main .footer-main-newsletter {
     padding-right: 0px;
     margin-bottom: 30px;
@@ -819,7 +821,7 @@
   }
 
   .section-performance {
-    padding-bottom: 80px;
+     padding:80px 0;
   }
 
   .testimonial-video {
@@ -1028,8 +1030,7 @@
   }
 
   .pd-section {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    margin: 80px 0;
   }
 
   .pb-130 {
@@ -1141,7 +1142,8 @@
 @media only screen and (max-width: 768px) {
   .grid-col-project {
     grid-template-columns: repeat(1, 1fr);
-}
+  }
+
   .grid-mansory-project {
     column-count: 1;
   }

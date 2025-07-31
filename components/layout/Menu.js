@@ -82,7 +82,7 @@ export default function Menu() {
 							<Link href="/project-management-services">Project Management</Link>
 						</li>
 						<li className={`${checkCurrentMenuItem("/itsm-services")}`}>
-							<Link href="/itsm-services">ITSM</Link>
+							<Link href="/itsm-services">Service Management-ServiceNow</Link>
 						</li>
 					</ul>
 				</li>

@@ -274,7 +274,7 @@ export default function Service1() {
 													<i className="icon-software-development-1" />
 												</div>
 											</div>
-											<h3 className="title">ITSM</h3>
+											<h3 className="title">Service Management-ServiceNow</h3>
 											<div className="inner-bottom">
 												<p className="des font-man">Optimizing IT operations with tailored ServiceNow implementations.</p>
 												<div className="icon-bottom">

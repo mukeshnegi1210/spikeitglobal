@@ -28,7 +28,8 @@
   left: 0;
   right: 0;
 }
-.main-header.header-style1 .header-lower{
+
+.main-header.header-style1 .header-lower {
   padding: 10px 0;
 }
 
@@ -271,9 +272,9 @@
 .main-header.header-style4 .header-lower {
   background-color: #020626;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  padding:10px 66px;
+  padding: 10px 66px;
   /* padding-right: 66px; */
-  
+
 }
 
 .main-header.header-style4 .header-lower .main-menu .navigation>li>a {
@@ -2207,6 +2208,12 @@
   z-index: 2;
 }
 
+
+.feature-service2.has-right-content .feature-service2-image .service2-image{
+   padding-left:  7.1em;
+  padding-right:  5.05em;
+}
+
 .feature-service2 .feature-service2-image .testimonial-avt-box {
   position: absolute;
   top: 34%;
@@ -2223,6 +2230,11 @@
   right: -12.3%;
   bottom: -10%;
   z-index: 1;
+}
+
+.feature-service2.has-right-content .feature-service2-image .cycle{
+   right: auto;
+    left: -12.3%;
 }
 
 .feature-service2 .feature-service2-content {
@@ -3929,7 +3941,7 @@
 }
 
 .section-performance {
-  padding-bottom: 22.8em;
+  padding:122px 0;
 }
 
 .skill-team-member .skill-team-image-center {
@@ -8762,11 +8774,13 @@
   display: block;
   margin-bottom: 36px;
 }
-.tf-portfolio .image  img{
+
+.tf-portfolio .image img {
   max-height: 400px;
   object-fit: cover;
   object-position: center;
 }
+
 .tf-portfolio .content {
   display: flex;
   justify-content: space-between;
@@ -10319,7 +10333,7 @@ label.error {
 
 .text-blue2 {
   /* color: #FFD74D; */
-    color: #FFD74D;
+  color: #FFD74D;
 }
 
 .text-blue2.mask {
@@ -10758,8 +10772,7 @@ input[type=submit] {
 }
 
 .pd-section {
-  padding-top: 130px;
-  padding-bottom: 130px;
+  margin: 130px 0;
 }
 
 .bg-1 {
@@ -11870,7 +11883,7 @@ body .dribbble img {
   }
 
   .section-performance {
-    padding-bottom: 80px;
+     padding:80px 0;
   }
 
   .testimonial-video {
@@ -12078,8 +12091,8 @@ body .dribbble img {
   }
 
   .pd-section {
-    padding-top: 80px;
-    padding-bottom: 80px;
+
+    margin: 80px 0;
   }
 
   .pb-130 {

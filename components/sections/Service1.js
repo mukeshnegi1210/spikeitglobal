@@ -232,7 +232,7 @@ export default function Service1() {
 							<div className="icon-box1-visible flex-two">
 								<div className="content">
 									<span className="number mb-15">08</span>
-									<h3 className="title mb-47"><Link href="/itsm-services">ITSM</Link></h3>
+									<h3 className="title mb-47"><Link href="/itsm-services">Service Management-ServiceNow</Link></h3>
 									<div className="icon">
 										<i className="icon-cloud-network" />
 									</div>
@@ -248,7 +248,7 @@ export default function Service1() {
 									</div>
 									<span className="number">08</span>
 								</div>
-								<h3 className="title"><Link href="/itsm-services">ITSM</Link></h3>
+								<h3 className="title"><Link href="/itsm-services">Service Management-ServiceNow</Link></h3>
 								<p className="des"> Optimizing IT operations with tailored ServiceNow implementations.</p>
 								<div className="button-icon-box">
 									<Link href="/itsm-services" className="service-link">Read More<i className="icon-right-icon" /></Link>
