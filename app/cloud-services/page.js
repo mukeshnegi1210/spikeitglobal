@@ -1,12 +1,9 @@
 'use client'
-import VideoPopup from "@/components/elements/VideoPopup"
 import Layout from "@/components/layout/Layout"
-import { myTesHome5 } from "@/utils/swiperOptions"
 import Link from "next/link"
 import { useState } from "react"
-import { Swiper, SwiperSlide } from "swiper/react"
-import { collection1, collection2 } from "@/utils/swiperOptions";
-import CaseStudies3 from "@/components/sections/CaseStudies3"
+import { Swiper, SwiperSlide } from "swiper/react";
+import { myPortfolio } from "@/utils/swiperOptions"
 export default function ServiceDetails() {
 	const [isTab, setIsTab] = useState(1)
 	const [isVisible, setIsVisible] = useState(true)
@@ -29,7 +26,7 @@ export default function ServiceDetails() {
 	return (
 		<>
 
-			<Layout breadcrumbTitle="Cloud Services" bgImg={"/assets/images/services/cloud-service-1.jpg"}>
+			<Layout headerStyle={1} pageTitle="Redefine Cloud Services for Scalable Success" bgImg="/assets/images/services/cloud-service-1.jpg" breadcrumbTitle="Cloud Services">
 				<div>
 					<section className="section-benefit pt-122">
 						<div className="tf-container">
@@ -38,10 +35,8 @@ export default function ServiceDetails() {
 									<div className="benefit-content">
 										<div className="heading-title mb-40">
 											<span className="sub-title texts-blue font-man">Best Features Development</span>
-											<h2 className="title">Benefits of Managed IT Services Provided</h2>
-											<p className="des">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-												accusantiue doloremue
-												laudantium totam rem aperiam eaque ipsa quae abillo inventore veritatis</p>
+											<h2 className="title">Cloud Services</h2>
+											<p className="des"> Empower your organization with secure, scalable, and cost-efficient cloud solutions tailored to meet business demands — from migration to optimization.</p>
 										</div>
 										<img src="/assets/images/services/cloud-service-2.jpg" alt="image" />
 									</div>
@@ -52,34 +47,43 @@ export default function ServiceDetails() {
 											<li>
 												<div className="flex-three">
 													<i className="icon-Check" />
-													<h4>IT Manage Service</h4>
+													<h4>Secure Infrastructure</h4>
 												</div>
-												<p>Sed ut perspiciatis unde omnis natus voluptatem accusantium
-													doloremque laudantium, totam rem aperiam inventore</p>
+												<p> Protect data with robust cloud security, encryption, and compliance standards.</p>
 											</li>
 											<li>
 												<div className="flex-three">
 													<i className="icon-Check" />
-													<h4>Keeping Team Productive</h4>
+													<h4> Scalability & Flexibility</h4>
 												</div>
-												<p>To take a trivial example, which of us ever undertakes laborious physical
-													exercise, except to obtain some advantage</p>
+												<p> Rapidly scale resources up or down to meet changing demands without disrupting operations.</p>
 											</li>
 											<li>
 												<div className="flex-three">
 													<i className="icon-Check" />
-													<h4>Predictable Costs 24/7</h4>
+													<h4>Cost Optimization</h4>
 												</div>
-												<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam
-													nihil molestiae consequatur, vellum dolorem</p>
+												<p>Pay only for what you use and get the most out of your cloud investments.
+
+												</p>
 											</li>
 											<li>
 												<div className="flex-three">
 													<i className="icon-Check" />
-													<h4>Team is Ready to Help</h4>
+													<h4> Seamless Integration</h4>
 												</div>
-												<p>Must explain to you how all this mistaken idea of denouncing pleasure and
-													praising pain was born and I will give</p>
+												<p> Connect cloud environments with existing systems and applications for streamlined workflows.
+
+												</p>
+											</li>
+											<li>
+												<div className="flex-three">
+													<i className="icon-Check" />
+													<h4> Global Accessibility</h4>
+												</div>
+												<p> Access your data and applications from anywhere, anytime — empowering a truly remote-ready organization.
+
+												</p>
 											</li>
 										</ul>
 									</div>
@@ -93,108 +97,39 @@ export default function ServiceDetails() {
 								<div className="col-md-7">
 									<div className="it-manager-content">
 										<div className="heading-title mb-20">
-											<span className="sub-title texts-blue font-man">How to Manage</span>
-											<h2 className="title">Our Managed IT Services let you Concentrate on What Matters
-											</h2>
+											{/* <span className="sub-title texts-blue font-man">Our ITSM Implementation Approach</span> */}
+											<h2 className="title">Our Cloud Implementation Approach</h2>
 										</div>
-										<ul className="nav nav-tabs-pricing nav-tabs-pricing-service" id="myTab" role="tablist">
-											<li className="nav-item" onClick={() => handleTab(1)}>
-												<button className={isTab == 1 ? "nav-link active" : "nav-link"} id="approach-tab" data-bs-toggle="tab" data-bs-target="#approach-tab-pane" type="button" role="tab" aria-controls="approach-tab-pane" aria-selected="true">Our
-													Approach</button>
-											</li>
-											<li className="nav-item" onClick={() => handleTab(2)}>
-												<button className={isTab == 2 ? "nav-link active" : "nav-link"} id="goals-tab" data-bs-toggle="tab" data-bs-target="#goals-tab-pane" type="button" role="tab" aria-controls="goals-tab-pane" aria-selected="false">Project
-													Goals</button>
-											</li>
-											<li className="nav-item" onClick={() => handleTab(3)}>
-												<button className={isTab == 3 ? "nav-link active" : "nav-link"} id="advisory-tab" data-bs-toggle="tab" data-bs-target="#advisory-tab-pane" type="button" role="tab" aria-controls="advisory-tab-pane" aria-selected="false">Advisory</button>
-											</li>
-										</ul>
-										<div className="tab-content" id="myTabContent">
-											<div className={isTab == 1 ? "tab-pane fade show active" : "tab-pane fade"} id="approach-tab-pane" role="tabpanel" aria-labelledby="approach-tab" tabIndex={0}>
-												<div className="content-tab-service-details">
-													<p className="des">At veroeos accusamus dignissimos ducimus blanditiis
-														volupta
-														delenite atque
-														corrupti quos dolores et quas molestias excepturi sint occaecatie
+
+
+										<div className="content-tab-service-details">
+											<p className="des">We provide end-to-end cloud consulting, migration, and support to ensure seamless transition and ongoing optimization. Our experts help you choose the right platform, architect secure cloud solutions, and support continuous innovation.
+											</p>
+											<ul className="icon-listing">
+												<li className="flex-three">
+													<i className="icon-Check" />
+													<p className="font-man">Assessment & Cloud Readiness</p>
+												</li>
+												<li className="flex-three">
+													<i className="icon-Check" />
+													<p className="font-man">Architecture & Planning</p>
+												</li>
+												<li className="flex-three">
+													<i className="icon-Check" />
+													<p className="font-man">Migration & Deployment</p>
+												</li>
+												<li className="flex-three">
+													<i className="icon-Check" />
+													<p className="font-man">Integration & Optimization
 													</p>
-													<ul className="icon-listing">
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Efficient Sprint Planning</p>
-														</li>
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Iterative Delivery Approach</p>
-														</li>
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Standups and Demos</p>
-														</li>
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Problem-solving</p>
-														</li>
-													</ul>
-													<Link href="/#" className="button-src">Learn More <i className="icon-angle-right" /></Link>
-												</div>
-											</div>
-											<div className={isTab == 2 ? "tab-pane fade show active" : "tab-pane fade"} id="goals-tab-pane" role="tabpanel" aria-labelledby="goals-tab" tabIndex={0}>
-												<div className="content-tab-service-details">
-													<p className="des">At veroeos accusamus dignissimos ducimus blanditiis
-														volupta
-														delenite atque
-														corrupti quos dolores et quas molestias excepturi sint occaecatie
+												</li>
+												<li className="flex-three">
+													<i className="icon-Check" />
+													<p className="font-man">Support & Maintenance
 													</p>
-													<ul className="icon-listing">
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Efficient Sprint Planning</p>
-														</li>
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Iterative Delivery Approach</p>
-														</li>
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Standups and Demos</p>
-														</li>
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Problem-solving</p>
-														</li>
-													</ul>
-													<Link href="/#" className="button-src">Learn More <i className="icon-angle-right" /></Link>
-												</div>
-											</div>
-											<div className={isTab == 3 ? "tab-pane fade show active" : "tab-pane fade"} id="advisory-tab-pane" role="tabpanel" aria-labelledby="advisory-tab" tabIndex={0}>
-												<div className="content-tab-service-details">
-													<p className="des">At veroeos accusamus dignissimos ducimus blanditiis
-														volupta
-														delenite atque
-														corrupti quos dolores et quas molestias excepturi sint occaecatie
-													</p>
-													<ul className="icon-listing">
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Efficient Sprint Planning</p>
-														</li>
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Iterative Delivery Approach</p>
-														</li>
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Standups and Demos</p>
-														</li>
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Problem-solving</p>
-														</li>
-													</ul>
-													<Link href="/#" className="button-src">Learn More <i className="icon-angle-right" /></Link>
-												</div>
-											</div>
+												</li>
+											</ul>
+											{/* <Link href="/#" className="button-src">Learn More <i className="icon-angle-right" /></Link> */}
 										</div>
 									</div>
 								</div>
@@ -210,9 +145,9 @@ export default function ServiceDetails() {
 						<div className="tf-container">
 							<div className="row">
 								<div className="col-lg-12">
-									<div className="heading-title m0-auto w-680 center mb-60">
+									<div className="heading-title m0-auto center mb-60">
 										<span className="sub-title texts-blue font-man">Drive Performance</span>
-										<h2 className="title">Cutting-edge Tools That Drive Performance</h2>
+										<h2 className="title">Our Capabilities in Cloud Solutions</h2>
 									</div>
 								</div>
 							</div>
@@ -220,133 +155,61 @@ export default function ServiceDetails() {
 								<div className="col-12 col-sm-6 col-lg-4 mb-30">
 									<div className="tf-performance">
 										<span className="number">01</span>
-										<h4 className="title"><Link href="/#">Technical Implementation</Link></h4>
-										<p className="des">At vero eos et accusamus et dignissimos
-											blanditiis praesentium voluptatum</p>
+										<h4 className="title"><Link href="/#">Cloud Migration Services</Link></h4>
+										<p className="des">End-to-end migration from on-premises to public, private, or hybrid cloud platforms like AWS, Azure, and GCP.
+
+										</p>
 									</div>
 								</div>
 								<div className="col-12 col-sm-6 col-lg-4 mb-30">
 									<div className="tf-performance">
 										<span className="number">02</span>
-										<h4 className="title"><Link href="/#">IT Helpdesk Support</Link></h4>
-										<p className="des">At vero eos et accusamus et dignissimos
-											blanditiis praesentium voluptatum</p>
+										<h4 className="title"><Link href="/#"> Infrastructure as a Service (IaaS)</Link></h4>
+										<p className="des">Virtualized computing resources tailored to scale — reducing hardware dependency.
+
+										</p>
 									</div>
 								</div>
 								<div className="col-12 col-sm-6 col-lg-4 mb-30">
 									<div className="tf-performance">
 										<span className="number">03</span>
-										<h4 className="title"><Link href="/#">Managed IT Services</Link></h4>
-										<p className="des">At vero eos et accusamus et dignissimos
-											blanditiis praesentium voluptatum</p>
+										<h4 className="title"><Link href="/#">Platform as a Service (PaaS)</Link></h4>
+										<p className="des">Accelerate development with managed platforms for building, testing, and deploying applications.
+
+										</p>
 									</div>
 								</div>
 								<div className="col-12 col-sm-6 col-lg-4 mb-30">
 									<div className="tf-performance">
 										<span className="number">04</span>
-										<h4 className="title"><Link href="/#">IT Consulting Services</Link></h4>
-										<p className="des">At vero eos et accusamus et dignissimos
-											blanditiis praesentium voluptatum</p>
+										<h4 className="title"><Link href="/#">Software as a Service (SaaS)</Link></h4>
+										<p className="des">Deliver cloud-hosted applications to users over the internet — cost-effective and always up-to-date.
+
+										</p>
 									</div>
 								</div>
 								<div className="col-12 col-sm-6 col-lg-4 mb-30">
 									<div className="tf-performance">
 										<span className="number">05</span>
-										<h4 className="title"><Link href="/#">Network Support</Link></h4>
-										<p className="des">At vero eos et accusamus et dignissimos
-											blanditiis praesentium voluptatum</p>
+										<h4 className="title"><Link href="/#"> Hybrid & Multi-Cloud Architecture</Link></h4>
+										<p className="des">Balance workloads between cloud and on-prem with secure, flexible hybrid or multi-cloud setups.
+
+										</p>
 									</div>
 								</div>
 								<div className="col-12 col-sm-6 col-lg-4 mb-30">
 									<div className="tf-performance">
 										<span className="number">06</span>
-										<h4 className="title"><Link href="/#">Field Tech Support</Link></h4>
-										<p className="des">At vero eos et accusamus et dignissimos
-											blanditiis praesentium voluptatum</p>
+										<h4 className="title"><Link href="/#">Cloud Security & Compliance</Link></h4>
+										<p className="des">Advanced protection against breaches, with adherence to GDPR, HIPAA, ISO, and other regulatory standards.
+
+										</p>
 									</div>
 								</div>
+
 							</div>
 						</div>
 					</section>
-
-					{/*  Partner */}
-					<section className="section-partner-h2 style-white pt-122 pb-130 bg-4 ">
-						<div className="tf-container">
-							<div className="row">
-								<div className="col-lg-12">
-									<div className="heading-title center mb-60">
-										<span className="sub-title text-blue1 font-man">Global Partners</span>
-										<h2 className="title">We’ve 1250+ Global <span className="text-blue1">partners</span></h2>
-									</div>
-								</div>
-							</div>
-							<div className="row">
-								<div className="col-md-12 mb-10">
-									<Swiper {...collection1} className="swiper collection-1 overflow-hiden">
-										<div className="swiper-wrapper">
-											<SwiperSlide>
-												<div className="image-partner-logo">
-													<img src="/assets/images/brand/br1.png" alt="image" />
-												</div>
-											</SwiperSlide>
-											<SwiperSlide>
-												<div className="image-partner-logo">
-													<img src="/assets/images/brand/br2.png" alt="image" />
-												</div>
-											</SwiperSlide>
-											<SwiperSlide>
-												<div className="image-partner-logo">
-													<img src="/assets/images/brand/br3.png" alt="image" />
-												</div>
-											</SwiperSlide>
-											<SwiperSlide>
-												<div className="image-partner-logo">
-													<img src="/assets/images/brand/br4.png" alt="image" />
-												</div>
-											</SwiperSlide>
-											<SwiperSlide>
-												<div className="image-partner-logo">
-													<img src="/assets/images/brand/br5.png" alt="image" />
-												</div>
-											</SwiperSlide>
-										</div>
-									</Swiper>
-								</div>
-								<div className="col-md-12">
-									<Swiper {...collection2} className="swiper collection-2 overflow-hiden">
-										<div className="swiper-wrapper">
-											<SwiperSlide>
-												<div className="image-partner-logo">
-													<img src="/assets/images/brand/br6.png" alt="image" />
-												</div>
-											</SwiperSlide>
-											<SwiperSlide>
-												<div className="image-partner-logo">
-													<img src="/assets/images/brand/br7.png" alt="image" />
-												</div>
-											</SwiperSlide>
-											<SwiperSlide>
-												<div className="image-partner-logo">
-													<img src="/assets/images/brand/br9.png" alt="image" />
-												</div>
-											</SwiperSlide>
-											<SwiperSlide>
-												<div className="image-partner-logo">
-													<img src="/assets/images/brand/br10.png" alt="image" />
-												</div>
-											</SwiperSlide>
-											<SwiperSlide>
-												<div className="image-partner-logo">
-													<img src="/assets/images/brand/br8.png" alt="image" />
-												</div>
-											</SwiperSlide>
-										</div>
-									</Swiper>
-								</div>
-							</div>
-						</div>
-					</section>
-
 					<section className="faq-team pt-130 pb-130">
 						<div className="tf-container">
 							<div className="row">
@@ -360,78 +223,49 @@ export default function ServiceDetails() {
 											<div className="accordion-item">
 												<h3 className="accordion-header" onClick={() => handleAccordion(1)}>
 													<span className={isAccordion == 1 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-														How much does it cost to build an app?
+														What platforms do you support?
 													</span>
 												</h3>
 												<div id="collapseOne" className={isAccordion == 1 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
 													<div className="accordion-body">
-														We approached WiaTech with complex project Designing a website can
-														involve various such
-														as layout, graphics, content, and experience more specific response
-														elaborate
+														We use industry-leading encryption, access control, and continuous monitoring.
 													</div>
 												</div>
 											</div>
 											<div className="accordion-item">
 												<h3 className="accordion-header" onClick={() => handleAccordion(2)}>
 													<span className={isAccordion == 2 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-														How do you create an app without any coding?
+														Can you help us migrate legacy apps?
 													</span>
 												</h3>
 												<div id="collapseTwo" className={isAccordion == 2 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
 													<div className="accordion-body">
-														We approached WiaTech with complex project Designing a website can
-														involve various such
-														as layout, graphics, content, and experience more specific response
-														elaborate
-													</div>
+														Absolutely — we assess, re-platform, or refactor legacy apps to fit modern cloud environments.					</div>
 												</div>
 											</div>
 											<div className="accordion-item">
 												<h3 className="accordion-header" onClick={() => handleAccordion(3)}>
 													<span className={isAccordion == 3 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-														Can you create an app for free?
+														Do you offer managed cloud services?
 													</span>
 												</h3>
 												<div id="collapseThree" className={isAccordion == 3 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
 													<div className="accordion-body">
-														We approached WiaTech with complex project Designing a website can
-														involve various such
-														as layout, graphics, content, and experience more specific response
-														elaborate
-													</div>
+														Yes, including monitoring, backups, updates, and 24/7 support.			</div>
 												</div>
 											</div>
 											<div className="accordion-item">
 												<h3 className="accordion-header" onClick={() => handleAccordion(4)}>
 													<span className={isAccordion == 4 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#collapsefore" aria-expanded="false" aria-controls="collapsefore">
-														How can I create my own app?
+														How do you ensure data security in cloud?
 													</span>
 												</h3>
 												<div id="collapsefore" className={isAccordion == 4 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
 													<div className="accordion-body">
-														We approached WiaTech with complex project Designing a website can
-														involve various such
-														as layout, graphics, content, and experience more specific response
-														elaborate
-													</div>
+														We use industry-leading encryption, access control, and continuous monitoring.		</div>
 												</div>
 											</div>
-											<div className="accordion-item">
-												<h3 className="accordion-header" onClick={() => handleAccordion(5)}>
-													<span className={isAccordion == 5 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#collapsefire" aria-expanded="false" aria-controls="collapsefire">
-														How do I start an app business?
-													</span>
-												</h3>
-												<div id="collapsefire" className={isAccordion == 5 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
-													<div className="accordion-body">
-														We approached WiaTech with complex project Designing a website can
-														involve various such
-														as layout, graphics, content, and experience more specific response
-														elaborate
-													</div>
-												</div>
-											</div>
+
 										</div>
 									</div>
 								</div>
@@ -443,7 +277,63 @@ export default function ServiceDetails() {
 							</div>
 						</div>
 					</section>
-					<CaseStudies3/>
+					<section className="case-studies-h5 pt-122 pb-130">
+						<div className="tf-container full">
+							<div className="row mb-70">
+								<div className="col-lg-12">
+									<div className="heading-title center w-680 m0-auto">
+										<span className="sub-title text-blue1 font-man wow fadeInUpSmall" data-wow-delay=".2s">Latest Case Studies</span>
+										<h2 className="title wow fadeInUpSmall" data-wow-delay=".3s">Let’s Explore Our Latest Case <span className="text-blue1 mask">Studies</span></h2>
+									</div>
+								</div>
+							</div>
+							<div className="row">
+								<div className="col-lg-12">
+									<Swiper {...myPortfolio} className="swiper myportfolio px-5">
+										<div className="swiper-wrapper">
+											<SwiperSlide>
+												<div className="tf-portfolio">
+													<Link href="/project-details" className="image">
+														<img src="/assets/images/image-box/case1.jpg" alt="image" />
+													</Link>
+													<div className="content">
+														<div className="inner-title">
+															<h3 className="title"><Link href="/project-details"> ITSM for a Financial Services Firm</Link>
+															</h3>
+															<p>From manual processes to AI-powered incident handling — achieved 40% faster resolution and real-time analytics.
+
+
+															</p>
+														</div>
+														<div className="btn-main">
+															<Link href="/project-details" className="link-portfolio"><i className="icon-arrow-rights" /></Link>
+														</div>
+													</div>
+												</div>
+											</SwiperSlide>
+											<SwiperSlide>
+												<div className="tf-portfolio">
+													<Link href="/project-details" className="image">
+														<img src="/assets/images/image-box/case3.jpg" alt="image" />
+													</Link>
+													<div className="content">
+														<div className="inner-title">
+															<h3 className="title"><Link href="/project-details">Healthcare Provider Game‑changer with Self-Service</Link></h3>
+															<p> Built HIPAA-compliant request and knowledge portal, reducing support volume by 30%.</p>
+														</div>
+														<div className="btn-main">
+															<Link href="/project-details" className="link-portfolio"><i className="icon-arrow-rights" /></Link>
+														</div>
+													</div>
+												</div>
+											</SwiperSlide>
+
+										</div>
+									</Swiper>
+								</div>
+							</div>
+						</div>
+					</section>
 					{/* Contact */}
 					<section className="section-contact contact-service-details bg-5 pt-130 pb-130">
 						<div className="tf-container">
@@ -451,11 +341,9 @@ export default function ServiceDetails() {
 								<div className="col-md-5">
 									<div className="content">
 										<div className="heading-title mb-40">
-											<span className="sub-title text-white font-man">Work Inquiry</span>
-											<h2 className="title text-white">Let’s Work For your
-												Next Projects ?</h2>
-											<p className="des font-man text-white">We denounce with righteous indignation and
-												like men beguiled and demoralized by the charms</p>
+											<span className="sub-title text-white font-man">Work With Us</span>
+											<h2 className="title text-white">Elevate Your Cloud Strategy Today</h2>
+											<p className="des font-man text-white">Looking to modernize your IT with secure, scalable, and efficient cloud infrastructure? Let’s build a cloud solution that fits your goals.</p>
 										</div>
 										<div className="contact-wrap flex-three mb-40">
 											<div className="icon text-white">

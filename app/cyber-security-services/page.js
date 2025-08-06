@@ -1,12 +1,9 @@
 'use client'
-import VideoPopup from "@/components/elements/VideoPopup"
 import Layout from "@/components/layout/Layout"
-import { myTesHome5 } from "@/utils/swiperOptions"
 import Link from "next/link"
 import { useState } from "react"
-import { Swiper, SwiperSlide } from "swiper/react"
-import { collection1, collection2 } from "@/utils/swiperOptions";
-import CaseStudies3 from "@/components/sections/CaseStudies3"
+import { Swiper, SwiperSlide } from "swiper/react";
+import { myPortfolio } from "@/utils/swiperOptions"
 export default function ServiceDetails() {
 	const [isTab, setIsTab] = useState(1)
 	const [isVisible, setIsVisible] = useState(true)
@@ -29,7 +26,7 @@ export default function ServiceDetails() {
 	return (
 		<>
 
-			<Layout breadcrumbTitle="Cyber Security Services" bgImg={"/assets/images/services/faq.jpg"}>
+			<Layout headerStyle={1} breadcrumbTitle="Cyber Security Services"  src="/assets/images/services/cybersecurity-1.jpg" pageTitle="Secure Your Digital Future with Cyber Security Services">
 				<div>
 					<section className="section-benefit pt-122">
 						<div className="tf-container">
@@ -38,12 +35,12 @@ export default function ServiceDetails() {
 									<div className="benefit-content">
 										<div className="heading-title mb-40">
 											<span className="sub-title texts-blue font-man">Best Features Development</span>
-											<h2 className="title">Benefits of Managed IT Services Provided</h2>
-											<p className="des">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-												accusantiue doloremue
-												laudantium totam rem aperiam eaque ipsa quae abillo inventore veritatis</p>
+											<h2 className="title">Cybersecurity Services</h2>
+											<p className="des">Protect your digital assets, infrastructure, and sensitive data with enterprise-grade cybersecurity solutions — built to detect, defend, and respond to ever-evolving threats.
+
+											</p>
 										</div>
-										<img src="/assets/images/page/dvl-deatils.jpg" alt="image" />
+										<img src="/assets/images/services/cybersecurity-3.jpg" alt="image" />
 									</div>
 								</div>
 								<div className="col-md-6">
@@ -52,34 +49,47 @@ export default function ServiceDetails() {
 											<li>
 												<div className="flex-three">
 													<i className="icon-Check" />
-													<h4>IT Manage Service</h4>
+													<h4>End-to-End Protection</h4>
 												</div>
-												<p>Sed ut perspiciatis unde omnis natus voluptatem accusantium
-													doloremque laudantium, totam rem aperiam inventore</p>
+												<p> Comprehensive security across endpoints, networks, cloud, and applications.
+
+												</p>
 											</li>
 											<li>
 												<div className="flex-three">
 													<i className="icon-Check" />
-													<h4>Keeping Team Productive</h4>
+													<h4> Threat Detection & Response</h4>
 												</div>
-												<p>To take a trivial example, which of us ever undertakes laborious physical
-													exercise, except to obtain some advantage</p>
+												<p>Identify and neutralize threats in real-time with advanced SIEM and SOC capabilities.
+
+												</p>
 											</li>
 											<li>
 												<div className="flex-three">
 													<i className="icon-Check" />
-													<h4>Predictable Costs 24/7</h4>
+													<h4>Zero Trust Architecture </h4>
 												</div>
-												<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam
-													nihil molestiae consequatur, vellum dolorem</p>
+												<p>Ensure users and devices are verified continuously before granting access.
+
+												</p>
 											</li>
 											<li>
 												<div className="flex-three">
 													<i className="icon-Check" />
-													<h4>Team is Ready to Help</h4>
+													<h4>Regulatory Compliance </h4>
 												</div>
-												<p>Must explain to you how all this mistaken idea of denouncing pleasure and
-													praising pain was born and I will give</p>
+												<p> Meet GDPR, HIPAA, ISO 27001, and other global cybersecurity standards.
+
+												</p>
+											</li>
+											<li>
+												<div className="flex-three">
+													<i className="icon-Check" />
+													<h4>Risk Assessment & Management
+													</h4>
+												</div>
+												<p> Uncover vulnerabilities and mitigate risks proactively with continuous assessment.
+												</p>
 											</li>
 										</ul>
 									</div>
@@ -93,114 +103,43 @@ export default function ServiceDetails() {
 								<div className="col-md-7">
 									<div className="it-manager-content">
 										<div className="heading-title mb-20">
-											<span className="sub-title texts-blue font-man">How to Manage</span>
-											<h2 className="title">Our Managed IT Services let you Concentrate on What Matters
+
+											<h2 className="title">Our Cybersecurity Implementation Approach
 											</h2>
 										</div>
-										<ul className="nav nav-tabs-pricing nav-tabs-pricing-service" id="myTab" role="tablist">
-											<li className="nav-item" onClick={() => handleTab(1)}>
-												<button className={isTab == 1 ? "nav-link active" : "nav-link"} id="approach-tab" data-bs-toggle="tab" data-bs-target="#approach-tab-pane" type="button" role="tab" aria-controls="approach-tab-pane" aria-selected="true">Our
-													Approach</button>
-											</li>
-											<li className="nav-item" onClick={() => handleTab(2)}>
-												<button className={isTab == 2 ? "nav-link active" : "nav-link"} id="goals-tab" data-bs-toggle="tab" data-bs-target="#goals-tab-pane" type="button" role="tab" aria-controls="goals-tab-pane" aria-selected="false">Project
-													Goals</button>
-											</li>
-											<li className="nav-item" onClick={() => handleTab(3)}>
-												<button className={isTab == 3 ? "nav-link active" : "nav-link"} id="advisory-tab" data-bs-toggle="tab" data-bs-target="#advisory-tab-pane" type="button" role="tab" aria-controls="advisory-tab-pane" aria-selected="false">Advisory</button>
-											</li>
-										</ul>
-										<div className="tab-content" id="myTabContent">
-											<div className={isTab == 1 ? "tab-pane fade show active" : "tab-pane fade"} id="approach-tab-pane" role="tabpanel" aria-labelledby="approach-tab" tabIndex={0}>
-												<div className="content-tab-service-details">
-													<p className="des">At veroeos accusamus dignissimos ducimus blanditiis
-														volupta
-														delenite atque
-														corrupti quos dolores et quas molestias excepturi sint occaecatie
-													</p>
-													<ul className="icon-listing">
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Efficient Sprint Planning</p>
-														</li>
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Iterative Delivery Approach</p>
-														</li>
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Standups and Demos</p>
-														</li>
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Problem-solving</p>
-														</li>
-													</ul>
-													<Link href="/#" className="button-src">Learn More <i className="icon-angle-right" /></Link>
-												</div>
-											</div>
-											<div className={isTab == 2 ? "tab-pane fade show active" : "tab-pane fade"} id="goals-tab-pane" role="tabpanel" aria-labelledby="goals-tab" tabIndex={0}>
-												<div className="content-tab-service-details">
-													<p className="des">At veroeos accusamus dignissimos ducimus blanditiis
-														volupta
-														delenite atque
-														corrupti quos dolores et quas molestias excepturi sint occaecatie
-													</p>
-													<ul className="icon-listing">
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Efficient Sprint Planning</p>
-														</li>
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Iterative Delivery Approach</p>
-														</li>
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Standups and Demos</p>
-														</li>
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Problem-solving</p>
-														</li>
-													</ul>
-													<Link href="/#" className="button-src">Learn More <i className="icon-angle-right" /></Link>
-												</div>
-											</div>
-											<div className={isTab == 3 ? "tab-pane fade show active" : "tab-pane fade"} id="advisory-tab-pane" role="tabpanel" aria-labelledby="advisory-tab" tabIndex={0}>
-												<div className="content-tab-service-details">
-													<p className="des">At veroeos accusamus dignissimos ducimus blanditiis
-														volupta
-														delenite atque
-														corrupti quos dolores et quas molestias excepturi sint occaecatie
-													</p>
-													<ul className="icon-listing">
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Efficient Sprint Planning</p>
-														</li>
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Iterative Delivery Approach</p>
-														</li>
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Standups and Demos</p>
-														</li>
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Problem-solving</p>
-														</li>
-													</ul>
-													<Link href="/#" className="button-src">Learn More <i className="icon-angle-right" /></Link>
-												</div>
-											</div>
+
+
+										<div className="content-tab-service-details">
+											<p className="des">We help organizations strengthen their security posture through a structured, multi-layered defense strategy — aligned to business objectives and industry regulations.</p>
+											<ul className="icon-listing">
+												<li className="flex-three">
+													<i className="icon-Check" />
+													<p className="font-man">Security Audit & Gap Analysis</p>
+												</li>
+												<li className="flex-three">
+													<i className="icon-Check" />
+													<p className="font-man">Architecture Design & Policy Setup</p>
+												</li>
+												<li className="flex-three">
+													<i className="icon-Check" />
+													<p className="font-man">Tools Deployment (EDR, SIEM, MFA)</p>
+												</li>
+												<li className="flex-three">
+													<i className="icon-Check" />
+													<p className="font-man">Threat Monitoring & Incident Response</p>
+												</li>
+												<li className="flex-three">
+													<i className="icon-Check" />
+													<p className="font-man">Compliance Reporting & Ongoing Support</p>
+												</li>
+											</ul>
+
 										</div>
 									</div>
 								</div>
 								<div className="col-md-5">
 									<div className="it-manager-image">
-										<img src="/assets/images/page/dvl-deatils2.jpg" alt="image" />
+										<img src="/assets/images/services/cybersecurity-2.jpg" alt="image" />
 									</div>
 								</div>
 							</div>
@@ -210,9 +149,10 @@ export default function ServiceDetails() {
 						<div className="tf-container">
 							<div className="row">
 								<div className="col-lg-12">
-									<div className="heading-title m0-auto w-680 center mb-60">
-										<span className="sub-title texts-blue font-man">Drive Performance</span>
-										<h2 className="title">Cutting-edge Tools That Drive Performance</h2>
+									<div className="heading-title m0-auto center mb-60">
+										<span className="sub-title texts-blue font-man">Drive Protection
+										</span>
+										<h2 className="title">Our Capabilities in Cybersecurity Services</h2>
 									</div>
 								</div>
 							</div>
@@ -220,133 +160,73 @@ export default function ServiceDetails() {
 								<div className="col-12 col-sm-6 col-lg-4 mb-30">
 									<div className="tf-performance">
 										<span className="number">01</span>
-										<h4 className="title"><Link href="/#">Technical Implementation</Link></h4>
-										<p className="des">At vero eos et accusamus et dignissimos
-											blanditiis praesentium voluptatum</p>
+										<h4 className="title">
+											Security Operations Center (SOC)
+										</h4>
+										<p className="des">24/7 threat monitoring, log analysis, and rapid incident response through centralized security operations.
+
+										</p>
 									</div>
 								</div>
 								<div className="col-12 col-sm-6 col-lg-4 mb-30">
 									<div className="tf-performance">
 										<span className="number">02</span>
-										<h4 className="title"><Link href="/#">IT Helpdesk Support</Link></h4>
-										<p className="des">At vero eos et accusamus et dignissimos
-											blanditiis praesentium voluptatum</p>
+										<h4 className="title">
+											Identity & Access Management (IAM)
+										</h4>
+										<p className="des">Secure access with single sign-on, multi-factor authentication, and least-privilege access controls.
+
+										</p>
 									</div>
 								</div>
 								<div className="col-12 col-sm-6 col-lg-4 mb-30">
 									<div className="tf-performance">
 										<span className="number">03</span>
-										<h4 className="title"><Link href="/#">Managed IT Services</Link></h4>
-										<p className="des">At vero eos et accusamus et dignissimos
-											blanditiis praesentium voluptatum</p>
+										<h4 className="title">
+											Network & Endpoint Security
+										</h4>
+										<p className="des">Protect users and devices with firewalls, antivirus, intrusion prevention, and endpoint detection and response (EDR).
+
+										</p>
 									</div>
 								</div>
 								<div className="col-12 col-sm-6 col-lg-4 mb-30">
 									<div className="tf-performance">
 										<span className="number">04</span>
-										<h4 className="title"><Link href="/#">IT Consulting Services</Link></h4>
-										<p className="des">At vero eos et accusamus et dignissimos
-											blanditiis praesentium voluptatum</p>
+										<h4 className="title">
+											Cloud Security Services
+										</h4>
+										<p className="des">Safeguard cloud environments (AWS, Azure, GCP) with visibility, compliance, and access controls.
+
+										</p>
 									</div>
 								</div>
 								<div className="col-12 col-sm-6 col-lg-4 mb-30">
 									<div className="tf-performance">
 										<span className="number">05</span>
-										<h4 className="title"><Link href="/#">Network Support</Link></h4>
-										<p className="des">At vero eos et accusamus et dignissimos
-											blanditiis praesentium voluptatum</p>
+										<h4 className="title">
+											Penetration Testing & Vulnerability Scanning
+										</h4>
+										<p className="des">Simulate attacks to uncover weaknesses and ensure systems are resilient against real threats.
+
+										</p>
 									</div>
 								</div>
 								<div className="col-12 col-sm-6 col-lg-4 mb-30">
 									<div className="tf-performance">
 										<span className="number">06</span>
-										<h4 className="title"><Link href="/#">Field Tech Support</Link></h4>
-										<p className="des">At vero eos et accusamus et dignissimos
-											blanditiis praesentium voluptatum</p>
+										<h4 className="title">
+											Compliance & Data Privacy
+										</h4>
+										<p className="des">Implement frameworks that meet regulatory requirements — PCI DSS, HIPAA, SOC 2, etc.
+
+										</p>
 									</div>
 								</div>
+
 							</div>
 						</div>
 					</section>
-
-					{/*  Partner */}
-					<section className="section-partner-h2 style-white pt-122 pb-130 bg-4 ">
-						<div className="tf-container">
-							<div className="row">
-								<div className="col-lg-12">
-									<div className="heading-title center mb-60">
-										<span className="sub-title text-blue1 font-man">Global Partners</span>
-										<h2 className="title">We’ve 1250+ Global <span className="text-blue1">partners</span></h2>
-									</div>
-								</div>
-							</div>
-							<div className="row">
-								<div className="col-md-12 mb-10">
-									<Swiper {...collection1} className="swiper collection-1 overflow-hiden">
-										<div className="swiper-wrapper">
-											<SwiperSlide>
-												<div className="image-partner-logo">
-													<img src="/assets/images/brand/br1.png" alt="image" />
-												</div>
-											</SwiperSlide>
-											<SwiperSlide>
-												<div className="image-partner-logo">
-													<img src="/assets/images/brand/br2.png" alt="image" />
-												</div>
-											</SwiperSlide>
-											<SwiperSlide>
-												<div className="image-partner-logo">
-													<img src="/assets/images/brand/br3.png" alt="image" />
-												</div>
-											</SwiperSlide>
-											<SwiperSlide>
-												<div className="image-partner-logo">
-													<img src="/assets/images/brand/br4.png" alt="image" />
-												</div>
-											</SwiperSlide>
-											<SwiperSlide>
-												<div className="image-partner-logo">
-													<img src="/assets/images/brand/br5.png" alt="image" />
-												</div>
-											</SwiperSlide>
-										</div>
-									</Swiper>
-								</div>
-								<div className="col-md-12">
-									<Swiper {...collection2} className="swiper collection-2 overflow-hiden">
-										<div className="swiper-wrapper">
-											<SwiperSlide>
-												<div className="image-partner-logo">
-													<img src="/assets/images/brand/br6.png" alt="image" />
-												</div>
-											</SwiperSlide>
-											<SwiperSlide>
-												<div className="image-partner-logo">
-													<img src="/assets/images/brand/br7.png" alt="image" />
-												</div>
-											</SwiperSlide>
-											<SwiperSlide>
-												<div className="image-partner-logo">
-													<img src="/assets/images/brand/br9.png" alt="image" />
-												</div>
-											</SwiperSlide>
-											<SwiperSlide>
-												<div className="image-partner-logo">
-													<img src="/assets/images/brand/br10.png" alt="image" />
-												</div>
-											</SwiperSlide>
-											<SwiperSlide>
-												<div className="image-partner-logo">
-													<img src="/assets/images/brand/br8.png" alt="image" />
-												</div>
-											</SwiperSlide>
-										</div>
-									</Swiper>
-								</div>
-							</div>
-						</div>
-					</section>
-
 					<section className="faq-team pt-130 pb-130">
 						<div className="tf-container">
 							<div className="row">
@@ -359,79 +239,79 @@ export default function ServiceDetails() {
 										<div className="accordion accordion-h4" id="accordionExample">
 											<div className="accordion-item">
 												<h3 className="accordion-header" onClick={() => handleAccordion(1)}>
-													<span className={isAccordion == 1 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-														How much does it cost to build an app?
+													<span className={isAccordion == 1 ? "accordion-button"
+														: "accordion-button collapsed"} type="button" data-bs-toggle="collapse"
+														data-bs-target="#collapseOne" aria-expanded="true"
+														aria-controls="collapseOne">What types of threats do you protect against?
+
 													</span>
 												</h3>
-												<div id="collapseOne" className={isAccordion == 1 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
+												<div id="collapseOne" className={isAccordion == 1
+													? "accordion-collapse collapse show" : "accordion-collapse collapse"}
+													data-bs-parent="#accordionExample">
 													<div className="accordion-body">
-														We approached WiaTech with complex project Designing a website can
-														involve various such
-														as layout, graphics, content, and experience more specific response
-														elaborate
+														We defend against malware, ransomware, phishing, insider threats, DDoS attacks, and more.
+
+
 													</div>
 												</div>
 											</div>
 											<div className="accordion-item">
 												<h3 className="accordion-header" onClick={() => handleAccordion(2)}>
-													<span className={isAccordion == 2 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-														How do you create an app without any coding?
+													<span className={isAccordion == 2 ? "accordion-button"
+														: "accordion-button collapsed"} type="button" data-bs-toggle="collapse"
+														data-bs-target="#collapseTwo" aria-expanded="false"
+														aria-controls="collapseTwo">
+														Do you offer managed security services?
+
 													</span>
 												</h3>
-												<div id="collapseTwo" className={isAccordion == 2 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
-													<div className="accordion-body">
-														We approached WiaTech with complex project Designing a website can
-														involve various such
-														as layout, graphics, content, and experience more specific response
-														elaborate
+												<div id="collapseTwo" className={isAccordion == 2
+													? "accordion-collapse collapse show" : "accordion-collapse collapse"}
+													data-bs-parent="#accordionExample">
+													<div className="accordion-body">Yes — including SOC-as-a-Service, managed detection & response (MDR), and endpoint protection.
+
+
 													</div>
 												</div>
 											</div>
 											<div className="accordion-item">
 												<h3 className="accordion-header" onClick={() => handleAccordion(3)}>
-													<span className={isAccordion == 3 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-														Can you create an app for free?
+													<span className={isAccordion == 3 ? "accordion-button"
+														: "accordion-button collapsed"} type="button" data-bs-toggle="collapse"
+														data-bs-target="#collapseThree" aria-expanded="false"
+														aria-controls="collapseThree">
+														Can you help with compliance audits?
+
 													</span>
 												</h3>
-												<div id="collapseThree" className={isAccordion == 3 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
-													<div className="accordion-body">
-														We approached WiaTech with complex project Designing a website can
-														involve various such
-														as layout, graphics, content, and experience more specific response
-														elaborate
+												<div id="collapseThree" className={isAccordion == 3
+													? "accordion-collapse collapse show" : "accordion-collapse collapse"}
+													data-bs-parent="#accordionExample">
+													<div className="accordion-body">Absolutely. We help prepare and maintain compliance for ISO, GDPR, HIPAA, and other frameworks.
+
+
 													</div>
 												</div>
 											</div>
 											<div className="accordion-item">
 												<h3 className="accordion-header" onClick={() => handleAccordion(4)}>
-													<span className={isAccordion == 4 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#collapsefore" aria-expanded="false" aria-controls="collapsefore">
-														How can I create my own app?
+													<span className={isAccordion == 4 ? "accordion-button"
+														: "accordion-button collapsed"} type="button" data-bs-toggle="collapse"
+														data-bs-target="#collapsefore" aria-expanded="false"
+														aria-controls="collapsefore">
+														What’s your incident response time?
+
 													</span>
 												</h3>
-												<div id="collapsefore" className={isAccordion == 4 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
-													<div className="accordion-body">
-														We approached WiaTech with complex project Designing a website can
-														involve various such
-														as layout, graphics, content, and experience more specific response
-														elaborate
+												<div id="collapsefore" className={isAccordion == 4
+													? "accordion-collapse collapse show" : "accordion-collapse collapse"}
+													data-bs-parent="#accordionExample">
+													<div className="accordion-body">Our SOC operates 24/7 with SLAs in place for critical and high-severity threat resolution.
 													</div>
 												</div>
 											</div>
-											<div className="accordion-item">
-												<h3 className="accordion-header" onClick={() => handleAccordion(5)}>
-													<span className={isAccordion == 5 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#collapsefire" aria-expanded="false" aria-controls="collapsefire">
-														How do I start an app business?
-													</span>
-												</h3>
-												<div id="collapsefire" className={isAccordion == 5 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
-													<div className="accordion-body">
-														We approached WiaTech with complex project Designing a website can
-														involve various such
-														as layout, graphics, content, and experience more specific response
-														elaborate
-													</div>
-												</div>
-											</div>
+
 										</div>
 									</div>
 								</div>
@@ -443,7 +323,74 @@ export default function ServiceDetails() {
 							</div>
 						</div>
 					</section>
-					<CaseStudies3/>
+					<section className="case-studies-h5 pt-122 pb-130">
+						<div className="tf-container full">
+							<div className="row mb-70">
+								<div className="col-lg-12">
+									<div className="heading-title center w-680 m0-auto">
+										<span className="sub-title text-blue1 font-man wow fadeInUpSmall"
+											data-wow-delay=".2s">Latest Case Studies</span>
+										<h2 className="title wow fadeInUpSmall" data-wow-delay=".3s">Let’s Explore Our Latest
+											Case <span className="text-blue1 mask">Studies</span></h2>
+									</div>
+								</div>
+							</div>
+							<div className="row">
+								<div className="col-lg-12">
+									<Swiper {...myPortfolio} className="swiper myportfolio px-5">
+										<div className="swiper-wrapper">
+											<SwiperSlide>
+												<div className="tf-portfolio">
+													<Link href="/project-details" className="image">
+														<img src="/assets/images/image-box/case1.jpg" alt="image" />
+													</Link>
+													<div className="content">
+														<div className="inner-title">
+															<h3 className="title">
+																<Link href="/project-details"> ITSM for a Financial Services
+																	Firm</Link>
+															</h3>
+															<p>From manual processes to AI-powered incident handling — achieved
+																40% faster resolution and real-time analytics.
+
+
+															</p>
+														</div>
+														<div className="btn-main">
+															<Link href="/project-details" className="link-portfolio"><i
+																className="icon-arrow-rights" /></Link>
+														</div>
+													</div>
+												</div>
+											</SwiperSlide>
+											<SwiperSlide>
+												<div className="tf-portfolio">
+													<Link href="/project-details" className="image">
+														<img src="/assets/images/image-box/case3.jpg" alt="image" />
+													</Link>
+													<div className="content">
+														<div className="inner-title">
+															<h3 className="title">
+																<Link href="/project-details">Healthcare Provider Game‑changer
+																	with Self-Service</Link>
+															</h3>
+															<p> Built HIPAA-compliant request and knowledge portal, reducing
+																support volume by 30%.</p>
+														</div>
+														<div className="btn-main">
+															<Link href="/project-details" className="link-portfolio"><i
+																className="icon-arrow-rights" /></Link>
+														</div>
+													</div>
+												</div>
+											</SwiperSlide>
+
+										</div>
+									</Swiper>
+								</div>
+							</div>
+						</div>
+					</section>
 					{/* Contact */}
 					<section className="section-contact contact-service-details bg-5 pt-130 pb-130">
 						<div className="tf-container">
@@ -451,11 +398,11 @@ export default function ServiceDetails() {
 								<div className="col-md-5">
 									<div className="content">
 										<div className="heading-title mb-40">
-											<span className="sub-title text-white font-man">Work Inquiry</span>
-											<h2 className="title text-white">Let’s Work For your
-												Next Projects ?</h2>
-											<p className="des font-man text-white">We denounce with righteous indignation and
-												like men beguiled and demoralized by the charms</p>
+											<span className="sub-title text-white font-man">Work With Us</span>
+											<h2 className="title text-white">Fortify Your Cybersecurity Today</h2>
+											<p className="des font-man text-white">Cyber threats are evolving — so should your defense. Let’s build a cyber-resilient enterprise together.
+
+											</p>
 										</div>
 										<div className="contact-wrap flex-three mb-40">
 											<div className="icon text-white">
@@ -481,16 +428,18 @@ export default function ServiceDetails() {
 									<div className="form-contact-home1 style2">
 										<div className="inner-title-form center mb-30">
 											<h3 className="title-form">Need Help For Project!</h3>
-											<p>We are ready to help your next projects, let’s work together</p>
+											<p>Ready to secure your systems and data? Let’s design a strategy that protects your entire digital footprint.</p>
 										</div>
 										<form action="/" className="form-contact-home">
 											<div className="input-group flex-one">
 												<fieldset className="relative mb-20">
-													<input type="text" className="form-control" id="name-input" placeholder="Name" />
+													<input type="text" className="form-control" id="name-input"
+														placeholder="Name" />
 													<i className="icon-user" />
 												</fieldset>
 												<fieldset className="relative mb-20">
-													<input type="email" className="form-control" id="email-input" placeholder="Email" />
+													<input type="email" className="form-control" id="email-input"
+														placeholder="Email" />
 													<i className="icon-envelopes" />
 												</fieldset>
 											</div>
@@ -509,7 +458,8 @@ export default function ServiceDetails() {
 												<textarea id="mess" name="mess" rows={4} cols={50} placeholder="Message" />
 											</fieldset>
 											<fieldset className="center">
-												<button className="btn-submit" type="submit">Send Message Us <i className="icon-right-icon" /></button>
+												<button className="btn-submit" type="submit">Send Message Us <i
+													className="icon-right-icon" /></button>
 											</fieldset>
 										</form>
 									</div>

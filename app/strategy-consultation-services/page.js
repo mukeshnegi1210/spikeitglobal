@@ -1,12 +1,9 @@
 'use client'
-import VideoPopup from "@/components/elements/VideoPopup"
 import Layout from "@/components/layout/Layout"
-import { myTesHome5 } from "@/utils/swiperOptions"
 import Link from "next/link"
 import { useState } from "react"
-import { Swiper, SwiperSlide } from "swiper/react"
-import { collection1, collection2 } from "@/utils/swiperOptions";
-import CaseStudies3 from "@/components/sections/CaseStudies3"
+import { Swiper, SwiperSlide } from "swiper/react";
+import { myPortfolio } from "@/utils/swiperOptions"
 export default function ServiceDetails() {
 	const [isTab, setIsTab] = useState(1)
 	const [isVisible, setIsVisible] = useState(true)
@@ -29,213 +26,21 @@ export default function ServiceDetails() {
 	return (
 		<>
 
-			<Layout breadcrumbTitle="Strategic Advisory Services">
+			<Layout headerStyle={1} breadcrumbTitle="Strategy and Consultation" bgImg={"/assets/images/services/strategy-consultation-services-1.jpg"} pageTitle="Empower Growth with Strategic Consulting Services">
 				<div>
-					<section className="pd-section feature-service2">
-						<div className="tf-container">
-							<div className="row align-center">
-								<div className="col-md-6">
-									<div className="feature-service2-content">
-										<div className="heading-title mb-26">
-											<h2 className="title mb-30">Cloud Strategy & IT Roadmapping</h2>
-											<p className="des">We help clients design a sustainable cloud-first IT roadmap to accelerate innovation and reduce risk. This includes:</p>
-										</div>
-										<ul className="icon-listing mb-50">
-											<li className="flex-three">
-												<i className="icon-Check" />
-												<p className="font-man">Cloud readiness assessment & ROI projections</p>
-											</li>
-											<li className="flex-three">
-												<i className="icon-Check" />
-												<p className="font-man">Platform selection (AWS, Azure, GCP, hybrid, multi‑cloud)</p>
-											</li>
-											<li className="flex-three">
-												<i className="icon-Check" />
-												<p className="font-man">Migration planning, tooling choices, and pilot programs</p>
-											</li>
-											<li className="flex-three">
-												<i className="icon-Check" />
-												<p className="font-man">Governance frameworks, compliance, and policy design</p>
-											</li>
-										</ul>
-									</div>
-								</div>
-								<div className="col-md-6">
-									<div className="feature-service2-image relative">
-										<img src="/assets/images/service/service-list.jpg" alt="image" className="service2-image" />
-										<div className="cycle" />
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-					<section className="pd-section feature-service2 has-right-content">
-						<div className="tf-container">
-							<div className="row align-center">
-
-								<div className="col-md-6">
-									<div className="feature-service2-image relative">
-										<img src="/assets/images/service/service-list.jpg" alt="image" className="service2-image" />
-										<div className="cycle" />
-									</div>
-								</div>
-								<div className="col-md-6">
-									<div className="feature-service2-content">
-										<div className="heading-title mb-26">
-											<h2 className="title mb-30">Business & Technical Alignment</h2>
-											<p className="des">Ensuring tech investments drive measurable business outcomes:</p>
-										</div>
-										<ul className="icon-listing mb-50">
-											<li className="flex-three">
-												<i className="icon-Check" />
-												<p className="font-man">Market and competitor benchmarking</p>
-											</li>
-											<li className="flex-three">
-												<i className="icon-Check" />
-												<p className="font-man">SWOT and gap analysis to pinpoint competitive advantages</p>
-											</li>
-											<li className="flex-three">
-												<i className="icon-Check" />
-												<p className="font-man">Strategic prioritization and value-driven initiative planning</p>
-											</li>
-											<li className="flex-three">
-												<i className="icon-Check" />
-												<p className="font-man">Integration with KPIs, governance, and change-control mechanisms</p>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-					<section className="pd-section feature-service2">
-						<div className="tf-container">
-							<div className="row align-center">
-								<div className="col-md-6">
-									<div className="feature-service2-content">
-										<div className="heading-title mb-26">
-											<h2 className="title mb-30">Project & Operational Excellence</h2>
-											<p className="des">Optimizing execution and minimizing disruptions:</p>
-										</div>
-										<ul className="icon-listing mb-50">
-											<li className="flex-three">
-												<i className="icon-Check" />
-												<p className="font-man">Agile transformation consulting and operational process tuning</p>
-											</li>
-											<li className="flex-three">
-												<i className="icon-Check" />
-												<p className="font-man">Risk mitigation and quality assurance planning</p>
-											</li>
-											<li className="flex-three">
-												<i className="icon-Check" />
-												<p className="font-man">Lean process analysis to drive efficiency and reduce non‑value-added work</p>
-											</li>
-											<li className="flex-three">
-												<i className="icon-Check" />
-												<p className="font-man">Ongoing performance tracking and continuous improvement support</p>
-											</li>
-										</ul>
-									</div>
-								</div>
-								<div className="col-md-6">
-									<div className="feature-service2-image relative">
-										<img src="/assets/images/service/service-list.jpg" alt="image" className="service2-image" />
-										<div className="cycle" />
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-					<section className="pd-section feature-service2 has-right-content">
-						<div className="tf-container">
-							<div className="row align-center">
-
-								<div className="col-md-6">
-									<div className="feature-service2-image relative">
-										<img src="/assets/images/service/service-list.jpg" alt="image" className="service2-image" />
-										<div className="cycle" />
-									</div>
-								</div>
-								<div className="col-md-6">
-									<div className="feature-service2-content">
-										<div className="heading-title mb-26">
-											<h2 className="title mb-30">Innovation Management & Emerging Tech</h2>
-											<p className="des">Stay ahead of the curve:</p>
-										</div>
-										<ul className="icon-listing mb-50">
-											<li className="flex-three">
-												<i className="icon-Check" />
-												<p className="font-man">Digital innovation workshops and ideation frameworks</p>
-											</li>
-											<li className="flex-three">
-												<i className="icon-Check" />
-												<p className="font-man">Feasibility assessments for AI/ML, data analytics, and automation</p>
-											</li>
-											<li className="flex-three">
-												<i className="icon-Check" />
-												<p className="font-man">MVP tracking, POC frameworks, and pilot testing</p>
-											</li>
-											<li className="flex-three">
-												<i className="icon-Check" />
-												<p className="font-man">Strategic growth planning and ideation pipelines</p>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-					<section className="pd-section feature-service2">
-						<div className="tf-container">
-							<div className="row align-center">
-								<div className="col-md-6">
-									<div className="feature-service2-content">
-										<div className="heading-title mb-26">
-											<h2 className="title mb-30">Change Management & Capability Building</h2>
-											<p className="des">Drive adoption and readiness:</p>
-										</div>
-										<ul className="icon-listing mb-50">
-											<li className="flex-three">
-												<i className="icon-Check" />
-												<p className="font-man">Comprehensive stakeholder assessment and communication plans</p>
-											</li>
-											<li className="flex-three">
-												<i className="icon-Check" />
-												<p className="font-man">
-													User training, upskilling programs, and workshop facilitation
-												</p>
-											</li>
-											<li className="flex-three">
-												<i className="icon-Check" />
-												<p className="font-man">Organizational readiness diagnostics and transition support</p>
-											</li>
-											<li className="flex-three">
-												<i className="icon-Check" />
-												<p className="font-man">Post-go-live monitoring, adoption tracking, and feedback loops</p>
-											</li>
-										</ul>
-									</div>
-								</div>
-								<div className="col-md-6">
-									<div className="feature-service2-image relative">
-										<img src="/assets/images/service/service-list.jpg" alt="image" className="service2-image" />
-										<div className="cycle" />
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
 					<section className="section-benefit pt-122">
 						<div className="tf-container">
 							<div className="row">
 								<div className="col-md-6">
 									<div className="benefit-content">
 										<div className="heading-title mb-40">
-											<span className="sub-title texts-blue font-man">Why Us</span>
-											<h2 className="title">Why Choose SpikeIT?</h2>
-											<p className="des">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur officiis tempore aliquam totam odio tempora voluptatum alias dolores laudantium nisi quis illo veniam cupiditate vero eveniet error, impedit expedita possimus. </p>
+											<span className="sub-title texts-blue font-man">Best Features Development</span>
+											<h2 className="title">Strategy Consultation Services</h2>
+											<p className="des"> Unlock new opportunities, improve decision-making, and accelerate growth with data-backed, future-ready strategies tailored to your business goals.
+
+											</p>
 										</div>
-										<img src="/assets/images/services/strategy-consultation-services.jpg" alt="image" />
+										<img src="/assets/images/services/strategy-consultation-services-2.jpg" alt="image" />
 									</div>
 								</div>
 								<div className="col-md-6">
@@ -244,165 +49,131 @@ export default function ServiceDetails() {
 											<li>
 												<div className="flex-three">
 													<i className="icon-Check" />
-													<h4>Industry-Centric Expertise</h4>
+													<h4> Business Growth Planning
+													</h4>
 												</div>
-												<p> Serving Finance, Pharma, Telecom, Insurance, Healthcare, and Media verticals with tailored strategy solutions </p>
+												<p> Drive sustainable growth with short- and long-term strategic roadmaps.
+
+												</p>
 											</li>
 											<li>
 												<div className="flex-three">
 													<i className="icon-Check" />
-													<h4>Client-First Ethos</h4>
+													<h4>  Digital Transformation Strategy
+													</h4>
 												</div>
-												<p>“Client First” is baked into every engagement—delivering quality, responsiveness, and transparent communications </p>
+												<p> Leverage emerging technologies to innovate and future-proof your operations.
+
+												</p>
 											</li>
 											<li>
 												<div className="flex-three">
 													<i className="icon-Check" />
-													<h4>Flexible Delivery Model</h4>
+													<h4>  Competitive Market Analysis
+													</h4>
 												</div>
-												<p>Onsite, nearshore, offshore, or hybrid approaches—aligned to client needs while optimizing cost and timezone </p>
+												<p> Understand your industry landscape and gain a strategic edge.
+
+												</p>
 											</li>
 											<li>
 												<div className="flex-three">
 													<i className="icon-Check" />
-													<h4>Lean & Focused Team</h4>
+													<h4>  Operational Efficiency Optimization
+													</h4>
 												</div>
-												<p>With a tight-knit, expert team (typically under 50 people), we offer agility, attention, and strategic depth</p>
+												<p> Streamline processes and cut waste to improve margins and performance.
+
+												</p>
 											</li>
+											<li>
+												<div className="flex-three">
+													<i className="icon-Check" />
+													<h4>  Customer-Centric Innovation
+													</h4>
+												</div>
+												<p> Align offerings with real customer needs through market research and design thinking.
+
+												</p>
+											</li>
+
+
+
 										</ul>
 									</div>
 								</div>
 							</div>
 						</div>
 					</section>
-
-
 					<section className="section-it-manager pt-130 pb-130">
 						<div className="tf-container">
 							<div className="row">
 								<div className="col-md-7">
 									<div className="it-manager-content">
 										<div className="heading-title mb-20">
-											<span className="sub-title texts-blue font-man">How  Manage</span>
-											<h2 className="title">Our u Concentrate on What Matters
+
+											<h2 className="title">Our Strategic Consulting Approach
 											</h2>
 										</div>
-										<ul className="nav nav-tabs-pricing nav-tabs-pricing-service" id="myTab" role="tablist">
-											<li className="nav-item" onClick={() => handleTab(1)}>
-												<button className={isTab == 1 ? "nav-link active" : "nav-link"} id="approach-tab" data-bs-toggle="tab" data-bs-target="#approach-tab-pane" type="button" role="tab" aria-controls="approach-tab-pane" aria-selected="true">Our
-													Approach</button>
-											</li>
-											<li className="nav-item" onClick={() => handleTab(2)}>
-												<button className={isTab == 2 ? "nav-link active" : "nav-link"} id="goals-tab" data-bs-toggle="tab" data-bs-target="#goals-tab-pane" type="button" role="tab" aria-controls="goals-tab-pane" aria-selected="false">Project
-													Goals</button>
-											</li>
-											<li className="nav-item" onClick={() => handleTab(3)}>
-												<button className={isTab == 3 ? "nav-link active" : "nav-link"} id="advisory-tab" data-bs-toggle="tab" data-bs-target="#advisory-tab-pane" type="button" role="tab" aria-controls="advisory-tab-pane" aria-selected="false">Advisory</button>
-											</li>
-										</ul>
-										<div className="tab-content" id="myTabContent">
-											<div className={isTab == 1 ? "tab-pane fade show active" : "tab-pane fade"} id="approach-tab-pane" role="tabpanel" aria-labelledby="approach-tab" tabIndex={0}>
-												<div className="content-tab-service-details">
-													<p className="des">At veroeos accusamus dignissimos ducimus blanditiis
-														volupta
-														delenite atque
-														corrupti quos dolores et quas molestias excepturi sint occaecatie
+
+
+										<div className="content-tab-service-details">
+											<p className="des">We blend industry expertise, data analytics, and business insight to deliver strategies that work in the real world — not just on paper.
+
+											</p>
+											<ul className="icon-listing">
+												<li className="flex-three">
+													<i className="icon-Check" />
+													<p className="font-man">Business Assessment & SWOT Analysis
+
 													</p>
-													<ul className="icon-listing">
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Efficient Sprint Planning</p>
-														</li>
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Iterative Delivery Approach</p>
-														</li>
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Standups and Demos</p>
-														</li>
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Problem-solving</p>
-														</li>
-													</ul>
-													<Link href="/#" className="button-src">Learn More <i className="icon-angle-right" /></Link>
-												</div>
-											</div>
-											<div className={isTab == 2 ? "tab-pane fade show active" : "tab-pane fade"} id="goals-tab-pane" role="tabpanel" aria-labelledby="goals-tab" tabIndex={0}>
-												<div className="content-tab-service-details">
-													<p className="des">At veroeos accusamus dignissimos ducimus blanditiis
-														volupta
-														delenite atque
-														corrupti quos dolores et quas molestias excepturi sint occaecatie
+												</li>
+												<li className="flex-three">
+													<i className="icon-Check" />
+													<p className="font-man">Vision, Mission & Goal Alignment
+
 													</p>
-													<ul className="icon-listing">
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Efficient Sprint Planning</p>
-														</li>
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Iterative Delivery Approach</p>
-														</li>
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Standups and Demos</p>
-														</li>
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Problem-solving</p>
-														</li>
-													</ul>
-													<Link href="/#" className="button-src">Learn More <i className="icon-angle-right" /></Link>
-												</div>
-											</div>
-											<div className={isTab == 3 ? "tab-pane fade show active" : "tab-pane fade"} id="advisory-tab-pane" role="tabpanel" aria-labelledby="advisory-tab" tabIndex={0}>
-												<div className="content-tab-service-details">
-													<p className="des">At veroeos accusamus dignissimos ducimus blanditiis
-														volupta
-														delenite atque
-														corrupti quos dolores et quas molestias excepturi sint occaecatie
+												</li>
+												<li className="flex-three">
+													<i className="icon-Check" />
+													<p className="font-man">Data-Driven Strategy Formulation
+
 													</p>
-													<ul className="icon-listing">
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Efficient Sprint Planning</p>
-														</li>
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Iterative Delivery Approach</p>
-														</li>
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Standups and Demos</p>
-														</li>
-														<li className="flex-three">
-															<i className="icon-Check" />
-															<p className="font-man">Problem-solving</p>
-														</li>
-													</ul>
-													<Link href="/#" className="button-src">Learn More <i className="icon-angle-right" /></Link>
-												</div>
-											</div>
+												</li>
+												<li className="flex-three">
+													<i className="icon-Check" />
+													<p className="font-man">Change Management Planning
+
+													</p>
+												</li>
+												<li className="flex-three">
+													<i className="icon-Check" />
+													<p className="font-man">Execution Roadmap & Governance
+
+													</p>
+												</li>
+											</ul>
+
 										</div>
 									</div>
 								</div>
 								<div className="col-md-5">
 									<div className="it-manager-image">
-										<img src="/assets/images/services/strategy-consultation-services-2.jpg" alt="image" />
+										<img src="/assets/images/services/strategy-consultation-services-3.jpg" alt="image" />
 									</div>
 								</div>
 							</div>
 						</div>
 					</section>
-					<section className="section-performance  bg-2">
+					<section className="section-performance pt-122 bg-2">
 						<div className="tf-container">
 							<div className="row">
 								<div className="col-lg-12">
-									<div className="heading-title m0-auto w-680 center mb-60">
-										<span className="sub-title texts-blue font-man"> Consulting Workflow </span>
-										<h2 className="title">Process Overview</h2>
+									<div className="heading-title m0-auto center mb-60">
+										<span className="sub-title texts-blue font-man">Drive Leadership
+										</span>
+										<h2 className="title">Our Capabilities in Strategy Consulting
+										</h2>
 									</div>
 								</div>
 							</div>
@@ -410,136 +181,78 @@ export default function ServiceDetails() {
 								<div className="col-12 col-sm-6 col-lg-4 mb-30">
 									<div className="tf-performance">
 										<span className="number">01</span>
-										<h4 className="title"><Link href="/#">Discovery Kickoff</Link></h4>
-										<p className="des">Initial alignment, stakeholder workshops, high-level diagnostics, and success criteria setting.</p>
+										<h4 className="title">
+											Business & Corporate Strategy
+
+										</h4>
+										<p className="des">Align your organization for growth, profitability, and market leadership.
+
+										</p>
 									</div>
 								</div>
 								<div className="col-12 col-sm-6 col-lg-4 mb-30">
 									<div className="tf-performance">
 										<span className="number">02</span>
-										<h4 className="title"><Link href="/#">Research & Current-State Analysis</Link></h4>
-										<p className="des">Market scanning, benchmarking, cloud readiness, infrastructure and cost analysis.</p>
+										<h4 className="title">
+											Go-to-Market (GTM) Strategy
+										</h4>
+										<p className="des">Launch products and services with maximum impact through well-planned GTM blueprints.
+
+										</p>
 									</div>
 								</div>
 								<div className="col-12 col-sm-6 col-lg-4 mb-30">
 									<div className="tf-performance">
 										<span className="number">03</span>
-										<h4 className="title"><Link href="/#">Strategic Design</Link></h4>
-										<p className="des">Solution frameworks, roadmap sequencing, risk modeling, and governance blueprint.</p>
+										<h4 className="title">
+											Digital Strategy
+
+										</h4>
+										<p className="des">Craft transformation plans to adopt new tech, tools, and digital workflows.
+
+										</p>
 									</div>
 								</div>
 								<div className="col-12 col-sm-6 col-lg-4 mb-30">
 									<div className="tf-performance">
 										<span className="number">04</span>
-										<h4 className="title"><Link href="/#">Execution Planning</Link></h4>
-										<p className="des">Actionable implementation plans, resource allocation, migration waves, and pilot design.</p>
+										<h4 className="title">
+											Brand & Positioning Strategy
+
+										</h4>
+										<p className="des">Define or refine your brand identity, voice, and value proposition for a competitive edge.
+
+										</p>
 									</div>
 								</div>
 								<div className="col-12 col-sm-6 col-lg-4 mb-30">
 									<div className="tf-performance">
 										<span className="number">05</span>
-										<h4 className="title"><Link href="/#">Implementation Guidance</Link></h4>
-										<p className="des">Coordination support, vendor management, framework roll‑out, and pilot oversight.</p>
+										<h4 className="title">
+											M&A & Expansion Strategy
+
+										</h4>
+										<p className="des">Make confident decisions around mergers, partnerships, or entering new markets.
+
+										</p>
 									</div>
 								</div>
-
-
 								<div className="col-12 col-sm-6 col-lg-4 mb-30">
 									<div className="tf-performance">
 										<span className="number">06</span>
-										<h4 className="title"><Link href="/#">Change Enablement & Measurement</Link></h4>
-										<p className="des">Training, adoption tracking, organizational readiness, and KPI dashboards.</p>
+										<h4 className="title">
+											Innovation & Product Strategy
+
+										</h4>
+										<p className="des">Design the future of your products using innovation frameworks and customer feedback loops.
+
+										</p>
 									</div>
 								</div>
-								<div className="col-12 col-sm-6 col-lg-4 mb-30">
-									<div className="tf-performance">
-										<span className="number">07</span>
-										<h4 className="title"><Link href="/#">Continuous Strategy Support</Link></h4>
-										<p className="des">Quarterly reviews, roadmap updates, innovation ideation, and optimization cycles.</p>
-									</div>
-								</div>
+
 							</div>
 						</div>
 					</section>
-
-					{/*  Partner */}
-					<section className="section-partner-h2 style-white pt-122 pb-130 bg-4 ">
-						<div className="tf-container">
-							<div className="row">
-								<div className="col-lg-12">
-									<div className="heading-title center mb-60">
-										<span className="sub-title text-blue1 font-man">Global Partners</span>
-										<h2 className="title">We’ve 1250+ Global <span className="text-blue1">partners</span></h2>
-									</div>
-								</div>
-							</div>
-							<div className="row">
-								<div className="col-md-12 mb-10">
-									<Swiper {...collection1} className="swiper collection-1 overflow-hiden">
-										<div className="swiper-wrapper">
-											<SwiperSlide>
-												<div className="image-partner-logo">
-													<img src="/assets/images/brand/br1.png" alt="image" />
-												</div>
-											</SwiperSlide>
-											<SwiperSlide>
-												<div className="image-partner-logo">
-													<img src="/assets/images/brand/br2.png" alt="image" />
-												</div>
-											</SwiperSlide>
-											<SwiperSlide>
-												<div className="image-partner-logo">
-													<img src="/assets/images/brand/br3.png" alt="image" />
-												</div>
-											</SwiperSlide>
-											<SwiperSlide>
-												<div className="image-partner-logo">
-													<img src="/assets/images/brand/br4.png" alt="image" />
-												</div>
-											</SwiperSlide>
-											<SwiperSlide>
-												<div className="image-partner-logo">
-													<img src="/assets/images/brand/br5.png" alt="image" />
-												</div>
-											</SwiperSlide>
-										</div>
-									</Swiper>
-								</div>
-								<div className="col-md-12">
-									<Swiper {...collection2} className="swiper collection-2 overflow-hiden">
-										<div className="swiper-wrapper">
-											<SwiperSlide>
-												<div className="image-partner-logo">
-													<img src="/assets/images/brand/br6.png" alt="image" />
-												</div>
-											</SwiperSlide>
-											<SwiperSlide>
-												<div className="image-partner-logo">
-													<img src="/assets/images/brand/br7.png" alt="image" />
-												</div>
-											</SwiperSlide>
-											<SwiperSlide>
-												<div className="image-partner-logo">
-													<img src="/assets/images/brand/br9.png" alt="image" />
-												</div>
-											</SwiperSlide>
-											<SwiperSlide>
-												<div className="image-partner-logo">
-													<img src="/assets/images/brand/br10.png" alt="image" />
-												</div>
-											</SwiperSlide>
-											<SwiperSlide>
-												<div className="image-partner-logo">
-													<img src="/assets/images/brand/br8.png" alt="image" />
-												</div>
-											</SwiperSlide>
-										</div>
-									</Swiper>
-								</div>
-							</div>
-						</div>
-					</section>
-
 					<section className="faq-team pt-130 pb-130">
 						<div className="tf-container">
 							<div className="row">
@@ -552,91 +265,160 @@ export default function ServiceDetails() {
 										<div className="accordion accordion-h4" id="accordionExample">
 											<div className="accordion-item">
 												<h3 className="accordion-header" onClick={() => handleAccordion(1)}>
-													<span className={isAccordion == 1 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-														How much does it cost to build an app?
+													<span className={isAccordion == 1 ? "accordion-button"
+														: "accordion-button collapsed"} type="button" data-bs-toggle="collapse"
+														data-bs-target="#collapseOne" aria-expanded="true"
+														aria-controls="collapseOne">
+														Do you consult for startups as well as enterprises?
 													</span>
 												</h3>
-												<div id="collapseOne" className={isAccordion == 1 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
+												<div id="collapseOne" className={isAccordion == 1
+													? "accordion-collapse collapse show" : "accordion-collapse collapse"}
+													data-bs-parent="#accordionExample">
 													<div className="accordion-body">
-														We approached WiaTech with complex project Designing a website can
-														involve various such
-														as layout, graphics, content, and experience more specific response
-														elaborate
+														Yes — we work with businesses of all sizes across industries.
+
+
 													</div>
 												</div>
 											</div>
 											<div className="accordion-item">
 												<h3 className="accordion-header" onClick={() => handleAccordion(2)}>
-													<span className={isAccordion == 2 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-														How do you create an app without any coding?
+													<span className={isAccordion == 2 ? "accordion-button"
+														: "accordion-button collapsed"} type="button" data-bs-toggle="collapse"
+														data-bs-target="#collapseTwo" aria-expanded="false"
+														aria-controls="collapseTwo">
+														What industries do you specialize in?
+
 													</span>
 												</h3>
-												<div id="collapseTwo" className={isAccordion == 2 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
-													<div className="accordion-body">
-														We approached WiaTech with complex project Designing a website can
-														involve various such
-														as layout, graphics, content, and experience more specific response
-														elaborate
+												<div id="collapseTwo" className={isAccordion == 2
+													? "accordion-collapse collapse show" : "accordion-collapse collapse"}
+													data-bs-parent="#accordionExample">
+													<div className="accordion-body">We have experience in IT, retail, healthcare, manufacturing, education, and financial services.
+
+
 													</div>
 												</div>
 											</div>
 											<div className="accordion-item">
 												<h3 className="accordion-header" onClick={() => handleAccordion(3)}>
-													<span className={isAccordion == 3 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-														Can you create an app for free?
+													<span className={isAccordion == 3 ? "accordion-button"
+														: "accordion-button collapsed"} type="button" data-bs-toggle="collapse"
+														data-bs-target="#collapseThree" aria-expanded="false"
+														aria-controls="collapseThree">Can you help us implement the strategy too?
+
+
 													</span>
 												</h3>
-												<div id="collapseThree" className={isAccordion == 3 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
-													<div className="accordion-body">
-														We approached WiaTech with complex project Designing a website can
-														involve various such
-														as layout, graphics, content, and experience more specific response
-														elaborate
+												<div id="collapseThree" className={isAccordion == 3
+													? "accordion-collapse collapse show" : "accordion-collapse collapse"}
+													data-bs-parent="#accordionExample">
+													<div className="accordion-body">Absolutely. We don’t just advise — we guide and support execution with measurable KPIs.
+
+
 													</div>
 												</div>
 											</div>
 											<div className="accordion-item">
 												<h3 className="accordion-header" onClick={() => handleAccordion(4)}>
-													<span className={isAccordion == 4 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#collapsefore" aria-expanded="false" aria-controls="collapsefore">
-														How can I create my own app?
+													<span className={isAccordion == 4 ? "accordion-button"
+														: "accordion-button collapsed"} type="button" data-bs-toggle="collapse"
+														data-bs-target="#collapsefore" aria-expanded="false"
+														aria-controls="collapsefore">Do you provide one-time and ongoing consultation?
+
+
 													</span>
 												</h3>
-												<div id="collapsefore" className={isAccordion == 4 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
-													<div className="accordion-body">
-														We approached WiaTech with complex project Designing a website can
-														involve various such
-														as layout, graphics, content, and experience more specific response
-														elaborate
+												<div id="collapsefore" className={isAccordion == 4
+													? "accordion-collapse collapse show" : "accordion-collapse collapse"}
+													data-bs-parent="#accordionExample">
+													<div className="accordion-body">Yes. We offer both project-based and retainer-based consulting models.
+
+
 													</div>
 												</div>
 											</div>
-											<div className="accordion-item">
-												<h3 className="accordion-header" onClick={() => handleAccordion(5)}>
-													<span className={isAccordion == 5 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#collapsefire" aria-expanded="false" aria-controls="collapsefire">
-														How do I start an app business?
-													</span>
-												</h3>
-												<div id="collapsefire" className={isAccordion == 5 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
-													<div className="accordion-body">
-														We approached WiaTech with complex project Designing a website can
-														involve various such
-														as layout, graphics, content, and experience more specific response
-														elaborate
-													</div>
-												</div>
-											</div>
+
 										</div>
 									</div>
 								</div>
 								<div className="col-md-5">
 									<div className="image-faq-team">
-										<img src="/assets/images/Services/faq.jpg" alt="image" />
+										<img src="/assets/images/services/faq.jpg" alt="image" />
 									</div>
 								</div>
 							</div>
 						</div>
 					</section>
-					<CaseStudies3 />
+					<section className="case-studies-h5 pt-122 pb-130">
+						<div className="tf-container full">
+							<div className="row mb-70">
+								<div className="col-lg-12">
+									<div className="heading-title center w-680 m0-auto">
+										<span className="sub-title text-blue1 font-man wow fadeInUpSmall"
+											data-wow-delay=".2s">Latest Case Studies</span>
+										<h2 className="title wow fadeInUpSmall" data-wow-delay=".3s">Let’s Explore Our Latest
+											Case <span className="text-blue1 mask">Studies</span></h2>
+									</div>
+								</div>
+							</div>
+							<div className="row">
+								<div className="col-lg-12">
+									<Swiper {...myPortfolio} className="swiper myportfolio px-5">
+										<div className="swiper-wrapper">
+											<SwiperSlide>
+												<div className="tf-portfolio">
+													<Link href="/project-details" className="image">
+														<img src="/assets/images/image-box/case1.jpg" alt="image" />
+													</Link>
+													<div className="content">
+														<div className="inner-title">
+															<h3 className="title">
+																<Link href="/project-details"> ITSM for a Financial Services
+																	Firm</Link>
+															</h3>
+															<p>From manual processes to AI-powered incident handling — achieved
+																40% faster resolution and real-time analytics.
+
+
+															</p>
+														</div>
+														<div className="btn-main">
+															<Link href="/project-details" className="link-portfolio"><i
+																className="icon-arrow-rights" /></Link>
+														</div>
+													</div>
+												</div>
+											</SwiperSlide>
+											<SwiperSlide>
+												<div className="tf-portfolio">
+													<Link href="/project-details" className="image">
+														<img src="/assets/images/image-box/case3.jpg" alt="image" />
+													</Link>
+													<div className="content">
+														<div className="inner-title">
+															<h3 className="title">
+																<Link href="/project-details">Healthcare Provider Game‑changer
+																	with Self-Service</Link>
+															</h3>
+															<p> Built HIPAA-compliant request and knowledge portal, reducing
+																support volume by 30%.</p>
+														</div>
+														<div className="btn-main">
+															<Link href="/project-details" className="link-portfolio"><i
+																className="icon-arrow-rights" /></Link>
+														</div>
+													</div>
+												</div>
+											</SwiperSlide>
+
+										</div>
+									</Swiper>
+								</div>
+							</div>
+						</div>
+					</section>
 					{/* Contact */}
 					<section className="section-contact contact-service-details bg-5 pt-130 pb-130">
 						<div className="tf-container">
@@ -644,11 +426,12 @@ export default function ServiceDetails() {
 								<div className="col-md-5">
 									<div className="content">
 										<div className="heading-title mb-40">
-											<span className="sub-title text-white font-man">Work Inquiry</span>
-											<h2 className="title text-white">Let’s Work For your
-												Next Projects ?</h2>
-											<p className="des font-man text-white">We denounce with righteous indignation and
-												like men beguiled and demoralized by the charms</p>
+											<span className="sub-title text-white font-man">Work With Us</span>
+											<h2 className="title text-white">Let’s Strategize Your Success
+</h2>
+											<p className="des font-man text-white">Need help crafting a strategy that drives real-world business results? Let’s work together to unlock your next phase of growth.
+
+</p>
 										</div>
 										<div className="contact-wrap flex-three mb-40">
 											<div className="icon text-white">
@@ -674,16 +457,20 @@ export default function ServiceDetails() {
 									<div className="form-contact-home1 style2">
 										<div className="inner-title-form center mb-30">
 											<h3 className="title-form">Need Help For Project!</h3>
-											<p>We are ready to help your next projects, let’s work together</p>
+											<p>Let’s co-create business strategies that elevate your market position and long-term success.
+
+</p>
 										</div>
 										<form action="/" className="form-contact-home">
 											<div className="input-group flex-one">
 												<fieldset className="relative mb-20">
-													<input type="text" className="form-control" id="name-input" placeholder="Name" />
+													<input type="text" className="form-control" id="name-input"
+														placeholder="Name" />
 													<i className="icon-user" />
 												</fieldset>
 												<fieldset className="relative mb-20">
-													<input type="email" className="form-control" id="email-input" placeholder="Email" />
+													<input type="email" className="form-control" id="email-input"
+														placeholder="Email" />
 													<i className="icon-envelopes" />
 												</fieldset>
 											</div>
@@ -702,7 +489,8 @@ export default function ServiceDetails() {
 												<textarea id="mess" name="mess" rows={4} cols={50} placeholder="Message" />
 											</fieldset>
 											<fieldset className="center">
-												<button className="btn-submit" type="submit">Send Message Us <i className="icon-right-icon" /></button>
+												<button className="btn-submit" type="submit">Send Message Us <i
+													className="icon-right-icon" /></button>
 											</fieldset>
 										</form>
 									</div>

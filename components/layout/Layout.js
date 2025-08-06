@@ -16,7 +16,7 @@ import Header3 from "./header/Header3"
 import Header4 from "./header/Header4"
 import Header5 from "./header/Header5"
 
-export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, children,bgImg }) {
+export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, children, bgImg, pageTitle }) {
 	const [scroll, setScroll] = useState(0)
 
 	// MoblileMenu
@@ -63,7 +63,7 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
 
 
 					<main className="main">
-						{breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} bgImg={bgImg}/>}
+						{breadcrumbTitle && <Breadcrumb pageTitle={pageTitle} breadcrumbTitle={breadcrumbTitle} bgImg={bgImg} />}
 
 						{children}
 					</main>

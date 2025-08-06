@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export default function Breadcrumb({ breadcrumbTitle, bgImg }) {
+export default function Breadcrumb({ breadcrumbTitle,pageTitle, bgImg }) {
 	return (
 		<>
 
@@ -12,7 +12,7 @@ export default function Breadcrumb({ breadcrumbTitle, bgImg }) {
 					<div className="row">
 						<div className="col-lg-12 z-index-2 relative ">
 							<div className="title-inner center">
-								<h1 className="title text-white mb-18">{breadcrumbTitle}</h1>
+								<h1 className="title text-white mb-18">{pageTitle}</h1>
 								<div className="title-group text-white">
 									<Link href="/">Home</Link>
 									<Link href="/#">{breadcrumbTitle}</Link>

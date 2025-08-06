@@ -76,7 +76,7 @@ export default function MobileMenu() {
 						"/infrastructure-services",
 						"/cyber-security-services",
 						"/software-engineering-services",
-						"/web-developement-services",
+						"/web-development-services",
 						"/project-management-services",
 						"/itsm-services",
 
@@ -101,8 +101,8 @@ export default function MobileMenu() {
 							<li className={`${checkCurrentMenuItem("/software-engineering-services")}`}>
 								<Link href="/software-engineering-services">Software Engineering</Link>
 							</li>
-							<li className={`${checkCurrentMenuItem("/web-developement-services")}`}>
-								<Link href="/web-developement-services">Web Development</Link>
+							<li className={`${checkCurrentMenuItem("/web-development-services")}`}>
+								<Link href="/web-development-services">Web Development</Link>
 							</li>
 							<li className={`${checkCurrentMenuItem("/project-management-services")}`}>
 								<Link href="/project-management-services">Project Management</Link>

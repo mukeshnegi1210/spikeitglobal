@@ -29,7 +29,7 @@ export default function ServiceDetails() {
 	return (
 		<>
 
-			<Layout breadcrumbTitle="Web Development">
+			<Layout headerStyle={1} breadcrumbTitle="Software Development Services" pageTitle="Build Future-Ready Solutions with Software Development Services" src="/assets/images/services/software-engineering-1.jpg">
 				<div>
 					<section className="section-benefit pt-122">
 						<div className="tf-container">
@@ -43,7 +43,7 @@ export default function ServiceDetails() {
 												accusantiue doloremue
 												laudantium totam rem aperiam eaque ipsa quae abillo inventore veritatis</p>
 										</div>
-										<img src="/assets/images/page/dvl-deatils.jpg" alt="image" />
+										<img src="/assets/images/services/software-engineering-1.jpg" alt="image" />
 									</div>
 								</div>
 								<div className="col-md-6">
@@ -200,7 +200,7 @@ export default function ServiceDetails() {
 								</div>
 								<div className="col-md-5">
 									<div className="it-manager-image">
-										<img src="/assets/images/page/dvl-deatils2.jpg" alt="image" />
+										<img src="/assets/images/services/software-engineering-2.jpg" alt="image" />
 									</div>
 								</div>
 							</div>

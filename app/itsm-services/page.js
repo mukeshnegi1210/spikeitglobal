@@ -26,7 +26,7 @@ export default function ServiceDetails() {
 	return (
 		<>
 
-			<Layout breadcrumbTitle="Redefine Service Management with ServiceNow">
+			<Layout src="/assets/images/services/itsm-1.jpg"  breadcrumbTitle="IT Management Services" pageTitle="Redefine Service Management with ServiceNow">
 				<div>
 					<section className="section-benefit pt-122">
 						<div className="tf-container">
@@ -38,7 +38,7 @@ export default function ServiceDetails() {
 											<h2 className="title">IT Service Management (ITSM)</h2>
 											<p className="des"> Empower your organization with automated workflows, integrated platforms, and strategic IT operations — powered by ServiceNow expertise.</p>
 										</div>
-										<img src="/assets/images/page/dvl-deatils.jpg" alt="image" />
+										<img src="/assets/images/services/itsm-2.jpg" alt="image" />
 									</div>
 								</div>
 								<div className="col-md-6">
@@ -117,7 +117,7 @@ export default function ServiceDetails() {
 								</div>
 								<div className="col-md-5">
 									<div className="it-manager-image">
-										<img src="/assets/images/page/dvl-deatils2.jpg" alt="image" />
+										<img src="/assets/images/Services/itsm-3.jpg" alt="image" />
 									</div>
 								</div>
 							</div>
