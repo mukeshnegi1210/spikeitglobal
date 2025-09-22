@@ -93,7 +93,7 @@ export default function Footer5() {
 					</div>
 					<div className="row footer-bottom5 align-center">
 						<div className="col-md-5">
-							<p className="text-white">© 2023 WiaTech - IT Services. All rights reserved.</p>
+							<p className="text-white">© 2023 SpikeIT - IT Services. All rights reserved.</p>
 						</div>
 						<div className="col-md-2">
 							<a id="scroll-top" className="button-go go-top-h5 relative" />

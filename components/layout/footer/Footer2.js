@@ -83,7 +83,7 @@ export default function Footer2() {
 					</div>
 					<div className="row footer-bottom">
 						<div className="col-lg-12">
-							<p className="coppy-right center text-white">© 2023 WiaTech - IT Services. All rights reserved.
+							<p className="coppy-right center text-white">© 2023 SpikeIT - IT Services. All rights reserved.
 							</p>
 						</div>
 					</div>

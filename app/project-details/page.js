@@ -39,7 +39,7 @@ export default function ProjectDetails() {
 										</li>
 										<li>
 											<h4>Website</h4>
-											<p><Link href="/#">wiatech.com</Link></p>
+											<p><Link href="/#">spikeit.com</Link></p>
 										</li>
 									</ul>
 								</div>

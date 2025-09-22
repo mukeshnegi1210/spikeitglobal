@@ -66,7 +66,7 @@ export default function Feature1() {
 						<div className="col-lg-12 col-xl-7">
 							<div className="image relative">
 								<img src="/assets/images/page/feature-h1.jpg" alt="image" />
-								<div className="quote-feature-wrap">
+								{/* <div className="quote-feature-wrap">
 									<div className="counter  tf-counters">
 										<div className="numbers number-style" data-speed={2000} data-to={25} data-inviewport="yes"><CounterNumber count={25} /></div>
 									</div>
@@ -87,7 +87,7 @@ export default function Feature1() {
 									<div className="start">
 										<span>4.9</span>
 									</div>
-								</div>
+								</div> */}
 							</div>
 						</div>
 					</div>

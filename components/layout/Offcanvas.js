@@ -51,7 +51,7 @@ export default function Offcanvas({ handleOffcanvas, isOffcanvas }) {
 							</li>
 						</ul>
 					</div>
-					<p className="des">© 2023 WiaTech - IT Services.</p>
+					<p className="des">© 2023 SpikeIT - IT Services.</p>
 				</div>
 			</div>
 			{isOffcanvas && <div className="offcanvas-backdrop fade show" onClick={handleOffcanvas} />}

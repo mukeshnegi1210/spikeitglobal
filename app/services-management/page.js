@@ -46,7 +46,7 @@ export default function Service1() {
 						</div>
 						<div className="col-md-6">
 							<div className="image">
-								<img src="https://wiatechnextjs.vercel.app/assets/images/page/image-hero.jpg" alt="image" />
+								<img src="https://spikeitnextjs.vercel.app/assets/images/page/image-hero.jpg" alt="image" />
 							</div>
 						</div>
 					</div>
@@ -71,7 +71,7 @@ export default function Service1() {
 									<span className="sub-title texts-blue font-man">Simplify Your Digital Journey with SpikeIT</span>
 									<h2 className="title"> Your Trusted Partner in <br /> Cloud-Driven Transformation
 										{/* <span className="animationtext clip texts-blue">
-											<TextAnimation text1="Wiatech" text2="Wetech" />
+											<TextAnimation text1="SpikeIT" text2="Wetech" />
 										</span> */}
 									</h2>
 								</div>

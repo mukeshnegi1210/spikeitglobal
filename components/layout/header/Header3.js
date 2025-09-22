@@ -18,7 +18,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, handle
 								</li>
 								<li className="flex-three">
 									<i className="icon-envelope4" />
-									<span>infowiatech@gmail.com</span>
+									<span>infospikeit@gmail.com</span>
 								</li>
 							</ul>
 						</div>

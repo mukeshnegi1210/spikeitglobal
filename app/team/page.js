@@ -402,7 +402,7 @@ const handleAccordion = (key) => {
 												</h3>
 												<div id="collapseOne" className={isAccordion == 1 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
 													<div className="accordion-body">
-														We approached WiaTech with complex project Designing a website can
+														We approached SpikeIT with complex project Designing a website can
 														involve various such
 														as layout, graphics, content, and experience more specific response
 														elaborate
@@ -417,7 +417,7 @@ const handleAccordion = (key) => {
 												</h3>
 												<div id="collapseTwo" className={isAccordion == 2 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
 													<div className="accordion-body">
-														We approached WiaTech with complex project Designing a website can
+														We approached SpikeIT with complex project Designing a website can
 														involve various such
 														as layout, graphics, content, and experience more specific response
 														elaborate
@@ -432,7 +432,7 @@ const handleAccordion = (key) => {
 												</h3>
 												<div id="collapseThree" className={isAccordion == 3 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
 													<div className="accordion-body">
-														We approached WiaTech with complex project Designing a website can
+														We approached SpikeIT with complex project Designing a website can
 														involve various such
 														as layout, graphics, content, and experience more specific response
 														elaborate
@@ -447,7 +447,7 @@ const handleAccordion = (key) => {
 												</h3>
 												<div id="collapsefore" className={isAccordion == 4 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
 													<div className="accordion-body">
-														We approached WiaTech with complex project Designing a website can
+														We approached SpikeIT with complex project Designing a website can
 														involve various such
 														as layout, graphics, content, and experience more specific response
 														elaborate
@@ -462,7 +462,7 @@ const handleAccordion = (key) => {
 												</h3>
 												<div id="collapsefire" className={isAccordion == 5 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
 													<div className="accordion-body">
-														We approached WiaTech with complex project Designing a website can
+														We approached SpikeIT with complex project Designing a website can
 														involve various such
 														as layout, graphics, content, and experience more specific response
 														elaborate

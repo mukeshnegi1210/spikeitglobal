@@ -49,8 +49,8 @@ export default function ContactUs() {
 													</div>
 													<div className="content">
 														<h4>Email</h4>
-														<p>wiatechinfo@gmail.com</p>
-														<p>www.wiatech.com</p>
+														<p>spikeitinfo@gmail.com</p>
+														<p>www.spikeit.com</p>
 													</div>
 												</div>
 											</div>

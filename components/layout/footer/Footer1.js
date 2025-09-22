@@ -90,7 +90,7 @@ export default function Footer1() {
 					</div>
 					<div className="footer-bottom2 row">
 						<div className="col-md-6">
-							<p>© 2023 WiaTech - IT Services. All rights reserved.</p>
+							<p>© 2023 SpikeIT - IT Services. All rights reserved.</p>
 						</div>
 						<div className="col-md-6">
 							<ul className="menu-right-bottom flex-six">

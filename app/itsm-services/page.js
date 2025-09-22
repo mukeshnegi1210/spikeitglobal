@@ -246,7 +246,7 @@ export default function ServiceDetails() {
 												</h3>
 												<div id="collapsefire" className={isAccordion == 5 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
 													<div className="accordion-body">
-														We approached WiaTech with complex project Designing a website can
+														We approached SpikeIT with complex project Designing a website can
 														involve various such
 														as layout, graphics, content, and experience more specific response
 														elaborate

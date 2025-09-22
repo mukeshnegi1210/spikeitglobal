@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /**
-  * Name: WiaTech - IT Services & Development HTML Template
+  * Name: SpikeIT - IT Services & Development HTML Template
   * Version: 1.0.2
   * Author: Themesflat
   * Author URI: http://www.themesflat.com
@@ -6624,6 +6624,7 @@
   border: 1px solid rgba(2, 1, 1, 0.1);
   opacity: 1;
   visibility: visible;
+  height: 100%;
 }
 
 .icon-box1 .icon-box1-visible .content .number {
