@@ -2261,8 +2261,8 @@
 /* Marque text
 -------------------------------------------------------------- */
 .section-marque-text {
-  padding-top: 195px;
-  padding-bottom: 108px;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 .marquee-wrapper {
@@ -2273,7 +2273,7 @@
 }
 
 .text-slider {
-  font-size: 65px;
+  font-size: 40px;
   height: 100px;
   line-height: 90px;
   font-weight: 700;
@@ -2297,6 +2297,32 @@
   object-position: center;
 }
 
+.partnership-section{
+  padding: 125px 0;
+  
+}
+.partnership-section p{
+  font-size: 18px;
+  line-height: 1.8;
+}
+.partnership-section.dark{
+  background-color: #020626;
+  color: #FFFFFF;
+}
+.partnership-section.dark p{
+  color: #FFFFFF;
+
+}
+.partnership-section.light{
+  background-color: #f7f8fd;
+
+}
+.partnership-section img{
+  max-width: 400px;
+  margin: 0 auto;
+  display: block;
+}
+
 @media (max-width: 767px) {
   .text-slider {
     font-size: 36px;
@@ -2305,7 +2331,7 @@
 }
 
 .text-slider i {
-  font-size: 65px;
+  font-size: 40px;
   color: #FCC200;
   margin-right: 30px;
 }
@@ -2993,7 +3019,7 @@
 }
 
 .section-contact .content .contact-wrap .contact-content p {
-  font-size: 27px;
+  font-size: 20px;
   font-weight: 600;
   color: #FFFFFF;
 }
@@ -4410,8 +4436,8 @@
 }
 
 #footer .footer-top {
-  padding: 80px 0px;
-  margin-bottom: 73px;
+  padding: 50px 0px;
+  margin-bottom: 50px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -6006,6 +6032,9 @@
   -moz-transform: scale(1.12);
   transform: scale(1.12);
 }
+.slider-it-main{
+  max-height: 100%;
+}
 
 .slider-it-main::before {
   top: 0;
@@ -6134,8 +6163,10 @@
 }
 
 .slider-Swiper-it .button-swiper .swiper-button-prev {
-  left: 76%;
+  left: 74%;
 }
+
+
 
 /* video
 -------------------------------------------------------------- */
@@ -10244,17 +10275,17 @@ h6 {
 }
 
 h1 {
-  font-size: 65px;
-  line-height: 75px;
+  font-size: 56px;
+  line-height:65px;
 }
 
 h2 {
-  font-size: 48px;
-  line-height: 55px;
+  font-size: 36px;
+  line-height: 45px;
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 24px;
   line-height: 30px;
 }
 
@@ -11237,7 +11268,7 @@ body .dribbble img {
   }
 
   .slider-Swiper-it .button-swiper .swiper-button-prev {
-    left: 85%;
+    left: 84%;
   }
 }
 

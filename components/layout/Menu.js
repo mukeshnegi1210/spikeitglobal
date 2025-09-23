@@ -49,12 +49,9 @@ export default function Menu() {
             "/strategy-consultation-services",
             "/cloud-services",
             "/data-ai-services",
-            "/infrastructure-services",
             "/cyber-security-services",
-            "/software-engineering-services",
-            "/web-development-services",
-            "/project-management-services",
-            "/itsm-services",
+            "/project-managementservices",
+            "/services-management",
           ])}`}
         >
           <Link href="/services">Services</Link>
@@ -88,31 +85,15 @@ export default function Menu() {
                 Cyber Security Services
               </Link>
             </li>
-            <li
-              className={`${checkCurrentMenuItem(
-                "/software-engineering-services"
-              )}`}
-            >
-              <Link href="/software-engineering-services">
-                Software Engineering
-              </Link>
-            </li>
+         
             <li
               className={`${checkCurrentMenuItem("/web-development-services")}`}
             >
-              <Link href="/web-development-services">Web Development</Link>
+              <Link href="/web-development-services">Web & App Development</Link>
             </li>
-            <li
-              className={`${checkCurrentMenuItem(
-                "/project-management-services"
-              )}`}
-            >
-              <Link href="/project-management-services">
-                Project Management
-              </Link>
-            </li>
-            <li className={`${checkCurrentMenuItem("/itsm-services")}`}>
-              <Link href="/itsm-services">Service Management-ServiceNow</Link>
+          
+            <li className={`${checkCurrentMenuItem("/services-management")}`}>
+              <Link href="/services-management">Service Management-ServiceNow</Link>
             </li>
           </ul>
         </li>
@@ -146,8 +127,8 @@ export default function Menu() {
           </ul>
         </li>
 
-        <li className={`${pathname === "/" ? "current" : ""}`}>
-          <Link href="/">Partnerships</Link>
+        <li className={`${pathname === "/partnerships" ? "current" : ""}`}>
+          <Link href="/partnerships">Partnerships</Link>
         </li>
 
         <li className={`${pathname === "/contact-us" ? "current" : ""}`}>

@@ -21,7 +21,7 @@ export default function AboutUs1() {
                     </div>
 
                     {/* Middle Content Section */}
-                    <div className="col-12 col-md-6 ">
+                    <div className="col-12 col-md-6 col-xl-8">
                         <div className="about-us-content wow fadeInUpSmall" data-wow-delay=".2s">
                             <div className="heading-title">
                                 <span className="sub-title texts-blue font-man">
@@ -42,7 +42,7 @@ export default function AboutUs1() {
                                 <li className="flex-three">
                                     <i className="icon-Check" />
                                     <p className="font-man">
-                                        <strong>Smooth Cloud Migrations</strong>
+                                        <strong className="fw-semibold text-dark">Smooth Cloud Migrations</strong>
                                         <br />
                                         Fast, secure, and hassle-free transitions.
                                     </p>
@@ -50,7 +50,7 @@ export default function AboutUs1() {
                                 <li className="flex-three">
                                     <i className="icon-Check" />
                                     <p className="font-man">
-                                        <strong>Custom Solutions</strong>
+                                        <strong  className="fw-semibold text-dark">Custom Solutions</strong>
                                         <br />
                                         Aligned with your unique business goals.
                                     </p>
@@ -58,7 +58,7 @@ export default function AboutUs1() {
                                 <li className="flex-three">
                                     <i className="icon-Check" />
                                     <p className="font-man">
-                                        <strong>Expert Support</strong>
+                                        <strong  className="fw-semibold text-dark">Expert Support</strong>
                                         <br />
                                         Continuous guidance and optimization.
                                     </p>

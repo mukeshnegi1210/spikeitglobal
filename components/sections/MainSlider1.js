@@ -47,9 +47,9 @@ export default function MainSlider1() {
 										<span className="fw-600 text-white font-man">
 											5m+ Trusted Our Clients</span>
 									</div>
-									<h1 className="title-slider text-white wow fadeInUpSmall" data-wow-delay=".2s">Modern &amp; Digital <br /> IT Solutions For
-										Your
-										<br /> Tech Business
+									<h1 className="title-slider text-white wow fadeInUpSmall" data-wow-delay=".2s">Modern &amp; Digital IT Solutions <br />  For
+										Your Tech Business
+										
 									</h1>
 									<p className="des text-white fw-500 mb-40 wow fadeInUpSmall" data-wow-delay=".3s">25+ Years Of Experience In Tech
 										Services

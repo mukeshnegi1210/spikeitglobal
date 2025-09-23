@@ -75,7 +75,7 @@ export default function Service1() {
                 <div className="content">
                   <span className="number mb-15">02</span>
                   <h3 className="title mb-47">
-                    <Link href="/cloud-services">Cloud Services</Link>
+                    <Link href="/cloud-services">Cloud Transformation</Link>
                   </h3>
                   <div className="icon">
                     <i className="icon-self-development-2" />
@@ -154,7 +154,7 @@ export default function Service1() {
             <div className="icon-box1">
               <div className="icon-box1-visible flex-two">
                 <div className="content">
-                  <span className="number mb-15">05</span>
+                  <span className="number mb-15">04</span>
                   <h3 className="title mb-47">
                     <Link href="/cyber-security-services">
                       Cyber Security Services{" "}
@@ -178,7 +178,7 @@ export default function Service1() {
                   <div className="icon">
                     <i className="icon-start-up" />
                   </div>
-                  <span className="number">05</span>
+                  <span className="number">04</span>
                 </div>
                 <h3 className="title">
                   <Link href="/cyber-security-services">
@@ -203,10 +203,10 @@ export default function Service1() {
             <div className="icon-box1">
               <div className="icon-box1-visible flex-two">
                 <div className="content">
-                  <span className="number mb-15">06</span>
+                  <span className="number mb-15">05</span>
                   <h3 className="title mb-47">
                     <Link href="/software-engineering-services">
-                      Software Engineering Services
+                      Web and App Development Services
                     </Link>
                   </h3>
                   <div className="icon">
@@ -227,7 +227,7 @@ export default function Service1() {
                   <div className="icon">
                     <i className="icon-cloud-network" />
                   </div>
-                  <span className="number">06</span>
+                  <span className="number">05</span>
                 </div>
                 <h3 className="title">
                   <Link href="/software-engineering-services">
@@ -254,7 +254,7 @@ export default function Service1() {
             <div className="icon-box1">
               <div className="icon-box1-visible flex-two">
                 <div className="content">
-                  <span className="number mb-15">08</span>
+                  <span className="number mb-15">06</span>
                   <h3 className="title mb-47">
                     <Link href="/itsm-services">
                       Service Management-ServiceNow
@@ -275,7 +275,7 @@ export default function Service1() {
                   <div className="icon">
                     <i className="icon-cloud-network" />
                   </div>
-                  <span className="number">08</span>
+                  <span className="number">06</span>
                 </div>
                 <h3 className="title">
                   <Link href="/itsm-services">

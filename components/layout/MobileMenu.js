@@ -82,12 +82,9 @@ export default function MobileMenu() {
               "/strategy-consultation-services",
               "/cloud-services",
               "/data-ai-services",
-              "/infrastructure-services",
               "/cyber-security-services",
-              "/software-engineering-services",
               "/web-development-services",
-              "/project-management-services",
-              "/itsm-services",
+              "/services-management",
             ])}`}
           >
             <Link href="/#">Service</Link>
@@ -107,15 +104,7 @@ export default function MobileMenu() {
               <li className={`${checkCurrentMenuItem("/data-ai-services")}`}>
                 <Link href="/data-ai-services">Data & AI</Link>
               </li>
-              <li
-                className={`${checkCurrentMenuItem(
-                  "/infrastructure-services"
-                )}`}
-              >
-                <Link href="/infrastructure-services">
-                  Infrastructure Services
-                </Link>
-              </li>
+
               <li
                 className={`${checkCurrentMenuItem(
                   "/cyber-security-services"
@@ -123,21 +112,15 @@ export default function MobileMenu() {
               >
                 <Link href="/cyber-security-services">Cyber Security</Link>
               </li>
-              <li
-                className={`${checkCurrentMenuItem(
-                  "/software-engineering-services"
-                )}`}
-              >
-                <Link href="/software-engineering-services">
-                  Software Engineering
-                </Link>
-              </li>
+
               <li
                 className={`${checkCurrentMenuItem(
                   "/web-development-services"
                 )}`}
               >
-                <Link href="/web-development-services">Web Development</Link>
+                <Link href="/web-development-services">
+                  Web & App Development
+                </Link>
               </li>
               <li
                 className={`${checkCurrentMenuItem(
@@ -148,8 +131,10 @@ export default function MobileMenu() {
                   Project Management
                 </Link>
               </li>
-              <li className={`${checkCurrentMenuItem("/itsm-services")}`}>
-                <Link href="/itsm-services">Service Management-ServiceNow</Link>
+              <li className={`${checkCurrentMenuItem("/services-management")}`}>
+                <Link href="/services-management">
+                  Service Management-ServiceNow
+                </Link>
               </li>
             </ul>
             <div class="dropdown2-btn" onClick={() => handleAccordion(3)} />
@@ -191,8 +176,8 @@ export default function MobileMenu() {
             <div class="dropdown2-btn" onClick={() => handleAccordion(4)} />
           </li>
 
-          <li className={`${pathname === "/" ? "current" : ""}`}>
-            <Link href="/">Partnerships</Link>
+          <li className={`${pathname === "/partnerships" ? "current" : ""}`}>
+            <Link href="/partnerships">Partnerships</Link>
           </li>
 
           <li className={`${pathname === "/contact-us" ? "current" : ""}`}>
