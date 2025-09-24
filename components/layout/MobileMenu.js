@@ -64,13 +64,13 @@ export default function MobileMenu() {
             <Link href="/#">Company</Link>
             <ul style={{ display: `${isAccordion == 2 ? "block" : "none"}` }}>
               <li className={`${checkCurrentMenuItem("/about-us")}`}>
-                <Link href="/about-us">About Us</Link>
+                <Link href="/about-us/#About">About Us</Link>
               </li>
               <li className={`${checkCurrentMenuItem("/why-us")}`}>
-                <Link href="/why-us">What make us different</Link>
+                <Link href="/about-us/#WhyUs">What make us different</Link>
               </li>
               <li className={`${checkCurrentMenuItem("/vision-and-mission")}`}>
-                <Link href="/vision-and-mission">Our Vision and Mission</Link>
+                <Link href="/about-us/#">Our Vision and Mission</Link>
               </li>
             </ul>
             <div class="dropdown2-btn" onClick={() => handleAccordion(2)} />

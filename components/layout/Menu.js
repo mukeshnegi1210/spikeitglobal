@@ -34,13 +34,13 @@ export default function Menu() {
           <Link href="/#">About</Link>
           <ul>
             <li className={`${checkCurrentMenuItem("/about-us")}`}>
-              <Link href="/about-us">About Us</Link>
+              <Link href="/about-us/#About">About Us</Link>
             </li>
             <li className={`${checkCurrentMenuItem("/why-us")}`}>
-              <Link href="/why-us">What make us different</Link>
+              <Link href="/about-us/#WhyUs">What make us different</Link>
             </li>
             <li className={`${checkCurrentMenuItem("/vision-and-mission")}`}>
-              <Link href="/vision-and-mission">Our Vision and Mission</Link>
+              <Link href="/about-us/#OurVision">Our Vision and Mission</Link>
             </li>
           </ul>
         </li>
