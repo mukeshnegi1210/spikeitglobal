@@ -17,9 +17,9 @@ export default function AboutCompany() {
       <Layout
         breadcrumbTitle="About Company"
         pageTitle="About Us"
-        headerStyle={2}
+        headerStyle={1}
       >
-        <section className="why-chose-us pt-122 pb-130" id="About">
+        <section className="why-chose-us pt-122 pb-130" id="About" >
           <div className="tf-container">
             <div className="row">
               <div className="col-lg-6">

@@ -99,10 +99,10 @@ export default function MobileMenu() {
                 </Link>
               </li>
               <li className={`${checkCurrentMenuItem("/cloud-services")}`}>
-                <Link href="/cloud-services">Cloud </Link>
+                <Link href="/cloud-services">Cloud Transformation </Link>
               </li>
               <li className={`${checkCurrentMenuItem("/data-ai-services")}`}>
-                <Link href="/data-ai-services">Data & AI</Link>
+                <Link href="/data-ai-services">Data & AI Services</Link>
               </li>
 
               <li
@@ -133,7 +133,7 @@ export default function MobileMenu() {
               </li>
               <li className={`${checkCurrentMenuItem("/services-management")}`}>
                 <Link href="/services-management">
-                  Service Management-ServiceNow
+             IT     Service Management-ServiceNow
                 </Link>
               </li>
             </ul>
