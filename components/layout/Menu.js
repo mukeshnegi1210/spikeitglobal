@@ -51,7 +51,7 @@ export default function Menu() {
             "/data-ai-services",
             "/cyber-security-services",
             "/project-managementservices",
-            "/services-management",
+            "/itsm-services",
           ])}`}
         >
           <Link href="/services">Services</Link>
@@ -86,8 +86,8 @@ export default function Menu() {
               <Link href="/web-development-services">Web & App Development</Link>
             </li>
           
-            <li className={`${checkCurrentMenuItem("/services-management")}`}>
-              <Link href="/services-management">IT Service Management-ServiceNow</Link>
+            <li className={`${checkCurrentMenuItem("/itsm-services")}`}>
+              <Link href="/itsm-services">IT Service Management-ServiceNow</Link>
             </li>
           </ul>
         </li>

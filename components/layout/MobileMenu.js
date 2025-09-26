@@ -84,7 +84,7 @@ export default function MobileMenu() {
               "/data-ai-services",
               "/cyber-security-services",
               "/web-development-services",
-              "/services-management",
+              "/itsm-services",
             ])}`}
           >
             <Link href="/#">Service</Link>
@@ -131,8 +131,8 @@ export default function MobileMenu() {
                   Project Management
                 </Link>
               </li>
-              <li className={`${checkCurrentMenuItem("/services-management")}`}>
-                <Link href="/services-management">
+              <li className={`${checkCurrentMenuItem("/itsm-services")}`}>
+                <Link href="/itsm-services">
              IT     Service Management-ServiceNow
                 </Link>
               </li>

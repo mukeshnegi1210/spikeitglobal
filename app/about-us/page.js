@@ -19,7 +19,7 @@ export default function AboutCompany() {
         pageTitle="About Us"
         headerStyle={1}
       >
-        <section className="why-chose-us pt-122 pb-130" id="About" >
+        <section className="why-chose-us pt-122 pb-130" id="About">
           <div className="tf-container">
             <div className="row">
               <div className="col-lg-6">
@@ -233,6 +233,26 @@ export default function AboutCompany() {
                       Guided by strong business ethics and a customer-first
                       mindset, we build win-win relationships that stand the
                       test of time.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-sm-12 col-md-6 col-lg-4 wow fadeInUpSmall"
+                data-wow-delay=".5s"
+              >
+                <div className="icon-box-8 flex">
+                  <div className="icon">
+                    <i className="icon-datas" />
+                  </div>
+                  <div className="content">
+                    <h3 className="title text-white">Innovation with Impact</h3>
+                    <p className="des">
+                      We don’t just implement technology; we create solutions
+                      that drive measurable business outcomes. By combining
+                      emerging technologies with a future-focused approach, we
+                      help clients stay ahead in a competitive digital
+                      landscape.
                     </p>
                   </div>
                 </div>
