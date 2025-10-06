@@ -41,50 +41,43 @@ export default function Footer2() {
             </div>
           </div>
           <div className="footer-main row">
-            <div className="col-md-6">
-              <div className="footer-main-newsletter">
-                <h2 className="title-new text-white mb-23">
-                  Subscribe <span className="font-italic">Newsletter</span>
-                </h2>
-                <p className="text-white mb-60">
-                  We understand that every challenge is an opportunity we are
-                  here seize
-                  <br />a team of dedicated professionals and a culture
-                </p>
-                <form
-                  action="/"
-                  className="form-footer flex mb-15"
-                  id="subscribe-form"
-                  method="post"
-                  acceptCharset="utf-8"
-                  data-mailchimp="true"
-                >
-                  <div className="input-group relative">
-                    <input
-                      type="email"
-                      placeholder="Email Address"
-                      name="email-form"
-                      id="subscribe-email"
-                    />
-                    <i className="icon-envelope4" />
-                  </div>
-                  <button
-                    className="submit-footer-form"
-                    type="submit"
-                    id="subscribe-button"
-                  >
-                    Sign Up <i className="icon-angle-right1" />
-                  </button>
-                </form>
-                <p className="accept font-man fw-400 text-white">
-                  By subscribing, you’re accept{" "}
-                  <Link href="/#" className="text-white fw-700">
-                    Privacy Policy
-                  </Link>
-                </p>
+            <div className="col-md-12 footer-main-right flex-one">
+              <div className="footer-main-service">
+                <h5 className="title-footer text-white">Quick Links</h5>
+                <ul className="menu-service">
+                  <li>
+                    <Link href="/about-us">About Us</Link>
+                  </li>
+                  <li>
+                    <Link href="/industries">Industries </Link>
+                  </li>
+                  <li>
+                    <Link href="/partnerships">Partnerships </Link>
+                  </li>
+                  <li>
+                    <Link href="/contact-us">Contact Us </Link>
+                  </li>
+                </ul>
               </div>
-            </div>
-            <div className="col-md-6 footer-main-right flex-one">
+              <div className="footer-main-service">
+                <h5 className="title-footer text-white">Industries</h5>
+                <ul className="menu-service">
+                  <li>
+                    <Link href="/strategy-consultation-services">
+                      Transportation
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/cloud-services">Healthcare </Link>
+                  </li>
+                  <li>
+                    <Link href="/cloud-services">Life Sciences & Pharma </Link>
+                  </li>
+                  <li>
+                    <Link href="/cloud-services">Banking & Financial </Link>
+                  </li>
+                </ul>
+              </div>
               <div className="footer-main-service">
                 <h5 className="title-footer text-white">Services</h5>
                 <ul className="menu-service">
@@ -106,19 +99,26 @@ export default function Footer2() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/web-development-services">Web and App Services</Link>
+                    <Link href="/web-development-services">
+                      Web and App Services
+                    </Link>
                   </li>
 
                   <li>
-                    <Link href="/services-management">Service Management - ServiceNow</Link>
+                    <Link href="/services-management">
+                      Service Management - ServiceNow
+                    </Link>
                   </li>
                 </ul>
               </div>
+
               <div className="footer-main-locations">
                 <h5 className="title-footer text-white">Locations</h5>
                 <p className="font-man text-lcation text-white mb-20">
-                  55 Main Street, 2nd block <br />
-                  Malborne, Australia
+                  SpikeIT Global Solutions, Inc <br />
+                  100 Horizon Center Blvd,
+                  <br />
+                  Hamilton, NJ 08691
                 </p>
                 <h5 className="title-footer text-white">Contact</h5>
                 <p className="font-man text-lcation ">info@spikeitglobal.com</p>
@@ -129,7 +129,7 @@ export default function Footer2() {
           <div className="row footer-bottom">
             <div className="col-lg-12">
               <p className="coppy-right center text-white">
-                © 2023 SpikeIT - IT Services. All rights reserved.
+                © 2025 SpikeIT - IT Services. All rights reserved.
               </p>
             </div>
           </div>

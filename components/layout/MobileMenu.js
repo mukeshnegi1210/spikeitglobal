@@ -119,7 +119,7 @@ export default function MobileMenu() {
                 )}`}
               >
                 <Link href="/web-development-services">
-                  Web & App Development
+                  Application & Web Development 
                 </Link>
               </li>
               <li

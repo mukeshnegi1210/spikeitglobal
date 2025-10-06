@@ -83,7 +83,7 @@ export default function Menu() {
             <li
               className={`${checkCurrentMenuItem("/web-development-services")}`}
             >
-              <Link href="/web-development-services">Web & App Development</Link>
+              <Link href="/web-development-services">Application & Web Development </Link>
             </li>
           
             <li className={`${checkCurrentMenuItem("/itsm-services")}`}>
@@ -101,22 +101,25 @@ export default function Menu() {
         >
           <Link href="/#">Industries</Link>
           <ul>
-            <li className={`${checkCurrentMenuItem("/transportation")}`}>
-              <Link href="/transportation">Transportation</Link>
+            <li className={`${checkCurrentMenuItem("/industries/#Transportation")}`}>
+              <Link href="/industries/#Transportation">Transportation</Link>
             </li>
-            <li className={`${checkCurrentMenuItem("/healthcare")}`}>
-              <Link href="/healthcare">HealthCare </Link>
+            <li className={`${checkCurrentMenuItem("/industries/#Healthcare")}`}>
+              <Link href="/industries/#Healthcare">HealthCare </Link>
             </li>
             <li
-              className={`${checkCurrentMenuItem("/life-Sciences-and-pharma")}`}
+              className={`${checkCurrentMenuItem("/industries/#LifeSciencesPharma")}`}
             >
-              <Link href="/life-Sciences-and-pharma">
+              <Link href="/industries/#LifeSciencesPharma">
                 Life Sciences & Pharma
               </Link>
             </li>
 
-            <li className={`${checkCurrentMenuItem("/banking-and-financial")}`}>
-              <Link href="/banking-and-financial">Banking & Financial</Link>
+            <li className={`${checkCurrentMenuItem("/industries/#BankingFinancialServices")}`}>
+              <Link href="/industries/#BankingFinancialServices">Banking & Financial</Link>
+            </li>
+                <li className={`${checkCurrentMenuItem("/industries/#MediaEntertainment")}`}>
+              <Link href="/industries/#MediaEntertainment">Media & Entertainment</Link>
             </li>
           </ul>
         </li>

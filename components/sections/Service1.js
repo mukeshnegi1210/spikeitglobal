@@ -206,7 +206,7 @@ export default function Service1() {
                   <span className="number mb-15">05</span>
                   <h3 className="title mb-47">
                     <Link href="/software-engineering-services">
-                      Web and App Development Services
+                      Application & Web Development  Services
                     </Link>
                   </h3>
                   <div className="icon">

@@ -1392,7 +1392,7 @@
 -------------------------------------------------------------- */
 /* About Us h1 ------- */
 .section-about-us {
-  padding-top: 130px;
+  padding-top: 250px;
   padding-bottom: 130px;
 }
 
@@ -6576,7 +6576,7 @@
 
 .icon-box:hover .mask-bg-iconbox,
 .icon-box:hover .icon,
-.icon-box:hover .title a,
+.icon-box:hover .title ,
 .icon-box:hover .des,
 .icon-box:hover .btn-icon-box {
   color: #FFFFFF;
@@ -7279,6 +7279,7 @@
 .tf-performance {
   background-color: #FFFFFF;
   padding: 35px 50px 27px 50px;
+  height: 100%;
 }
 
 .tf-performance:hover .number {

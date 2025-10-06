@@ -65,7 +65,7 @@ export default function AboutUs1() {
                                 </li>
                             </ul>
 
-                            <Link href="/about-company" className="button-src">
+                            <Link href="/cloud-services" className="button-src">
                                 Read More <i className="icon-angle-right" />
                             </Link>
                         </div>

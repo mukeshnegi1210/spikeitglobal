@@ -10,15 +10,12 @@ export default function MarqueText1() {
 						<ul className="marqee-list d-flex">
 							<li className="marquee-item">
 								<span className="text-slider">Strategy and Consultation</span><i className="icon-asterisk" />
-								<span className="text-slider">Cloud Services </span><i className="icon-asterisk" />
+								<span className="text-slider">Cloud Transformation </span><i className="icon-asterisk" />
 								<span className="text-slider">Data & AI</span><i className="icon-asterisk" />
-								<span className="text-slider">Infrastructure Services</span><i className="icon-asterisk" />
 								<span className="text-slider">Cyber Security Services</span><i className="icon-asterisk" />
-								<span className="text-slider">Software Engineering</span><i className="icon-asterisk" />
-								<span className="text-slider">Web Development</span><i className="icon-asterisk" />
-								<span className="text-slider">Project Management</span><i className="icon-asterisk" />
-								<span className="text-slider">Service Management-ServiceNow</span><i className="icon-asterisk" />
-								
+								<span className="text-slider">Web  & App Development</span><i className="icon-asterisk" />
+								<span className="text-slider">IT Services Management</span><i className="icon-asterisk" />
+							
 							</li>
 						</ul>
 					</div>

@@ -91,13 +91,16 @@ export default function ServiceDetails() {
               <div className="col-md-6  order-2 order-md-1">
                 <h2 className="mb-4">ServiceNow</h2>
                 <p>
-                  Transform the way your enterprise works with ServiceNow by
-                  automating processes, simplifying IT operations, and creating
-                  connected digital workflows. ServiceNow empowers organizations
-                  to boost productivity, lower costs, and deliver exceptional
-                  employee and customer experiences. Through our partnership,
-                  SPIKE IT designs and implements ServiceNow solutions that
-                  drive agility and long-term business value.
+                  As an official ServiceNow Partner, SpikeIT helps enterprises
+                  accelerate digital transformation by implementing ServiceNow’s
+                  powerful platforms and solutions, including IT Service
+                  Management (ITSM), IT Operations Management (ITOM), HR Service
+                  Delivery (HRSD), Governance, Risk & Compliance (GRC), and
+                  Security Operations (SecOps). By automating workflows,
+                  simplifying IT operations, and integrating processes across
+                  the enterprise, we empower organizations to boost
+                  productivity, reduce costs, strengthen compliance, and deliver
+                  seamless employee and customer experiences.
                 </p>
               </div>
               <div className="col-md-6  order-1 order-md-2 ">
