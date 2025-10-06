@@ -3949,6 +3949,7 @@
 
 .section-it-manager .it-manager-content .content-tab-service-details .icon-listing li {
   width: 50%;
+  margin-bottom: 20px !important;
 }
 
 .section-it-manager .it-manager-content .content-tab-service-details .icon-listing li:not(:last-child) {
@@ -3959,11 +3960,15 @@
   color: #D2A98E;
 }
 
+.section-it-manager .it-manager-content .content-tab-service-details .icon-listing li h6{
+  margin-bottom: 10px;
+}
+
+
 .section-it-manager .it-manager-content .content-tab-service-details .icon-listing li p {
   font-size: 16px;
-  font-weight: 600;
-  line-height: 40px;
-  color: #222222;
+  line-height: 1.2;
+
 }
 
 .section-performance {
@@ -10518,7 +10523,7 @@ label.error {
 
 .flex-three {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .flex-five {

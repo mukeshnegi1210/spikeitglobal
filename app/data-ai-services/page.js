@@ -190,7 +190,7 @@ export default function ServiceDetails() {
                 <div className="col-12 col-sm-6 col-lg-4 mb-30">
                   <div className="tf-performance">
                     <span className="number">01</span>
-                    <h4 className="title">Data Engineering & Warehousing</h4>
+                    <h4 className="title">Data Engineering & Warehousing </h4>
                     <p className="des">
                       Design and build scalable data lakes and warehouses to
                       store, organize, and manage enterprise data.
@@ -200,7 +200,9 @@ export default function ServiceDetails() {
                 <div className="col-12 col-sm-6 col-lg-4 mb-30">
                   <div className="tf-performance">
                     <span className="number">02</span>
-                    <h4 className="title">Business Intelligence & Reporting</h4>
+                    <h4 className="title">
+                      Business Intelligence & Reporting{" "}
+                    </h4>
                     <p className="des">
                       Transform raw data into actionable dashboards using tools
                       like Power BI, Tableau, and Looker.
@@ -210,30 +212,33 @@ export default function ServiceDetails() {
                 <div className="col-12 col-sm-6 col-lg-4 mb-30">
                   <div className="tf-performance">
                     <span className="number">03</span>
-                    <h4 className="title">Machine Learning & AI Solutions</h4>
+                    <h4 className="title">AI & Machine Learning Solutions</h4>
                     <p className="des">
-                      Create ML models for customer insights, fraud detection,
-                      demand forecasting, and more.
+                      Develop predictive and intelligent models that identify
+                      patterns, forecast outcomes, and enable smarter
+                      decision-making across industries
                     </p>
                   </div>
                 </div>
                 <div className="col-12 col-sm-6 col-lg-4 mb-30">
                   <div className="tf-performance">
                     <span className="number">04</span>
-                    <h4 className="title">Natural Language Processing (NLP)</h4>
+                    <h4 className="title">NLP & Conversational AI </h4>
                     <p className="des">
-                      Unlock value from text, voice, and unstructured content
-                      through sentiment analysis, chatbots, and language models.
+                      Leverage natural language processing to power chatbots,
+                      virtual assistants, and text analytics — enhancing
+                      customer engagement and operational efficiency.
                     </p>
                   </div>
                 </div>
                 <div className="col-12 col-sm-6 col-lg-4 mb-30">
                   <div className="tf-performance">
                     <span className="number">05</span>
-                    <h4 className="title">Computer Vision</h4>
+                    <h4 className="title">Computer Vision Solutions </h4>
                     <p className="des">
-                      Enable intelligent visual data processing for object
-                      detection, quality checks, and facial recognition.
+                      Use AI-powered image and video recognition to automate
+                      inspections, improve security, and enable advanced use
+                      cases such as facial recognition and object detection
                     </p>
                   </div>
                 </div>

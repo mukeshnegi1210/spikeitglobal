@@ -38,11 +38,12 @@ export default function ServiceDetails() {
                 <div className="benefit-content">
                   <div className="heading-title mb-40">
                     <span className="sub-title texts-blue font-man">
-                      Best Features Development
+                      Cloud Transformation
                     </span>
-                    <h2 className="title">Cloud Services</h2>
+                    <h2 className="title">
+                      Empower Your Business with Cloud Transformation{" "}
+                    </h2>
                     <p className="des">
-                      {" "}
                       Empower your organization with secure, scalable, and
                       cost-efficient cloud solutions tailored to meet business
                       demands — from migration to optimization.
@@ -64,8 +65,8 @@ export default function ServiceDetails() {
                       </div>
                       <p>
                         {" "}
-                        Protect data with robust cloud security, encryption, and
-                        compliance standards.
+                        Protect data with enterprise-grade cloud security,
+                        encryption, and compliance frameworks.
                       </p>
                     </li>
                     <li>
@@ -74,7 +75,6 @@ export default function ServiceDetails() {
                         <h4> Scalability & Flexibility</h4>
                       </div>
                       <p>
-                        {" "}
                         Rapidly scale resources up or down to meet changing
                         demands without disrupting operations.
                       </p>
@@ -85,8 +85,8 @@ export default function ServiceDetails() {
                         <h4>Cost Optimization</h4>
                       </div>
                       <p>
-                        Pay only for what you use and get the most out of your
-                        cloud investments.
+                        Pay only for what you use while maximizing the return on
+                        your cloud investments.
                       </p>
                     </li>
                     <li>
@@ -95,9 +95,8 @@ export default function ServiceDetails() {
                         <h4> Seamless Integration</h4>
                       </div>
                       <p>
-                        {" "}
                         Connect cloud environments with existing systems and
-                        applications for streamlined workflows.
+                        applications for smooth workflows.
                       </p>
                     </li>
                     <li>
@@ -106,9 +105,8 @@ export default function ServiceDetails() {
                         <h4> Global Accessibility</h4>
                       </div>
                       <p>
-                        {" "}
-                        Access your data and applications from anywhere, anytime
-                        — empowering a truly remote-ready organization.
+                        Access data and applications from anywhere, enabling a
+                        remote-ready workforce.
                       </p>
                     </li>
                   </ul>
@@ -129,32 +127,60 @@ export default function ServiceDetails() {
 
                   <div className="content-tab-service-details">
                     <p className="des">
-                      We provide end-to-end cloud consulting, migration, and
-                      support to ensure seamless transition and ongoing
-                      optimization. Our experts help you choose the right
-                      platform, architect secure cloud solutions, and support
-                      continuous innovation.
+                      We provide end-to-end consulting, migration, and support
+                      to ensure seamless transitions and continuous
+                      optimization.
                     </p>
                     <ul className="icon-listing">
                       <li className="flex-three">
                         <i className="icon-Check" />
-                        <p className="font-man">Assessment & Cloud Readiness</p>
+                        <div>
+                          <h6>Assessment & Cloud Readiness</h6>
+                          <p>
+                            Evaluate current infrastructure and define cloud
+                            strategy
+                          </p>
+                        </div>
+                      </li>
+
+                      <li className="flex-three">
+                        <i className="icon-Check" />
+                        <div>
+                          <h6>Architecture & Planning</h6>
+                          <p>
+                            Design secure, scalable, and high-performing cloud
+                            environments
+                          </p>
+                        </div>
                       </li>
                       <li className="flex-three">
                         <i className="icon-Check" />
-                        <p className="font-man">Architecture & Planning</p>
+                        <div>
+                          <h6>Migration & Deployment</h6>
+                          <p>
+                            Execute smooth transitions with minimal downtime
+                          </p>
+                        </div>
                       </li>
                       <li className="flex-three">
                         <i className="icon-Check" />
-                        <p className="font-man">Migration & Deployment</p>
+                        <div>
+                          <h6>Integration & Optimization</h6>
+                          <p>
+                            Connect cloud systems with business applications for
+                            efficiency
+                          </p>
+                        </div>
                       </li>
                       <li className="flex-three">
                         <i className="icon-Check" />
-                        <p className="font-man">Integration & Optimization</p>
-                      </li>
-                      <li className="flex-three">
-                        <i className="icon-Check" />
-                        <p className="font-man">Support & Maintenance</p>
+                        <div>
+                          <h6>Support & Maintenance</h6>
+                          <p>
+                            Provide 24/7 monitoring, updates, and continuous
+                            improvement
+                          </p>
+                        </div>
                       </li>
                     </ul>
                     {/* <Link href="/#" className="button-src">Learn More <i className="icon-angle-right" /></Link> */}
@@ -188,24 +214,24 @@ export default function ServiceDetails() {
               <div className="col-12 col-sm-6 col-lg-4 mb-30">
                 <div className="tf-performance">
                   <span className="number">01</span>
-                  <h4 className="title">
-                    <Link href="/#">Cloud Migration Services</Link>
-                  </h4>
+                  <h4 className="title">Cloud Strategy & Modernization</h4>
                   <p className="des">
-                    End-to-end migration from on-premises to public, private, or
-                    hybrid cloud platforms like AWS, Azure, and GCP.
+                    End-to-end consulting and cloud readiness assessments to
+                    define tailored adoption strategies. We modernize legacy
+                    systems into secure, scalable, and cost-optimized cloud
+                    environments across AWS, Azure, and Google Cloud.
                   </p>
                 </div>
               </div>
               <div className="col-12 col-sm-6 col-lg-4 mb-30">
                 <div className="tf-performance">
                   <span className="number">02</span>
-                  <h4 className="title">
-                    <Link href="/#"> Infrastructure as a Service (IaaS)</Link>
-                  </h4>
+                  <h4 className="title">Cloud Migration & Deployment</h4>
                   <p className="des">
-                    Virtualized computing resources tailored to scale — reducing
-                    hardware dependency.
+                    Seamless migration of applications, infrastructure, and data
+                    to the cloud with minimal downtime. Using proven frameworks
+                    and automation, we accelerate time-to-value while ensuring
+                    performance and business continuity.
                   </p>
                 </div>
               </div>
@@ -213,47 +239,49 @@ export default function ServiceDetails() {
                 <div className="tf-performance">
                   <span className="number">03</span>
                   <h4 className="title">
-                    <Link href="/#">Platform as a Service (PaaS)</Link>
+                    Cloud-Native Application Development & DevOps{" "}
                   </h4>
                   <p className="des">
-                    Accelerate development with managed platforms for building,
-                    testing, and deploying applications.
+                    Design and build cloud-native applications using
+                    microservices, APIs, and containerization. Our DevOps and
+                    CI/CD pipelines enable faster releases, agility, and
+                    continuous improvement for digital-first enterprises.
                   </p>
                 </div>
               </div>
               <div className="col-12 col-sm-6 col-lg-4 mb-30">
                 <div className="tf-performance">
                   <span className="number">04</span>
-                  <h4 className="title">
-                    <Link href="/#">Software as a Service (SaaS)</Link>
-                  </h4>
+                  <h4 className="title"> Data & AI on Cloud</h4>
                   <p className="des">
-                    Deliver cloud-hosted applications to users over the internet
-                    — cost-effective and always up-to-date.
+                    Unlock insights with cloud-based analytics, AI, and machine
+                    learning. From building data lakes and warehouses to
+                    predictive analytics and intelligent automation, we help
+                    organizations turn data into competitive advantage.
                   </p>
                 </div>
               </div>
               <div className="col-12 col-sm-6 col-lg-4 mb-30">
                 <div className="tf-performance">
                   <span className="number">05</span>
-                  <h4 className="title">
-                    <Link href="/#"> Hybrid & Multi-Cloud Architecture</Link>
-                  </h4>
+                  <h4 className="title">ServiceNow on Cloud</h4>
                   <p className="des">
-                    Balance workloads between cloud and on-prem with secure,
-                    flexible hybrid or multi-cloud setups.
+                    As an official ServiceNow Partner, we deliver workflow
+                    automation and service management solutions (ITSM, ITOM,
+                    HRSD, GRC, SecOps) on the cloud — streamlining operations,
+                    improving service quality, and enhancing user experiences.
                   </p>
                 </div>
               </div>
               <div className="col-12 col-sm-6 col-lg-4 mb-30">
                 <div className="tf-performance">
                   <span className="number">06</span>
-                  <h4 className="title">
-                    <Link href="/#">Cloud Security & Compliance</Link>
-                  </h4>
+                  <h4 className="title"> Cloud Security & Managed Services</h4>
                   <p className="des">
-                    Advanced protection against breaches, with adherence to
-                    GDPR, HIPAA, ISO, and other regulatory standards.
+                    Protect cloud investments with end-to-end cybersecurity,
+                    compliance frameworks, and 24/7 monitoring. Our managed
+                    services cover patching, optimization, and FinOps governance
+                    to ensure security, efficiency, and continuous improvement.
                   </p>
                 </div>
               </div>

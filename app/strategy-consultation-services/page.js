@@ -26,7 +26,7 @@ export default function ServiceDetails() {
     <>
       <Layout
         headerStyle={1}
-		footerStyle={2}
+        footerStyle={2}
         breadcrumbTitle="Strategy and Consultation"
         bgImg={"/assets/images/services/strategy-consultation-services-1.jpg"}
         pageTitle="Empower Growth with Strategic Consulting Services"
@@ -39,11 +39,12 @@ export default function ServiceDetails() {
                   <div className="benefit-content">
                     <div className="heading-title mb-40">
                       <span className="sub-title texts-blue font-man">
-                        Best Features Development
+                        Strategy & Consultation
                       </span>
-                      <h2 className="title">Strategy Consultation Services</h2>
+                      <h2 className="title">
+                        Unlock Growth with Future-Ready Business Strategies
+                      </h2>
                       <p className="des">
-                        {" "}
                         Unlock new opportunities, improve decision-making, and
                         accelerate growth with data-backed, future-ready
                         strategies tailored to your business goals.
@@ -86,9 +87,8 @@ export default function ServiceDetails() {
                           <h4> Competitive Market Analysis</h4>
                         </div>
                         <p>
-                          {" "}
-                          Understand your industry landscape and gain a
-                          strategic edge.
+                          Gain a strategic edge by understanding your industry
+                          landscape.
                         </p>
                       </li>
                       <li>
@@ -132,38 +132,47 @@ export default function ServiceDetails() {
 
                     <div className="content-tab-service-details">
                       <p className="des">
-                        We blend industry expertise, data analytics, and
-                        business insight to deliver strategies that work in the
-                        real world — not just on paper.
+                        We combine industry expertise, data analytics, and
+                        business insight to deliver strategies that create
+                        measurable impact.
                       </p>
                       <ul className="icon-listing">
                         <li className="flex-three">
                           <i className="icon-Check" />
-                          <p className="font-man">
-                            Business Assessment & SWOT Analysis
-                          </p>
+                          <div>
+                            <h6>Vision, Mission & Goal Alignment</h6>
+                            <p>
+                              {" "}
+                              Ensure organizational strategy aligns with
+                              long-term objectives
+                            </p>
+                          </div>
                         </li>
                         <li className="flex-three">
                           <i className="icon-Check" />
-                          <p className="font-man">
-                            Vision, Mission & Goal Alignment
-                          </p>
+                          <div>
+                            <h6>Data-Driven Strategy Formulation </h6>
+                            <p>Create actionable, evidence-based strategies</p>
+                          </div>
                         </li>
                         <li className="flex-three">
                           <i className="icon-Check" />
-                          <p className="font-man">
-                            Data-Driven Strategy Formulation
-                          </p>
+                          <div>
+                            <h6>Change Management Planning </h6>
+                            <p>
+                              Prepare teams and systems for successful
+                              transformation
+                            </p>
+                          </div>
                         </li>
                         <li className="flex-three">
                           <i className="icon-Check" />
-                          <p className="font-man">Change Management Planning</p>
-                        </li>
-                        <li className="flex-three">
-                          <i className="icon-Check" />
-                          <p className="font-man">
-                            Execution Roadmap & Governance
-                          </p>
+                          <div>
+                            <h6>Execution Roadmap & Governance</h6>
+                            <p>
+                              Define clear milestones, KPIs, and accountability
+                            </p>
+                          </div>
                         </li>
                       </ul>
                     </div>
@@ -200,7 +209,7 @@ export default function ServiceDetails() {
                     <span className="number">01</span>
                     <h4 className="title">Business & Corporate Strategy</h4>
                     <p className="des">
-                      Align your organization for growth, profitability, and
+                      Align your organization for profitability, growth, and
                       market leadership.
                     </p>
                   </div>
@@ -210,8 +219,7 @@ export default function ServiceDetails() {
                     <span className="number">02</span>
                     <h4 className="title">Go-to-Market (GTM) Strategy</h4>
                     <p className="des">
-                      Launch products and services with maximum impact through
-                      well-planned GTM blueprints.
+                      Launch products/services with maximum impact and adoption.
                     </p>
                   </div>
                 </div>
@@ -220,8 +228,8 @@ export default function ServiceDetails() {
                     <span className="number">03</span>
                     <h4 className="title">Digital Strategy</h4>
                     <p className="des">
-                      Craft transformation plans to adopt new tech, tools, and
-                      digital workflows.
+                      Plan digital transformation with scalable tools,
+                      processes, and technologies.
                     </p>
                   </div>
                 </div>
@@ -230,8 +238,8 @@ export default function ServiceDetails() {
                     <span className="number">04</span>
                     <h4 className="title">Brand & Positioning Strategy</h4>
                     <p className="des">
-                      Define or refine your brand identity, voice, and value
-                      proposition for a competitive edge.
+                      Refine your identity, messaging, and market position for a
+                      competitive advantage.
                     </p>
                   </div>
                 </div>
@@ -240,8 +248,8 @@ export default function ServiceDetails() {
                     <span className="number">05</span>
                     <h4 className="title">M&A & Expansion Strategy</h4>
                     <p className="des">
-                      Make confident decisions around mergers, partnerships, or
-                      entering new markets.
+                      Support growth through mergers, acquisitions,
+                      partnerships, or entering new markets
                     </p>
                   </div>
                 </div>
@@ -250,8 +258,8 @@ export default function ServiceDetails() {
                     <span className="number">06</span>
                     <h4 className="title">Innovation & Product Strategy</h4>
                     <p className="des">
-                      Design the future of your products using innovation
-                      frameworks and customer feedback loops.
+                      Design forward-looking products and services through
+                      innovation frameworks and customer insights.
                     </p>
                   </div>
                 </div>
