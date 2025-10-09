@@ -82,7 +82,7 @@ export default function Service1() {
                   </div>
                 </div>
                 <div className="button-icon-box">
-                  <Link href="/" className="service-link">
+                  <Link href="/cloud-services" className="service-link">
                     <i className="icon-angle-downs" />
                   </Link>
                 </div>
@@ -95,7 +95,7 @@ export default function Service1() {
                   <span className="number">02</span>
                 </div>
                 <h3 className="title">
-                  <Link href="/cloud-services">Cloud Services</Link>
+                  <Link href="/cloud-services">Cloud Transformation</Link>
                 </h3>
                 <p className="des">
                   {" "}
@@ -115,7 +115,7 @@ export default function Service1() {
                 <div className="content">
                   <span className="number mb-15">03</span>
                   <h3 className="title mb-47">
-                    <Link href="/data-ai-services">Data & AI Services</Link>
+                    <Link href="/data-ai-services">Data & AI </Link>
                   </h3>
                   <div className="icon">
                     <i className="icon-data-management-1" />
@@ -135,7 +135,7 @@ export default function Service1() {
                   <span className="number">03</span>
                 </div>
                 <h3 className="title">
-                  <Link href="/">Data & AI Services</Link>
+                  <Link href="/data-ai-services">Data & AI </Link>
                 </h3>
                 <p className="des">
                   {" "}
@@ -156,9 +156,7 @@ export default function Service1() {
                 <div className="content">
                   <span className="number mb-15">04</span>
                   <h3 className="title mb-47">
-                    <Link href="/cyber-security-services">
-                      Cyber Security Services{" "}
-                    </Link>
+                    <Link href="/cyber-security-services">Cyber Security</Link>
                   </h3>
                   <div className="icon">
                     <i className="icon-start-up" />
@@ -181,9 +179,7 @@ export default function Service1() {
                   <span className="number">04</span>
                 </div>
                 <h3 className="title">
-                  <Link href="/cyber-security-services">
-                    Cyber Security Services
-                  </Link>
+                  <Link href="/cyber-security-services">Cyber Security</Link>
                 </h3>
                 <p className="des">
                   Protecting your digital assets with end-to-end security
@@ -206,7 +202,7 @@ export default function Service1() {
                   <span className="number mb-15">05</span>
                   <h3 className="title mb-47">
                     <Link href="/software-engineering-services">
-                      Application & Web Development  Services
+                      Application & Web Development
                     </Link>
                   </h3>
                   <div className="icon">
@@ -231,13 +227,11 @@ export default function Service1() {
                 </div>
                 <h3 className="title">
                   <Link href="/software-engineering-services">
-                    Software Engineering Services
+                    Application & Web Development
                   </Link>
                 </h3>
                 <p className="des">
-                  {" "}
-                  Building custom software that’s scalable, agile, and
-                  business-ready.
+                  Build Modern, Scalable, and Engaging Applications
                 </p>
                 <div className="button-icon-box">
                   <Link
@@ -294,17 +288,6 @@ export default function Service1() {
                   </Link>
                 </div>
               </div>
-            </div>
-          </div>
-          <div className="center wow fadeInUpSmall" data-wow-delay=".3s">
-            <div className="service-cta">
-              <img src="/assets/images/page/chat1.png" alt="image" />
-              <p className="font-man">
-                Get Free Consultations For Tech Solutions
-              </p>
-              <Link href="/#">
-                Get A Quote <i className="icon-right-icon" />
-              </Link>
             </div>
           </div>
         </div>

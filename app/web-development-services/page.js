@@ -63,7 +63,7 @@ export default function ServiceDetails() {
                       <li>
                         <div className="flex-three">
                           <i className="icon-Check" />
-                          <h4>m Application Development </h4>
+                          <h4>Application Development </h4>
                         </div>
                         <p>
                           Tailored apps that address your unique workflows and

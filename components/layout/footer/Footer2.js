@@ -14,29 +14,24 @@ export default function Footer2() {
             <div className="col-md-9">
               <ul className="social-footer flex-six">
                 <li>
-                  <Link href="/#" className="font-man">
+                  <Link  target="_blank" href="https://www.facebook.com/SpikeITGlobalSolutions" className="font-man">
                     <i className="icon-facebook" />
                     Facebook
                   </Link>
                 </li>
                 <li>
-                  <Link href="/#" className="font-man">
+                  <Link  target="_blank" href="https://x.com/SpikeIT_Global" className="font-man">
                     <i className="icon-tw" />
                     Twitter
                   </Link>
                 </li>
                 <li>
-                  <Link href="/#" className="font-man">
+                  <Link target="_blank" href="https://www.linkedin.com/company/spikeit-global-solutions-inc" className="font-man">
                     <i className="icon-in" />
                     LinkedIn
                   </Link>
                 </li>
-                <li>
-                  <Link href="/#" className="font-man">
-                    <i className="icon-instagram" />
-                    Instagram
-                  </Link>
-                </li>
+              
               </ul>
             </div>
           </div>

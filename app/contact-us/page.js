@@ -6,7 +6,7 @@ export default function ContactUs() {
 	return (
 		<>
 
-			<Layout breadcrumbTitle="Contact">
+			<Layout breadcrumbTitle="Contact Us">
 				<div>
 					<section className="contact-us-page pt-130 pb-130">
 						<div className="tf-container">

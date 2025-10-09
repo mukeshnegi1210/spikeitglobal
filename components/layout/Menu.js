@@ -20,9 +20,9 @@ export default function Menu() {
   return (
     <>
       <ul className="navigation clearfix">
-        <li className={`${pathname === "/" ? "current" : ""}`}>
+        {/* <li className={`${pathname === "/" ? "current" : ""}`}>
           <Link href="/">Home</Link>
-        </li>
+        </li> */}
 
         <li
           className={`dropdown2 ${checkParentActive([
@@ -31,15 +31,15 @@ export default function Menu() {
             "/vision-and-mission",
           ])}`}
         >
-          <Link href="/#">About</Link>
+          <Link href="/about-us">About</Link>
           <ul>
             <li className={`${checkCurrentMenuItem("/about-us")}`}>
               <Link href="/about-us/#About">About Us</Link>
             </li>
-            <li className={`${checkCurrentMenuItem("/why-us")}`}>
+            <li className={`${checkCurrentMenuItem("/about-us")}`}>
               <Link href="/about-us/#WhyUs">What make us different</Link>
             </li>
-            <li className={`${checkCurrentMenuItem("/vision-and-mission")}`}>
+            <li className={`${checkCurrentMenuItem("/about-us")}`}>
               <Link href="/about-us/#OurVision">Our Vision and Mission</Link>
             </li>
           </ul>
@@ -62,21 +62,21 @@ export default function Menu() {
               )}`}
             >
               <Link href="/strategy-consultation-services">
-                Strategy and Consultation
+                Strategy & Consultation
               </Link>
             </li>
             <li className={`${checkCurrentMenuItem("/cloud-services")}`}>
               <Link href="/cloud-services">Cloud Transformation </Link>
             </li>
             <li className={`${checkCurrentMenuItem("/data-ai-services")}`}>
-              <Link href="/data-ai-services">Data & AI Services</Link>
+              <Link href="/data-ai-services">Data & AI </Link>
             </li>
            
             <li
               className={`${checkCurrentMenuItem("/cyber-security-services")}`}
             >
               <Link href="/cyber-security-services">
-                Cyber Security Services
+                Cyber Security 
               </Link>
             </li>
          
@@ -93,10 +93,10 @@ export default function Menu() {
         </li>
         <li
           className={`dropdown2 ${checkParentActive([
-            "/transportation",
-            "/healthcare",
-            "/life-Sciences-and-pharma",
-            "/banking-and-financial",
+            "/industries",
+            "/industries",
+            "/industries",
+            "/industries",
           ])}`}
         >
           <Link href="/#">Industries</Link>
@@ -129,7 +129,7 @@ export default function Menu() {
         </li>
 
         <li className={`${pathname === "/contact-us" ? "current" : ""}`}>
-          <Link href="/contact-us">Contact</Link>
+          <Link href="/contact-us">Contact Us</Link>
         </li>
       </ul>
     </>

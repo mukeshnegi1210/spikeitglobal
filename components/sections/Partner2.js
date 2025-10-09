@@ -12,7 +12,7 @@ export default function Partner2() {
 						<div className="col-lg-12">
 							<div className="heading-title mb-60 center">
 								<span className="sub-title texts-blue font-man">Global Partners</span>
-								<h2 className="title">We’ve 1250+ Global partners</h2>
+								<h2 className="title">Trusted by leading global brands</h2>
 							</div>
 						</div>
 					</div>
