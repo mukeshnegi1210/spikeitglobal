@@ -138,19 +138,13 @@ export default function ServiceDetails() {
                         <li className="flex-three">
                           <i className="icon-Check" />
                           <p className="font-man">
-                            Security Audit & Gap Analysis
+                            Security Audit & Risk Analysis
                           </p>
                         </li>
                         <li className="flex-three">
                           <i className="icon-Check" />
                           <p className="font-man">
-                            Architecture Design & Policy Setup
-                          </p>
-                        </li>
-                        <li className="flex-three">
-                          <i className="icon-Check" />
-                          <p className="font-man">
-                            Tools Deployment (EDR, SIEM, MFA)
+                            implementation & Tools Integration
                           </p>
                         </li>
                         <li className="flex-three">
@@ -198,10 +192,14 @@ export default function ServiceDetails() {
                 <div className="col-12 col-sm-6 col-lg-4 mb-30">
                   <div className="tf-performance">
                     <span className="number">01</span>
-                    <h4 className="title">Security Operations Center (SOC)</h4>
+                    <h4 className="title">
+                      Vulnerability Assessments & Penetration Testing{" "}
+                    </h4>
                     <p className="des">
-                      24/7 threat monitoring, log analysis, and rapid incident
-                      response through centralized security operations.
+                      Identify, test, and remediate weaknesses across
+                      applications, networks, and infrastructure with systematic
+                      vulnerability scanning and real-world simulated attack
+                      scenarios.
                     </p>
                   </div>
                 </div>
@@ -209,54 +207,65 @@ export default function ServiceDetails() {
                   <div className="tf-performance">
                     <span className="number">02</span>
                     <h4 className="title">
-                      Identity & Access Management (IAM)
+                      Endpoint Security & Mobile Device Protection{" "}
                     </h4>
                     <p className="des">
-                      Secure access with single sign-on, multi-factor
-                      authentication, and least-privilege access controls.
+                      Secure every device, from laptops to mobile phones, with
+                      next-gen antivirus, endpoint detection & response (EDR),
+                      and mobile device management solutions that stop threats
+                      at the source.
                     </p>
                   </div>
                 </div>
                 <div className="col-12 col-sm-6 col-lg-4 mb-30">
                   <div className="tf-performance">
                     <span className="number">03</span>
-                    <h4 className="title">Network & Endpoint Security</h4>
+                    <h4 className="title">
+                      Application, Infrastructure & Data Security{" "}
+                    </h4>
                     <p className="des">
-                      Protect users and devices with firewalls, antivirus,
-                      intrusion prevention, and endpoint detection and response
-                      (EDR).
+                      Protect critical business networks from external and
+                      internal threats with advanced firewalls, intrusion
+                      detection, and prevention systems that ensure continuous
+                      availability and secure connectivity.{" "}
                     </p>
                   </div>
                 </div>
                 <div className="col-12 col-sm-6 col-lg-4 mb-30">
                   <div className="tf-performance">
                     <span className="number">04</span>
-                    <h4 className="title">Cloud Security Services</h4>
+                    <h4 className="title">Identity & Access Management</h4>
                     <p className="des">
-                      Safeguard cloud environments (AWS, Azure, GCP) with
-                      visibility, compliance, and access controls.
+                      Enable the right access for the right users with
+                      zero-trust frameworks, multi-factor authentication (MFA),
+                      and role-based access controls, minimizing insider threats
+                      and unauthorized entry.
                     </p>
                   </div>
                 </div>
                 <div className="col-12 col-sm-6 col-lg-4 mb-30">
                   <div className="tf-performance">
                     <span className="number">05</span>
-                    <h4 className="title">
-                      Penetration Testing & Vulnerability Scanning
-                    </h4>
+                    <h4 className="title">Cloud Security Solutions </h4>
                     <p className="des">
-                      Simulate attacks to uncover weaknesses and ensure systems
-                      are resilient against real threats.
+                      Safeguard cloud environments with encryption, identity
+                      controls, and compliance-ready architectures — ensuring
+                      secure operations across AWS, Azure, GCP, and hybrid
+                      platforms.
                     </p>
                   </div>
                 </div>
                 <div className="col-12 col-sm-6 col-lg-4 mb-30">
                   <div className="tf-performance">
                     <span className="number">06</span>
-                    <h4 className="title">Compliance & Data Privacy</h4>
+                    <h4 className="title">
+                      Security Operations Center (SOC) & SIEM Solutions{" "}
+                    </h4>
                     <p className="des">
-                      Implement frameworks that meet regulatory requirements —
-                      PCI DSS, HIPAA, SOC 2, etc.
+                      Get 24/7 visibility into your IT environment with
+                      centralized monitoring, threat intelligence, and automated
+                      incident response powered by SOC teams and advanced SIEM
+                      platforms.
                     </p>
                   </div>
                 </div>

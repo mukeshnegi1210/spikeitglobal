@@ -76,9 +76,8 @@ export default function ServiceDetails() {
                           <h4> Digital Transformation Strategy</h4>
                         </div>
                         <p>
-                          {" "}
-                          Leverage emerging technologies to innovate and
-                          future-proof your operations.
+                        Leverage emerging technologies to innovate and future-proof operations. 
+ 
                         </p>
                       </li>
                       <li>
@@ -87,8 +86,8 @@ export default function ServiceDetails() {
                           <h4> Competitive Market Analysis</h4>
                         </div>
                         <p>
-                          Gain a strategic edge by understanding your industry
-                          landscape.
+                       Gain a strategic edge by understanding your industry landscape. 
+
                         </p>
                       </li>
                       <li>
@@ -97,9 +96,8 @@ export default function ServiceDetails() {
                           <h4> Operational Efficiency Optimization</h4>
                         </div>
                         <p>
-                          {" "}
-                          Streamline processes and cut waste to improve margins
-                          and performance.
+                          Streamline processes and reduce waste to maximize performance. 
+
                         </p>
                       </li>
                       <li>
@@ -108,9 +106,7 @@ export default function ServiceDetails() {
                           <h4> Customer-Centric Innovation</h4>
                         </div>
                         <p>
-                          {" "}
-                          Align offerings with real customer needs through
-                          market research and design thinking.
+                         Align offerings with real customer needs through research and design thinking.
                         </p>
                       </li>
                     </ul>

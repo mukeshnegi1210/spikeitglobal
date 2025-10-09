@@ -27,7 +27,7 @@ export default function ServiceDetails() {
       <Layout
         src="/assets/images/services/webdevelopment-1.jpg"
         breadcrumbTitle="Web Development Services"
-        pageTitle="Craft Powerful Web Experiences with Web Development Services"
+        pageTitle="Design. Develop. Deliver — Modern Applications & Web Experiences."
         headerStyle={1}
         footerStyle={2}
       >
@@ -39,13 +39,16 @@ export default function ServiceDetails() {
                   <div className="benefit-content">
                     <div className="heading-title mb-40">
                       <span className="sub-title texts-blue font-man">
-                        Best Features Development
+                        Application & Web Development
                       </span>
-                      <h2 className="title">Web Development Services</h2>
+                      <h2 className="title">
+                        Build Modern, Scalable, and Engaging Applications{" "}
+                      </h2>
                       <p className="des">
-                        From sleek landing pages to complex web portals — we
-                        build high-performance, secure, and scalable websites
-                        that help you convert, engage, and grow.{" "}
+                        From enterprise-grade applications to responsive
+                        websites, we design and develop solutions that align
+                        with your business goals while ensuring scalability and
+                        performance.
                       </p>
                     </div>
                     <img
@@ -60,44 +63,40 @@ export default function ServiceDetails() {
                       <li>
                         <div className="flex-three">
                           <i className="icon-Check" />
-                          <h4>Responsive Design</h4>
+                          <h4>m Application Development </h4>
                         </div>
                         <p>
-                          {" "}
-                          Your website will look stunning and work seamlessly
-                          across all devices.
+                          Tailored apps that address your unique workflows and
+                          challenges.
                         </p>
                       </li>
                       <li>
                         <div className="flex-three">
                           <i className="icon-Check" />
-                          <h4> SEO-Friendly Structure</h4>
+                          <h4> Web Development</h4>
                         </div>
                         <p>
-                          {" "}
-                          Built with best practices to ensure visibility, speed,
-                          and higher search rankings.
+                          Responsive, SEO-friendly, and user-centric websites.
                         </p>
                       </li>
                       <li>
                         <div className="flex-three">
                           <i className="icon-Check" />
-                          <h4> Custom Development</h4>
+                          <h4> Agile & Scalable Solutions </h4>
                         </div>
                         <p>
-                          Tailored websites with pixel-perfect UI, custom
-                          workflows, and clean backend logic.
+                          Iterative development cycles to deliver fast and adapt
+                          to change.
                         </p>
                       </li>
                       <li>
                         <div className="flex-three">
                           <i className="icon-Check" />
-                          <h4> Performance Optimized</h4>
+                          <h4> Integration Services</h4>
                         </div>
                         <p>
-                          {" "}
-                          Fast-loading pages, lightweight assets, and caching
-                          ensure great user experience.
+                          Seamlessly connects applications with third-party
+                          systems and APIs.
                         </p>
                       </li>
                       <li>
@@ -137,30 +136,29 @@ export default function ServiceDetails() {
                         <li className="flex-three">
                           <i className="icon-Check" />
                           <p className="font-man">
-                            Requirement Discovery & Goal Mapping
+                            Discovery & Requirements Gathering
                           </p>
                         </li>
                         <li className="flex-three">
                           <i className="icon-Check" />
-                          <p className="font-man">UI/UX Wireframing & Design</p>
-                        </li>
-                        <li className="flex-three">
-                          <i className="icon-Check" />
+
                           <p className="font-man">
-                            Frontend & Backend Development
+                            UI/UX Design & Prototyping{" "}
                           </p>
                         </li>
                         <li className="flex-three">
                           <i className="icon-Check" />
                           <p className="font-man">
-                            SEO Optimization & QA Testing
+                            Agile Development & Testing
                           </p>
                         </li>
                         <li className="flex-three">
                           <i className="icon-Check" />
-                          <p className="font-man">
-                            Deployment, Hosting & Support
-                          </p>
+                          <p className="font-man">Deployment & Go-Live</p>
+                        </li>
+                        <li className="flex-three">
+                          <i className="icon-Check" />
+                          <p className="font-man">Support & Maintenance</p>
                         </li>
                       </ul>
                     </div>
@@ -187,7 +185,7 @@ export default function ServiceDetails() {
                       Drive Digital Presence
                     </span>
                     <h2 className="title">
-                      Our Capabilities in Web Development
+                      Our Capabilities in App & Web Development
                     </h2>
                   </div>
                 </div>
@@ -196,30 +194,35 @@ export default function ServiceDetails() {
                 <div className="col-12 col-sm-6 col-lg-4 mb-30">
                   <div className="tf-performance">
                     <span className="number">01</span>
-                    <h4 className="title">Business & Corporate Websites</h4>
+                    <h4 className="title">
+                      Enterprise Applications (ERP, CRM, Custom Business Tools){" "}
+                    </h4>
                     <p className="des">
-                      Professional websites that reflect your brand and engage
-                      visitors effectively.
+                      Design and develop enterprise-grade solutions that
+                      streamline operations, improve productivity, and provide
+                      real-time visibility across your organization.
                     </p>
                   </div>
                 </div>
                 <div className="col-12 col-sm-6 col-lg-4 mb-30">
                   <div className="tf-performance">
                     <span className="number">02</span>
-                    <h4 className="title">E-Commerce Development</h4>
+                    <h4 className="title">E-commerce Platforms </h4>
                     <p className="des">
-                      Build secure, scalable online stores using Shopify,
-                      WooCommerce, Magento, or custom stacks.
+                      Build secure, scalable, and user-friendly e-commerce
+                      solutions with seamless payment integration, personalized
+                      shopping experiences, and powerful backend management.
                     </p>
                   </div>
                 </div>
                 <div className="col-12 col-sm-6 col-lg-4 mb-30">
                   <div className="tf-performance">
                     <span className="number">03</span>
-                    <h4 className="title">Custom Web Portals & Dashboards</h4>
+                    <h4 className="title">Progressive Web Apps (PWAs) </h4>
                     <p className="des">
-                      Interactive dashboards, client portals, and internal
-                      systems for real-time visibility and control.
+                      Deliver fast, reliable, and engaging web applications with
+                      offline functionality and app-like experiences that boost
+                      customer engagement.
                     </p>
                   </div>
                 </div>
@@ -227,31 +230,34 @@ export default function ServiceDetails() {
                   <div className="tf-performance">
                     <span className="number">04</span>
                     <h4 className="title">
-                      CMS Development (WordPress, Webflow, etc.)
+                      Cross-platform Mobile Development (React Native, Flutter)
                     </h4>
                     <p className="des">
-                      Manage content effortlessly with customized CMS solutions
-                      tailored to your team’s workflow.
+                      Develop high-performance mobile apps for iOS and Android
+                      using modern frameworks, ensuring faster time-to-market
+                      with a single codebase.
                     </p>
                   </div>
                 </div>
                 <div className="col-12 col-sm-6 col-lg-4 mb-30">
                   <div className="tf-performance">
                     <span className="number">05</span>
-                    <h4 className="title">Progressive Web Apps (PWAs)</h4>
+                    <h4 className="title">API Development & Integration </h4>
                     <p className="des">
-                      Deliver mobile-app-like performance and offline access
-                      directly from browsers.
+                      Enable smooth connectivity between systems and third-party
+                      services with robust, scalable, and secure API development
+                      and integration.
                     </p>
                   </div>
                 </div>
                 <div className="col-12 col-sm-6 col-lg-4 mb-30">
                   <div className="tf-performance">
                     <span className="number">06</span>
-                    <h4 className="title">Maintenance & Optimization</h4>
+                    <h4 className="title">Cloud-Native App Development </h4>
                     <p className="des">
-                      Regular backups, performance checks, bug fixes, and
-                      enhancements to keep your site in top shape.
+                      Leverage microservices and containerized environments to
+                      build scalable, resilient, and future-ready applications
+                      designed for the cloud.
                     </p>
                   </div>
                 </div>

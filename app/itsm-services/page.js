@@ -27,7 +27,7 @@ export default function ServiceDetails() {
       <Layout
         src="/assets/images/services/itsm-1.jpg"
         breadcrumbTitle="IT Management Services"
-        pageTitle="Redefine Service Management with ServiceNow"
+        pageTitle="Next-Level Service Management. Powered by ServiceNow"
         headerStyle={1}
         footerStyle={2}
       >

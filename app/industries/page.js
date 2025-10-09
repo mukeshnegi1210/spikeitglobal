@@ -118,7 +118,7 @@ export default function ServiceDetails() {
                     AI and machine learning solutions
                   </strong>{" "}
                   enhance clinical trial monitoring and drug efficacy analysis,
-                  while
+                  while{" "}
                   <strong className="fw-700">
                     cybersecurity services
                   </strong>{" "}
