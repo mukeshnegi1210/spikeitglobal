@@ -16,9 +16,8 @@ export default function Error() {
 										<img src="/assets/images/page/404.png" alt="image" />
 									</div>
 									<div className="erro-content center m0-auto">
-										<h2 className="title mb-30">Oops! Nothing Was Found</h2>
-										<p className="des mb-30">Sed ut perspiciatis unde omnis iste natus voluptatem accusantium doloremque
-											laudantium totam aperiame eaque abillo inventore veritatis</p>
+										<h2 className="title mb-30">Oops! Page Not Found</h2>
+										<p className="des mb-30">It looks like the page you’re searching for doesn’t exist or may have been moved. Don’t worry — we’re here to help you get back on track.</p>
 										<Link href="/" className="button-src">Back To Home <i className="icon-angle-right" /></Link>
 									</div>
 								</div>

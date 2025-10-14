@@ -2,18 +2,11 @@
 import { useEffect, useState } from "react";
 import BackToTop from "../elements/BackToTop";
 import Breadcrumb from "./Breadcrumb";
-import Offcanvas from "./Offcanvas";
+
 import Search from "./Search";
-import Footer1 from "./footer/Footer1";
 import Footer2 from "./footer/Footer2";
-import Footer3 from "./footer/Footer3";
-import Footer4 from "./footer/Footer4";
-import Footer5 from "./footer/Footer5";
+
 import Header1 from "./header/Header1";
-import Header2 from "./header/Header2";
-import Header3 from "./header/Header3";
-import Header4 from "./header/Header4";
-import Header5 from "./header/Header5";
 
 export default function Layout({
   headerStyle,
@@ -40,11 +33,7 @@ export default function Layout({
     setSearch(!isSearch);
   };
 
-  // Offcanvas
-  const [isOffcanvas, setOffcanvas] = useState(false);
-  const handleOffcanvas = () => {
-    setOffcanvas(!isOffcanvas);
-  };
+
 
   useEffect(() => {
     const WOW = require("wowjs");
@@ -72,7 +61,6 @@ export default function Layout({
             isMobileMenu={isMobileMenu}
             handleMobileMenu={handleMobileMenu}
             handleSearch={handleSearch}
-            handleOffcanvas={handleOffcanvas}
           />
           <main className="main">
             {breadcrumbTitle && (
@@ -92,7 +80,7 @@ export default function Layout({
         </div>
       </div>
       <Search isSearch={isSearch} handleSearch={handleSearch} />
-      <Offcanvas isOffcanvas={isOffcanvas} handleOffcanvas={handleOffcanvas} />
+      
     </>
   );
 }

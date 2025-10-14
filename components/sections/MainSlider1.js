@@ -56,7 +56,7 @@ export default function MainSlider1() {
                     className="title-slider text-white wow fadeInUpSmall"
                     data-wow-delay=".2s"
                   >
-                    Empowering Businesses Through Digital Transformation
+                    Empowering Businesses Through <br /> Digital Transformation
                   </h1>
 
                   <div

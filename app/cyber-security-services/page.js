@@ -1,27 +1,8 @@
 "use client";
 import Layout from "@/components/layout/Layout";
-import Link from "next/link";
-import { useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { myPortfolio } from "@/utils/swiperOptions";
 import Contact1 from "@/components/sections/Contact1";
 export default function ServiceDetails() {
-  const [isTab, setIsTab] = useState(1);
-  const [isVisible, setIsVisible] = useState(true);
-
-  const [isAccordion, setIsAccordion] = useState(1);
-
-  const handleAccordion = (key) => {
-    setIsAccordion((prevState) => (prevState === key ? null : key));
-  };
-
-  const handleTab = (i) => {
-    setIsTab(i);
-    setIsVisible(false);
-    setTimeout(() => {
-      setIsVisible(true);
-    }, 200);
-  };
+  
   return (
     <>
       <Layout

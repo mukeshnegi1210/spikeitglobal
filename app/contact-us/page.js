@@ -15,13 +15,11 @@ export default function ContactUs() {
                         Get In Touch
                       </span>
                       <h2 className="title">
-                        Don’t Hesitate To <br />
-                        Contact Us
+                        Let’s Build Something <br /> Great Together <br />
+                        
                       </h2>
                       <p className="des">
-                        Sed ut perspiciatis unde omnis iste natus error sit
-                        voluptatem accusantium doloremque laudantium, totam rem
-                        aperiam, eaque inventore
+                       Have a question or a project in mind? Our team is ready to assist you with reliable and customized IT solutions.
                       </p>
                     </div>
                     <div className="contact-item-wrap">

@@ -28,7 +28,7 @@ export default function Contact1({ hasYellowBg }) {
                     data-wow-delay=".4s"
                   >
                     Let’s collaborate on your next project and unlock the power
-                    of digital innovation together.
+                    of digital tranformation together.
                   </p>
                 </div>
                 <div

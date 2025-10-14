@@ -1,22 +1,11 @@
 "use client";
-import CounterNumber from "@/components/elements/CounterNumber";
-import VideoPopup from "@/components/elements/VideoPopup";
 import Layout from "@/components/layout/Layout";
-import {
-  collection1,
-  collection2,
-  myTeamMember,
-  myTesHome5,
-} from "@/utils/swiperOptions";
-import Link from "next/link";
-import { Swiper, SwiperSlide } from "swiper/react";
-import CircleProgress from "@/components/elements/CircleProgress";
 export default function AboutCompany() {
   return (
     <>
       <Layout
-        breadcrumbTitle="About Company"
-        pageTitle="About Us"
+        breadcrumbTitle="About Us"
+        pageTitle="About SpikeIT"
         headerStyle={1}
       >
         <section className="why-chose-us pt-122 pb-130" id="About">
@@ -24,13 +13,11 @@ export default function AboutCompany() {
             <div className="row">
               <div className="col-lg-6">
                 <div className="about-us-img relative">
-                 
                   <img
                     src="/assets/images/page/about.jpg"
-                    alt="image"
+                    alt="about us"
                     className="wcus-5"
                   />
-                 
                 </div>
               </div>
               <div className="col-lg-6">

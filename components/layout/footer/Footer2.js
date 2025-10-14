@@ -58,18 +58,21 @@ export default function Footer2() {
                 <h5 className="title-footer text-white">Industries</h5>
                 <ul className="menu-service">
                   <li>
-                    <Link href="/strategy-consultation-services">
+                    <Link href="/industries#Transportation">
                       Transportation
                     </Link>
                   </li>
                   <li>
-                    <Link href="/cloud-services">Healthcare </Link>
+                    <Link href="/industries#Healthcare">Healthcare </Link>
                   </li>
                   <li>
-                    <Link href="/cloud-services">Life Sciences & Pharma </Link>
+                    <Link href="/industries#LifeSciencesPharma">Life Sciences & Pharma </Link>
                   </li>
                   <li>
-                    <Link href="/cloud-services">Banking & Financial </Link>
+                    <Link href="/industries#BankingFinancialServices">Banking & Financial </Link>
+                  </li>
+                   <li>
+                    <Link href="/industries#MediaEntertainment">Media & Entertainment </Link>
                   </li>
                 </ul>
               </div>
@@ -90,12 +93,12 @@ export default function Footer2() {
 
                   <li>
                     <Link href="/infrastructure-services">
-                      Cyber Security Services
+                      Cyber Security 
                     </Link>
                   </li>
                   <li>
                     <Link href="/web-development-services">
-                      Web and App Services
+                      Application & Web development
                     </Link>
                   </li>
 
@@ -115,7 +118,7 @@ export default function Footer2() {
                   <br />
                   Hamilton, NJ 08691
                 </p>
-                <h5 className="title-footer text-white">Contact</h5>
+                <h5 className="title-footer text-white">Contact Us</h5>
                 <p className="font-man text-lcation ">info@spikeitglobal.com</p>
                 <p className="phone text-white">+1 732-820-0276</p>
               </div>
@@ -124,7 +127,7 @@ export default function Footer2() {
           <div className="row footer-bottom">
             <div className="col-lg-12">
               <p className="coppy-right center text-white">
-                © 2025 SpikeIT - IT Services. All rights reserved.
+                © 2025 SpikeIT - All rights reserved.
               </p>
             </div>
           </div>

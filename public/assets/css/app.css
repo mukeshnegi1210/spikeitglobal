@@ -1728,7 +1728,8 @@
 .collection-1 .image-partner-logo img,
 .collection-2 .image-partner-logo img {
   width: auto;
-  height: 25px;
+  max-height: 55px;
+  max-width: 100%;
 }
 
 .service-wrap-h3 .service-h3-left {

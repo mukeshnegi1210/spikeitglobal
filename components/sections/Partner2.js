@@ -22,29 +22,30 @@ export default function Partner2() {
 								<div className="swiper-wrapper">
 									<SwiperSlide>
 										<div className="image-partner-logo">
-											<img src="/assets/images/brand/br1.png" alt="image" />
+											<img src="/assets/images/brand/Amazon_Web_Services-dark.png" alt="image" />
 										</div>
 									</SwiperSlide>
 									<SwiperSlide>
 										<div className="image-partner-logo">
-											<img src="/assets/images/brand/br2.png" alt="image" />
+											<img src="/assets/images/brand/google.png" alt="image" />
 										</div>
 									</SwiperSlide>
 									<SwiperSlide>
 										<div className="image-partner-logo">
-											<img src="/assets/images/brand/br3.png" alt="image" />
+											<img src="/assets/images/brand/Microsoft_Azure-Logo.wine.png" alt="image" />
 										</div>
 									</SwiperSlide>
 									<SwiperSlide>
 										<div className="image-partner-logo">
-											<img src="/assets/images/brand/br4.png" alt="image" />
+											<img src="/assets/images/brand/servicenow.png" alt="image" />
 										</div>
 									</SwiperSlide>
-									<SwiperSlide>
+										<SwiperSlide>
 										<div className="image-partner-logo">
-											<img src="/assets/images/brand/br5.png" alt="image" />
+											<img src="/assets/images/brand/New_Jersey_Transit.png" alt="image" />
 										</div>
 									</SwiperSlide>
+									
 								</div>
 							</Swiper>
 						</div>
@@ -53,27 +54,27 @@ export default function Partner2() {
 								<div className="swiper-wrapper">
 									<SwiperSlide>
 										<div className="image-partner-logo">
-											<img src="/assets/images/brand/br6.png" alt="image" />
+											<img src="/assets/images/brand/CAgov-logo.png" alt="image" />
 										</div>
 									</SwiperSlide>
 									<SwiperSlide>
 										<div className="image-partner-logo">
-											<img src="/assets/images/brand/br7.png" alt="image" />
+											<img src="/assets/images/brand/INDIANAWITHSTATE.png" alt="image" />
 										</div>
 									</SwiperSlide>
 									<SwiperSlide>
 										<div className="image-partner-logo">
-											<img src="/assets/images/brand/br9.png" alt="image" />
+											<img src="/assets/images/brand/Modis_Logo.png" alt="image" />
 										</div>
 									</SwiperSlide>
 									<SwiperSlide>
 										<div className="image-partner-logo">
-											<img src="/assets/images/brand/br10.png" alt="image" />
+											<img src="/assets/images/brand/prodapt.png" alt="image" />
 										</div>
 									</SwiperSlide>
 									<SwiperSlide>
 										<div className="image-partner-logo">
-											<img src="/assets/images/brand/br8.png" alt="image" />
+											<img src="/assets/images/brand/UnitedHealthcare_(logo).png" alt="image" />
 										</div>
 									</SwiperSlide>
 								</div>

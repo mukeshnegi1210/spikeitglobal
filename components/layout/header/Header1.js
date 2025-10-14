@@ -2,67 +2,10 @@ import Link from "next/link";
 import Menu from "../Menu";
 import MobileMenu from "../MobileMenu";
 
-export default function Header1({
-  scroll,
-  isMobileMenu,
-  handleMobileMenu,
-  handleSearch,
-  handleOffcanvas,
-}) {
+export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
   return (
     <>
       <header className="main-header header-style1">
-        {/* Header Lower */}
-        {/* <div className="header-top">
-          <div className="row flex-three">
-            <div className="col-md-7">
-              <ul className="address-top-header flex-three">
-                <li className="flex-three">
-                  <i className="icon-location-dot1" />
-                  <span>
-                    Inc 100 Horizon Center Blvd,
-                    Hamilton, NJ 08691
-                  </span>
-                </li>
-                <li className="flex-three">
-                  <i className="icon-envelope4" />
-                  <span>info@spikeitglobal.com</span>
-                </li>
-              </ul>
-            </div>
-            <div className="col-md-5 flex-six">
-              <ul className="menu-left flex-three">
-                <li>
-                  <Link href="/case-studies">Case Studies</Link>
-                </li>
-                <li>
-                  <Link href="/blogs">Blogs</Link>
-                </li>
-                <li>
-                  <Link href="/careers">Careers</Link>
-                </li>
-              </ul>
-              <ul className="social-top flex-three">
-                <li>
-                  <Link  target="_blank" href="https://www.facebook.com/SpikeITGlobalSolutions">
-                    <i className="icon-fb" />
-                  </Link>
-                </li>
-                <li>
-                  <Link   target="_blank" href="https://x.com/SpikeIT_Global">
-                    <i className="icon-tw" />
-                  </Link>
-                </li>
-                <li>
-                  <Link  target="_blank" href="https://www.linkedin.com/company/spikeit-global-solutions-inc">
-                    <i className="icon-in" />
-                  </Link>
-                </li>
-                
-              </ul>
-            </div>
-          </div>
-        </div> */}
         <div className={`header-lower ${scroll ? "is-fixed is-small" : ""}`}>
           <div className="tf-container full">
             <div className="row">
@@ -95,17 +38,6 @@ export default function Header1({
                       {/* Main Menu End*/}
                     </div>
 
-                    <div className="flat-bt-top sc-btn-top">
-                      <a
-                        className="icon-listing"
-                        onClick={handleOffcanvas}
-                        data-bs-target="#offcanvasRight"
-                        aria-controls="offcanvasRight"
-                      >
-                        <i className="icon-uni" />
-                        Menu
-                      </a>
-                    </div>
                     <div
                       className="mobile-nav-toggler mobile-button"
                       onClick={handleMobileMenu}

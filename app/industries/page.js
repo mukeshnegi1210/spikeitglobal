@@ -1,9 +1,5 @@
 "use client";
 import Layout from "@/components/layout/Layout";
-import Link from "next/link";
-import { useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { myPortfolio } from "@/utils/swiperOptions";
 export default function ServiceDetails() {
   return (
     <>

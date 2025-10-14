@@ -372,8 +372,9 @@ export const sliderSwiperIt = {
   slidesPerView: 1,
   effect: "fade",
   autoHeight: true,
+
   autoplay: {
-      delay: 6000,
+      delay: 3000,
       disableOnInteraction: false,
   },
   navigation: {

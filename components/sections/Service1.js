@@ -201,7 +201,7 @@ export default function Service1() {
                 <div className="content">
                   <span className="number mb-15">05</span>
                   <h3 className="title mb-47">
-                    <Link href="/software-engineering-services">
+                    <Link href="/web-development-services">
                       Application & Web Development
                     </Link>
                   </h3>
@@ -211,7 +211,7 @@ export default function Service1() {
                 </div>
                 <div className="button-icon-box">
                   <Link
-                    href="/software-engineering-services"
+                    href="/web-development-services"
                     className="service-link"
                   >
                     <i className="icon-angle-downs" />
@@ -226,7 +226,7 @@ export default function Service1() {
                   <span className="number">05</span>
                 </div>
                 <h3 className="title">
-                  <Link href="/software-engineering-services">
+                  <Link href="/web-development-services">
                     Application & Web Development
                   </Link>
                 </h3>
@@ -235,7 +235,7 @@ export default function Service1() {
                 </p>
                 <div className="button-icon-box">
                   <Link
-                    href="/software-engineering-services"
+                    href="/web-development-services"
                     className="service-link"
                   >
                     Read More
