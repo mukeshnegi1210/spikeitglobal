@@ -13,7 +13,7 @@ export default function Header1({
     <>
       <header className="main-header header-style1">
         {/* Header Lower */}
-        <div className="header-top">
+        {/* <div className="header-top">
           <div className="row flex-three">
             <div className="col-md-7">
               <ul className="address-top-header flex-three">
@@ -62,7 +62,7 @@ export default function Header1({
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className={`header-lower ${scroll ? "is-fixed is-small" : ""}`}>
           <div className="tf-container full">
             <div className="row">

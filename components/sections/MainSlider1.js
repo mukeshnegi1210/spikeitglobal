@@ -34,8 +34,8 @@ export default function MainSlider1() {
                     className="btn-main wow fadeInUpSmall"
                     data-wow-delay=".4s"
                   >
-                    <Link href="/service1" className="button-src ">
-                      Explore Our Service
+                    <Link href="/cloud-services" className="button-src ">
+                      Know More
                       <i className="icon-angle-right" />
                     </Link>
                   </div>
@@ -63,7 +63,7 @@ export default function MainSlider1() {
                     className="btn-main wow fadeInUpSmall"
                     data-wow-delay=".4s"
                   >
-                    <Link href="/service2" className="button-src">
+                    <Link href="/web-development-services" className="button-src">
                       Explore Our Service <i className="icon-angle-right" />
                     </Link>
                   </div>
@@ -84,14 +84,15 @@ export default function MainSlider1() {
                     className="title-slider text-white wow fadeInUpSmall"
                     data-wow-delay=".2s"
                   >
-                    Service Excellence Delivered. Official ServiceNow Partner
+                    Service Excellence Delivered
+                   <br /> Official ServiceNow Partner
                   </h1>
 
                   <div
                     className="btn-main wow fadeInUpSmall"
                     data-wow-delay=".4s"
                   >
-                    <Link href="/service2" className="button-src">
+                    <Link href="/itsm-services" className="button-src">
                       Explore Our Service <i className="icon-angle-right" />
                     </Link>
                   </div>

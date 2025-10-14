@@ -23,32 +23,14 @@ export default function AboutCompany() {
           <div className="tf-container">
             <div className="row">
               <div className="col-lg-6">
-                <div className="image-wc-us relative">
+                <div className="about-us-img relative">
+                 
                   <img
-                    src="/assets/images/page/wcus1.png"
-                    alt="image"
-                    className="wcus-1"
-                  />
-                  <img
-                    src="/assets/images/page/wcus2.png"
-                    alt="image"
-                    className="wcus-2"
-                  />
-                  <img
-                    src="/assets/images/page/wcus3.png"
-                    alt="image"
-                    className="wcus-3"
-                  />
-                  <img
-                    src="/assets/images/page/wcus4.png"
-                    alt="image"
-                    className="wcus-4"
-                  />
-                  <img
-                    src="/assets/images/page/wcus5.png"
+                    src="/assets/images/page/about.jpg"
                     alt="image"
                     className="wcus-5"
                   />
+                 
                 </div>
               </div>
               <div className="col-lg-6">
@@ -69,38 +51,48 @@ export default function AboutCompany() {
                     </h2>
                     <p className="des wow fadeInUpSmall" data-wow-delay=".4s">
                       SpikeIT Global Solutions, Inc. is a global Information
-                      Technology firm delivering high-quality, cost-effective,
-                      and scalable solutions across industries including
-                      Finance, Telecom, Insurance, Pharma, Healthcare, and
-                      Media. Guided by our core motto — “Client First” — we are
-                      committed to building strong relationships, upholding
-                      business ethics, and delivering technology that truly
-                      drives success.
+                      Technology firm empowering organizations to embrace
+                      digital transformation through high-quality,
+                      cost-effective, and scalable solutions. We serve diverse
+                      industries including Finance, Telecom, Insurance, Pharma,
+                      Healthcare, and Media. Guided by our core motto — “Client
+                      First” — we are committed to building trusted
+                      partnerships, upholding business ethics, and delivering
+                      technology that accelerates success.
                     </p>
                     <p className="des wow fadeInUpSmall" data-wow-delay=".4s">
-                      We specialize in driving digital transformation by solving
-                      complex business challenges with cloud-powered,
-                      technology-enabled solutions across Application
-                      Development, Infrastructure Management, IT Consulting,
-                      Staffing, and Training. Leveraging our unique delivery
-                      models — Onsite, Offshore, Nearshore, or hybrid — we
-                      provide flexible, scalable, and cost-efficient solutions
-                      that accelerate innovation and business growth.
+                      We specialize in enabling cloud-first adoption across AWS,
+                      Microsoft Azure, and Google Cloud, helping enterprises
+                      modernize IT, optimize operations, and innovate faster. As
+                      an official ServiceNow Partner, we deliver next-level
+                      Service Management (ITSM, ITOM, HRSD, GRC, and beyond) to
+                      streamline workflows, enhance experiences, and drive
+                      measurable outcomes. Our Data & AI practice helps
+                      organizations unlock the power of analytics, machine
+                      learning, and intelligent automation — turning information
+                      into actionable insights and smarter business decisions.
                     </p>
                     <p className="des wow fadeInUpSmall" data-wow-delay=".4s">
-                      At the heart of our success is our dedicated team, who
-                      bring expertise, innovation, and integrity to every
-                      engagement. By blending best practices with the latest
-                      technologies, we deliver not just solutions for today, but
-                      strategies that anticipate the needs of tomorrow.
+                      Our expertise spans Application Development, Cloud &
+                      Infrastructure Management, ServiceNow Consulting, Data &
+                      AI, and Cybersecurity Services — enabling clients to
+                      achieve agility, resilience, and long-term growth. With
+                      flexible delivery models — Onsite, Offshore, Nearshore,
+                      and Hybrid — SpikeIT ensures solutions that are both
+                      innovative and cost-efficient, designed to meet today’s
+                      challenges while preparing for tomorrow’s opportunities.
                     </p>
                     <p className="des wow fadeInUpSmall" data-wow-delay=".4s">
-                      With a strong global presence and a future-ready mindset,
-                      we continue to empower organizations to embrace digital
-                      transformation with confidence. Our goal is to be a
-                      trusted partner in every client’s growth journey,
-                      delivering value that lasts well beyond project
-                      completion.
+                      At the heart of our success is a dedicated team that
+                      blends domain expertise, innovation, and integrity with
+                      the latest technologies. Backed by a strong global
+                      presence and a cloud-first, digital-first, AI-driven
+                      mindset, we continue to empower organizations to
+                      transform, innovate, and thrive in the digital era. Our
+                      goal is simple yet powerful: to be the trusted partner in
+                      every client’s growth journey — delivering sustainable
+                      value, innovation, and measurable outcomes well beyond
+                      project completion.
                     </p>
                   </div>
                 </div>
@@ -232,7 +224,8 @@ export default function AboutCompany() {
                     <p className="des">
                       Guided by strong business ethics and a customer-first
                       mindset, we build win-win relationships that stand the
-                      test of time.
+                      test of time. We build lasting partnerships on trust and
+                      transparency.
                     </p>
                   </div>
                 </div>
@@ -250,9 +243,7 @@ export default function AboutCompany() {
                     <p className="des">
                       We don’t just implement technology; we create solutions
                       that drive measurable business outcomes. By combining
-                      emerging technologies with a future-focused approach, we
-                      help clients stay ahead in a competitive digital
-                      landscape.
+                      emerging technologies with a future-focused approach.
                     </p>
                   </div>
                 </div>
@@ -322,7 +313,7 @@ export default function AboutCompany() {
               <div className="col-md-6">
                 <div className="feature-service2-image relative">
                   <img
-                    src="/assets/images/service/service-list.jpg"
+                    src="/assets/images/page/abt.jpg"
                     alt="image"
                     className="service2-image"
                   />
@@ -375,7 +366,6 @@ export default function AboutCompany() {
             </div>
           </div>
         </section>
-    
       </Layout>
     </>
   );

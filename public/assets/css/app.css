@@ -2192,7 +2192,12 @@
   bottom: -110px;
   border: 1px dashed #FCC200;
 }
+.about-us-img img{
 
+  max-width: 550px;
+  border-radius: 10px;
+  object-fit: cover;
+}
 .section-feature4 .myFeature-4 .swiper-pagination .swiper-pagination-bullet {
   border: 2px solid #FCC200;
 }
@@ -2206,6 +2211,7 @@
   padding-right: 7.1em;
   position: relative;
   z-index: 2;
+  border-radius: 10px;
 }
 
 
@@ -2255,7 +2261,8 @@
 }
 
 .feature-service2 .feature-service2-content .icon-listing li p {
-  letter-spacing: -1.2px;
+
+  font-size: inherit;
 }
 
 /* Marque text
@@ -2295,6 +2302,7 @@
   height: 300px;
   object-fit: cover;
   object-position: center;
+  border-radius: 10px;
 }
 
 .partnership-section{
@@ -2318,9 +2326,10 @@
 
 }
 .partnership-section img{
-  max-width: 400px;
+  max-width: 85%;
   margin: 0 auto;
   display: block;
+  border-radius: 50px;
 }
 
 @media (max-width: 767px) {
@@ -3924,7 +3933,7 @@
 }
 
 .section-it-manager .it-manager-content {
-  padding-top: 14px;
+  /* padding-top: 14px; */
   padding-right: 10em;
 }
 
@@ -3971,6 +3980,11 @@
 
 }
 
+.section-it-manager .it-manager-image img{
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
 .section-performance {
   padding:122px 0;
 }
@@ -4286,6 +4300,11 @@
 .contact-us-page .contact-us-page-content {
   margin-top: 10px;
   margin-right: 5em;
+}
+.contact-us-page-content .contact-us-img{
+  max-height:195px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .contact-us-page .contact-us-page-content .heading-title {
@@ -7705,7 +7724,9 @@
 .heading-title .des {
   margin-top: 29px;
 }
-
+.heading-title .des +.des{
+  margin-top: 10px;
+}
 /* icon-listing
 -------------------------------------------------------------- */
 .icon-listing li:not(:last-child) {

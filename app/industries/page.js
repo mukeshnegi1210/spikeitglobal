@@ -22,8 +22,8 @@ export default function ServiceDetails() {
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img
-                  src="/assets/images/page/Amazon_Web_Services-dark.png"
-                  alt="image"
+                  src="/assets/images/page/Transportation-PublicTransit.jpg"
+                  alt="Transportation"
                 />
               </div>
               <div className="col-md-6">
@@ -82,7 +82,7 @@ export default function ServiceDetails() {
                 </p>
               </div>
               <div className="col-md-6  order-1 order-md-2">
-                <img src="/assets/images/page/google.png" alt="image" />
+                <img src="/assets/images/page/Healthcare.jpg" alt="Healthcare" />
               </div>
             </div>
           </div>
@@ -95,8 +95,8 @@ export default function ServiceDetails() {
             <div className="row  align-items-center">
               <div className="col-md-6">
                 <img
-                  src="/assets/images/page/Microsoft_Azure-Logo.wine.png"
-                  alt="image"
+                  src="/assets/images/page/Life-Sciences-Pharma.jpg"
+                  alt="Life Sciences & Pharma"
                 />
               </div>
               <div className="col-md-6">
@@ -165,7 +165,7 @@ export default function ServiceDetails() {
                 </p>
               </div>
               <div className="col-md-6  order-1 order-md-2">
-                <img src="/assets/images/page/google.png" alt="image" />
+                <img src="/assets/images/page/Banking-Financial.jpg" alt="Banking" />
               </div>
             </div>
           </div>
@@ -203,7 +203,7 @@ export default function ServiceDetails() {
                 </p>
               </div>
               <div className="col-md-6  order-1 order-md-2 ">
-                <img src="/assets/images/page/servicenow.png" alt="image" />
+                <img src="/assets/images/page/Media-Entertainment.jpg" alt="Media & Entertainment" />
               </div>
             </div>
           </div>

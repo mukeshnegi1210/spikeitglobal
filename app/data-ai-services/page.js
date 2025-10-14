@@ -148,7 +148,7 @@ export default function ServiceDetails() {
                         <li className="flex-three">
                           <i className="icon-Check" />
                           <p className="font-man">
-                            AI & Machine Learning Development
+                            AI, Machine Learning & Model Development
                           </p>
                         </li>
                         <li className="flex-three">
@@ -157,7 +157,13 @@ export default function ServiceDetails() {
                         </li>
                         <li className="flex-three">
                           <i className="icon-Check" />
-                          <p className="font-man">Governance & Compliance</p>
+                          <p className="font-man">
+                            Governance, Compliance & Continuous Monitoring{" "}
+                          </p>
+                        </li>
+                        <li className="flex-three">
+                          <i className="icon-Check" />
+                          <p className="font-man">Discovery & Assessment </p>
                         </li>
                       </ul>
                     </div>

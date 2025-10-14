@@ -124,7 +124,7 @@ export default function ServiceDetails() {
                   <div className="it-manager-content">
                     <div className="heading-title mb-20">
                       <h2 className="title">
-                        Our Cybersecurity Implementation Approach
+                        Our Cyber Security Implementation Approach
                       </h2>
                     </div>
 
@@ -144,7 +144,7 @@ export default function ServiceDetails() {
                         <li className="flex-three">
                           <i className="icon-Check" />
                           <p className="font-man">
-                            implementation & Tools Integration
+                            Implementation & Tools Integration
                           </p>
                         </li>
                         <li className="flex-three">
@@ -157,6 +157,12 @@ export default function ServiceDetails() {
                           <i className="icon-Check" />
                           <p className="font-man">
                             Compliance Reporting & Ongoing Support
+                          </p>
+                        </li>
+                          <li className="flex-three">
+                          <i className="icon-Check" />
+                          <p className="font-man">
+                           Security Architecture & Policy Setup 
                           </p>
                         </li>
                       </ul>
@@ -183,7 +189,7 @@ export default function ServiceDetails() {
                       Drive Protection
                     </span>
                     <h2 className="title">
-                      Our Capabilities in Cybersecurity Services
+                      Our Capabilities in Cyber Security Services
                     </h2>
                   </div>
                 </div>

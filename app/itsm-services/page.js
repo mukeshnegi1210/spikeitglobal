@@ -63,7 +63,7 @@ export default function ServiceDetails() {
                         <p>
                           {" "}
                           Bring together incident, problem, change, and request
-                          workflows on a single unified platform
+                          workflows on a single unified platform.
                         </p>
                       </li>
                       <li>
@@ -75,7 +75,7 @@ export default function ServiceDetails() {
                           {" "}
                           Reduce response times using embedded workflows,
                           predictive intelligence (NLP/ML), and AI‑powered
-                          recommendations
+                          recommendations.
                         </p>
                       </li>
                       <li>
@@ -96,7 +96,7 @@ export default function ServiceDetails() {
                         <p>
                           {" "}
                           Leverage health log analytics, predictive AIOps, and
-                          service mapping to prevent outages
+                          service mapping to prevent outages.
                         </p>
                       </li>
                     </ul>
