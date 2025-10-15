@@ -7,7 +7,7 @@ export default function ProjectDetails() {
         <section className="project-details pt-130 pb-130">
           <div className="tf-container">
             <div className="row align-center mb-100">
-              <div className="col-md-8">
+              <div className="col-md-12">
                 <div className="heading-title">
                   <span className="sub-title texts-blue font-man">
                     About The Project
@@ -25,33 +25,6 @@ export default function ProjectDetails() {
                     centers, many of which were nearing end-of-life and lacked
                     agility to support digital initiatives.{" "}
                   </p>
-                  <Link href="/#" className="button-src">
-                    Visit Website <i className="icon-angle-right" />
-                  </Link>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="info-project-details">
-                  <ul className="info-project">
-                    <li>
-                      <h4>Clients</h4>
-                      <p>Design Studio In USA </p>
-                    </li>
-                    <li>
-                      <h4>Project Type</h4>
-                      <p>Digital Product Design</p>
-                    </li>
-                    <li>
-                      <h4>Date</h4>
-                      <p>25 October 2023</p>
-                    </li>
-                    <li>
-                      <h4>Website</h4>
-                      <p>
-                        <Link href="/#">spikeit.com</Link>
-                      </p>
-                    </li>
-                  </ul>
                 </div>
               </div>
             </div>
@@ -372,7 +345,7 @@ export default function ProjectDetails() {
               </div>
             </div>
 
-            <div className="row interesting">
+            <div className="row interesting bb-blog">
               <div className="col-md-6">
                 <h2 className="title">
                   SpikeIT’s Edge in Cloud Migration & Digital Transformation{" "}
@@ -426,17 +399,19 @@ export default function ProjectDetails() {
                       </p>
                     </li>
                   </ul>
-                  <h4>Executive Takeaway </h4>
-                  <p>
-                    Through structured assessment, prioritized migration
-                    planning, and robust execution leveraging AWS and Azure
-                    native capabilities, SpikeIT transformed a legacy
-                    transportation enterprise into a modern, cloud-ready
-                    organization—enabling scalability, reliability, and
-                    future-proof digital innovation.
-                  </p>
                 </div>
               </div>
+              
+            </div>
+            <div className="results">
+               <h2 className="mb-40">Executive Takeaway </h2>
+                <p>
+                  Through structured assessment, prioritized migration planning,
+                  and robust execution leveraging AWS and Azure native
+                  capabilities, SpikeIT transformed a legacy transportation
+                  enterprise into a modern, cloud-ready organization—enabling
+                  scalability, reliability, and future-proof digital innovation.
+                </p>
             </div>
           </div>
         </section>
