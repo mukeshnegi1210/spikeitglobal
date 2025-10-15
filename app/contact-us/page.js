@@ -123,13 +123,13 @@ export default function ContactUs() {
                         />
                       </fieldset>
                       <fieldset className="mb-18">
-                        <label>Website</label>
+                        <label>Phone Number</label>
                         <input
-                          type="url"
+                          type="text"
                           className="form-control"
                           id="url"
                           name="url"
-                          placeholder="Enter your website"
+                          placeholder="Enter your phone number"
                           required
                         />
                       </fieldset>
@@ -145,7 +145,7 @@ export default function ContactUs() {
                       </fieldset>
                       <fieldset>
                         <button className="btn-submit" type="submit">
-                          Send Message <i className="icon-right-icon" />
+                          Send  <i className="icon-right-icon" />
                         </button>
                       </fieldset>
                     </form>

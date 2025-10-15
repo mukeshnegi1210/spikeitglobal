@@ -17,7 +17,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
                       <div className="logo">
                         <Link href="/">
                           <img
-                            src="/assets/images/logo-footer.png"
+                            src="/assets/images/logo.png"
                             alt="Logo"
                           />
                         </Link>
@@ -60,7 +60,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
           <nav className="menu-box">
             <div className="nav-logo">
               <Link href="/">
-                <img src="/assets/images/logo-footer.png" alt="" />
+                <img src="/assets/images/logo.png" alt="" />
               </Link>
             </div>
             <div className="bottom-canvas">

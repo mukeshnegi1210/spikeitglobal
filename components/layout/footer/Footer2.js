@@ -8,7 +8,7 @@ export default function Footer2() {
           <div className="row footer-top flex-three">
             <div className="col-md-3">
               <Link href="/#" className="logo-footer">
-                <img src="/assets/images/logo-footer.png" alt="" />
+                <img src="/assets/images/logo.png" alt="" />
               </Link>
             </div>
             <div className="col-md-9">

@@ -1,157 +1,446 @@
-
-import Layout from "@/components/layout/Layout"
-import Link from "next/link"
+import Layout from "@/components/layout/Layout";
+import Link from "next/link";
 export default function ProjectDetails() {
+  return (
+    <>
+      <Layout breadcrumbTitle="Case Study Details">
+        <section className="project-details pt-130 pb-130">
+          <div className="tf-container">
+            <div className="row align-center mb-100">
+              <div className="col-md-8">
+                <div className="heading-title">
+                  <span className="sub-title texts-blue font-man">
+                    About The Project
+                  </span>
+                  <h2 className="title">
+                    {" "}
+                    Accelerating Cloud Transformation for a Leading
+                    Transportation Company
+                  </h2>
+                  <p className="des mb-40">
+                    A large North American transportation enterprise sought to
+                    modernize its IT landscape to improve scalability, cost
+                    efficiency, and resilience. The client managed over 110
+                    business-critical applications running across legacy data
+                    centers, many of which were nearing end-of-life and lacked
+                    agility to support digital initiatives.{" "}
+                  </p>
+                  <Link href="/#" className="button-src">
+                    Visit Website <i className="icon-angle-right" />
+                  </Link>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="info-project-details">
+                  <ul className="info-project">
+                    <li>
+                      <h4>Clients</h4>
+                      <p>Design Studio In USA </p>
+                    </li>
+                    <li>
+                      <h4>Project Type</h4>
+                      <p>Digital Product Design</p>
+                    </li>
+                    <li>
+                      <h4>Date</h4>
+                      <p>25 October 2023</p>
+                    </li>
+                    <li>
+                      <h4>Website</h4>
+                      <p>
+                        <Link href="/#">spikeit.com</Link>
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-md-4">
+                <img
+                  src="/assets/images/project/pj-details1.jpg"
+                  alt="image"
+                  className="image-two-project"
+                />
+              </div>
+              <div className="col-md-8">
+                <img src="/assets/images/project/pj-details2.jpg" alt="image" />
+              </div>
+            </div>
+            <div className="row interesting bb-blog">
+              <div className="col-md-6">
+                <h2 className="title">Business Challenge</h2>
+              </div>
+              <div className="col-md-6">
+                <div className="interesting-content">
+                  <p className="mb-20">
+                    The client faced significant operational challenges due to:
+                  </p>
+                  <ul className="icon-listing mb-20">
+                    <li className="flex-three">
+                      <i className="icon-Check" />
+                      <p className="font-man">
+                        A fragmented on-premises environment with siloed
+                        applications and redundant systems
+                      </p>
+                    </li>
+                    <li className="flex-three">
+                      <i className="icon-Check" />
+                      <p className="font-man">
+                        Limited disaster recovery and high-availability
+                        capabilities
+                      </p>
+                    </li>
+                    <li className="flex-three">
+                      <i className="icon-Check" />
+                      <p className="font-man">
+                        Rising infrastructure costs and slow provisioning cycles
+                      </p>
+                    </li>
+                    <li className="flex-three">
+                      <i className="icon-Check" />
+                      <p className="font-man">
+                        Lack of a unified cloud adoption framework or migration
+                        roadmap
+                      </p>
+                    </li>
+                  </ul>
+                  <p>
+                    They required a comprehensive cloud assessment and
+                    transformation roadmap that could identify the right landing
+                    zones, prioritize migration workloads, and establish a
+                    future-ready hybrid/multi-cloud architecture.{" "}
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="row results bb-blog">
+              <div className="col-md-12">
+                <div className="mb-50">
+                  <h2 className="title mb-20">SpikeIT’s Approach</h2>
+                  <p>
+                    SpikeIT Global Solutions was engaged to perform a full-scale
+                    Cloud Readiness Assessment and Migration Planning
+                    initiative. Leveraging its proven Cloud Migration Framework,
+                    SpikeIT delivered a structured and outcome-driven
+                    transformation journey using a combination of AWS and Azure
+                    native tools and automation accelerators.{" "}
+                  </p>
+                </div>
 
-	return (
-		<>
+                <div className="row">
+                  <div className="col-md-6 mb-30">
+                    <div>
+                      <h3 className="mb-20">Cloud Assessment & Discovery </h3>
+                      <ul className="icon-listing">
+                        <li className="flex-three">
+                          <i className="icon-Check  mt-10" />
+                          <p className="font-man">
+                            Conducted in-depth assessment of 110 applications,
+                            analyzing business criticality, technology stack,
+                            integration dependencies, and performance baselines.
+                          </p>
+                        </li>
+                        <li className="flex-three">
+                          <i className="icon-Check" />
+                          <p className="font-man">
+                            Used AWS Migration Evaluator and Azure Migrate –
+                            Discovery & Assessment tools for performance
+                            profiling and TCO estimation.
+                          </p>
+                        </li>
+                        <li className="flex-three">
+                          <i className="icon-Check" />
+                          <p className="font-man">
+                            Classified applications into priority buckets
+                            (Critical, High, Medium, Low) based on business
+                            impact and technical complexity.
+                          </p>
+                        </li>
+                        <li className="flex-three">
+                          <i className="icon-Check" />
+                          <p className="font-man">
+                            Identified candidate platforms for optimal
+                            performance—AWS for scalability-intensive workloads
+                            and Azure for enterprise-integrated applications.
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="col-md-6 mb-30">
+                    <div>
+                      <h3 className="mb-20">Cloud Roadmap & Strategy </h3>
+                      <ul className="icon-listing">
+                        <li className="flex-three">
+                          <i className="icon-Check  mt-10" />
+                          <p className="font-man">
+                            {" "}
+                            Developed a multi-cloud roadmap recommending
+                            workload placement across AWS and Azure.
+                          </p>
+                        </li>
+                        <li className="flex-three">
+                          <i className="icon-Check" />
+                          <p className="font-man">
+                            {" "}
+                            Designed Landing Zones using AWS Control Tower and
+                            Azure Landing Zone Accelerator, embedding
+                            governance, security, and compliance guardrails.
+                          </p>
+                        </li>
+                        <li className="flex-three">
+                          <i className="icon-Check" />
+                          <p className="font-man">
+                            Created reference architectures for web, data, and
+                            middleware tiers to enable uniform deployments.
+                          </p>
+                        </li>
+                        <li className="flex-three">
+                          <i className="icon-Check" />
+                          <p className="font-man">
+                            Defined migration waves and timelines aligned with
+                            business priorities.
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="col-md-6 mb-30">
+                    <div>
+                      <h3 className="mb-20">
+                        {" "}
+                        Cloud Architecture & Framework Development
+                      </h3>
+                      <ul className="icon-listing">
+                        <li className="flex-three">
+                          <i className="icon-Check  mt-10" />
+                          <p className="font-man">
+                            {" "}
+                            Built a reusable Cloud Migration Framework that
+                            accelerated assessment-to-execution by 40%.
+                          </p>
+                        </li>
+                        <li className="flex-three">
+                          <i className="icon-Check" />
+                          <p className="font-man">
+                            Established Cloud Governance Models, including
+                            role-based access controls, tagging policies, and
+                            cost optimization guidelines
+                          </p>
+                        </li>
+                        <li className="flex-three">
+                          <i className="icon-Check" />
+                          <p className="font-man">
+                            {" "}
+                            Used AWS Identity & Access Management (IAM) and
+                            Azure Entra ID (AD) for centralized identity and
+                            access management.
+                          </p>
+                        </li>
+                        <li className="flex-three">
+                          <i className="icon-Check" />
+                          <p className="font-man">
+                            Created application dependency maps through Azure
+                            Migrate Application Discovery and custom CMDB
+                            integrations.
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="col-md-6 mb-30">
+                    <div>
+                      <h3 className="mb-20"> Execution & Implementation</h3>
+                      <ul className="icon-listing">
+                        <li className="flex-three">
+                          <i className="icon-Check  mt-10" />
+                          <p className="font-man">
+                            Migrated workloads using a mix of re-host,
+                            re-platform, and re-architect strategies.
+                          </p>
+                        </li>
+                        <li className="flex-three">
+                          <i className="icon-Check" />
+                          <p className="font-man">
+                            {" "}
+                            Utilized AWS Application Migration Service (MGN),
+                            AWS Database Migration Service (DMS), Azure Database
+                            Migration Service, and Azure App Service Migration
+                            Assistant for seamless workload transition.
+                          </p>
+                        </li>
+                        <li className="flex-three">
+                          <i className="icon-Check" />
+                          <p className="font-man">
+                            Implemented High Availability (HA) using AWS Auto
+                            Scaling, Elastic Load Balancer (ELB), Azure
+                            Availability Zones, and Azure Load Balancer.
+                          </p>
+                        </li>
+                        <li className="flex-three">
+                          <i className="icon-Check" />
+                          <p className="font-man">
+                            Built Disaster Recovery (DR) with AWS Backup, AWS
+                            CloudEndure, Azure Site Recovery (ASR), and
+                            Geo-redundant storage (GRS).
+                          </p>
+                        </li>
+                        <li className="flex-three">
+                          <i className="icon-Check" />
+                          <p className="font-man">
+                            Enabled automated deployment pipelines using Azure
+                            DevOps and AWS CodePipeline for CI/CD.
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row results bb-blog">
+              <div className="col-md-12">
+                <div className="results-content">
+                  <h2 className="mb-50">Key Outcomes </h2>
+                  <div className="benefit-list">
+                    <ul className="benefit-list-item key-outcomes">
+                      <li>
+                        <div className="flex-three">
+                          <i className="icon-Check" />
+                          <h4>Comprehensive Cloud Roadmap</h4>
+                        </div>
+                        <p>
+                          Delivered a 3-year transformation plan across AWS and
+                          Azure covering 110 applications.
+                        </p>
+                      </li>
+                      <li>
+                        <div className="flex-three">
+                          <i className="icon-Check" />
+                          <h4>Improved Agility</h4>
+                        </div>
+                        <p>
+                          Reduced provisioning time from weeks to hours through
+                          Infrastructure-as-Code automation (Terraform, ARM
+                          templates).
+                        </p>
+                      </li>
+                      <li>
+                        <div className="flex-three">
+                          <i className="icon-Check" />
+                          <h4>Cost Optimization</h4>
+                        </div>
+                        <p>
+                          Identified 25% annual cost savings through
+                          right-sizing, Reserved Instances, and Savings Plans.
+                        </p>
+                      </li>
+                      <li>
+                        <div className="flex-three">
+                          <i className="icon-Check" />
+                          <h4>Resilience & Continuity</h4>
+                        </div>
+                        <p>
+                          Achieved 99.95% uptime SLA through HA and DR
+                          architectures.
+                        </p>
+                      </li>
+                      <li>
+                        <div className="flex-three">
+                          <i className="icon-Check" />
+                          <h4> Operational Excellence</h4>
+                        </div>
+                        <p>
+                          Centralized monitoring via AWS CloudWatch, Azure
+                          Monitor, and Log Analytics dashboards
+                        </p>
+                      </li>
+                      <li>
+                        <div className="flex-three">
+                          <i className="icon-Check" />
+                          <h4> Framework Reusability</h4>
+                        </div>
+                        <p>
+                          SpikeIT’s migration playbooks and governance templates
+                          were adopted enterprise-wide for future initiatives.
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-			<Layout breadcrumbTitle="Project Details">
-				<section className="project-details pt-130 pb-130">
-					<div className="tf-container">
-						<div className="row align-center mb-100">
-							<div className="col-md-8">
-								<div className="heading-title">
-									<span className="sub-title texts-blue font-man">About The Project</span>
-									<h2 className="title">Deeper Dive into Our Digital Product Design Masterpieces</h2>
-									<p className="des mb-40">Sed ut perspiciatis unde omniste natus voluptatem accusantiume
-										rem aperia eaque ipsa
-										quae abillo inventore veritatis quasi architecto beatae vitae dicta sunt
-										explicabo. Nemo enim
-										epsam voluptatem quia voluptas aspernatur odites sed quia consequunture</p>
-									<Link href="/#" className="button-src">Visit Website <i className="icon-angle-right" /></Link>
-								</div>
-							</div>
-							<div className="col-md-4">
-								<div className="info-project-details">
-									<ul className="info-project">
-										<li>
-											<h4>Clients</h4>
-											<p>Design Studio In USA </p>
-										</li>
-										<li>
-											<h4>Project Type</h4>
-											<p>Digital Product Design</p>
-										</li>
-										<li>
-											<h4>Date</h4>
-											<p>25 October 2023</p>
-										</li>
-										<li>
-											<h4>Website</h4>
-											<p><Link href="/#">spikeit.com</Link></p>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div className="row">
-							<div className="col-md-4">
-								<img src="/assets/images/project/pj-details1.jpg" alt="image" className="image-two-project" />
-							</div>
-							<div className="col-md-8">
-								<img src="/assets/images/project/pj-details2.jpg" alt="image" />
-							</div>
-						</div>
-						<div className="row interesting bb-blog">
-							<div className="col-md-6">
-								<h2 className="title">Interesting facts in<br />
-									Development</h2>
-							</div>
-							<div className="col-md-6">
-								<div className="interesting-content">
-									<p>Must explain to you how all this mistaken idea of denouncing pleasure and
-										praising pain was born and
-										I will give you a complete account of the system, and expound the actual
-										teachings of the great explorer
-										of the truth, the master-builder of human happiness. No one rejects, dislikes,
-										or avoids pleasure itself,
-										because it is pleasure, but because those who do not know how to pursue pleasure
-										rationally encounter</p>
-									<ul className="icon-listing">
-										<li className="flex-three">
-											<i className="icon-Check" />
-											<p className="font-man">Efficient Sprint Planning</p>
-										</li>
-										<li className="flex-three">
-											<i className="icon-Check" />
-											<p className="font-man">Iterative Delivery Approach</p>
-										</li>
-										<li className="flex-three">
-											<i className="icon-Check" />
-											<p className="font-man">Standups and Demos</p>
-										</li>
-										<li className="flex-three">
-											<i className="icon-Check" />
-											<p className="font-man">Problem-solving</p>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div className="row results">
-							<div className="col-md-6">
-								<h2 className="title">The Results of<br />
-									Our Project</h2>
-							</div>
-							<div className="col-md-6">
-								<div className="results-content">
-									<p>Will give you a complete account of the system, and expound the actual teachings
-										of the great explorer
-										of the truth, the master-builder of human happiness rejects, dislikes, or avoids
-										pleasure </p>
-									<div className="benefit-list">
-										<ul className="benefit-list-item">
-											<li>
-												<div className="flex-three">
-													<i className="icon-Check" />
-													<h4>Support clients</h4>
-												</div>
-												<p>Sed ut perspiciatis unde omnis natus voluptatem accusantium
-													doloremque laudantium, totam rem aperiam inventore</p>
-											</li>
-											<li>
-												<div className="flex-three">
-													<i className="icon-Check" />
-													<h4>Solve problems</h4>
-												</div>
-												<p>To take a trivial example, which of us ever undertakes laborious
-													physical exercise, except to obtain some advantage</p>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div className="row mb-100">
-							<div className="col-md-6">
-								<img src="/assets/images/project/pj-details3.jpg" alt="image" className="image-two-project2" />
-							</div>
-							<div className="col-md-6">
-								<img src="/assets/images/project/pj-details4.jpg" alt="image" />
-							</div>
-						</div>
-						<div className="row align-center">
-							<div className="col-md-5">
-								<div className="next-prev-project">
-									<Link href="/#" className="next-prev">Preview <i className="icon-right-icon" /></Link>
-									<h3 className="title"><Link href="/#">Business Website Design</Link></h3>
-								</div>
-							</div>
-							<div className="col-md-2 center">
-								<Link href="/#" className="icon-list-project"><i className="icon-union" /></Link>
-							</div>
-							<div className="col-md-5">
-								<div className="next-prev-project text-end">
-									<Link href="/#" className="next-prev">Preview <i className="icon-right-icon" /></Link>
-									<h3 className="title"><Link href="/#">Business Website Design</Link></h3>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
+            <div className="row interesting">
+              <div className="col-md-6">
+                <h2 className="title">
+                  SpikeIT’s Edge in Cloud Migration & Digital Transformation{" "}
+                </h2>
+              </div>
+              <div className="col-md-6">
+                <div className="interesting-content">
+                  <p className="mb-20">
+                    SpikeIT’s distinct advantage lies in its end-to-end,
+                    framework-driven approach—from discovery to steady state.
+                    Its Cloud Transformation Accelerators, coupled with deep
+                    expertise in AWS, Azure, and hybrid architectures, enable
+                    faster adoption with lower risk.
+                  </p>
 
-			</Layout>
-		</>
-	)
+                  <h4 className="mb-20">Key Differentiators:</h4>
+                  <ul className="icon-listing mb-20">
+                    <li className="flex-three">
+                      <i className="icon-Check" />
+                      <p className="font-man">
+                        Proprietary Cloud Assessment & Migration Framework
+                        (CAMF)
+                      </p>
+                    </li>
+                    <li className="flex-three">
+                      <i className="icon-Check" />
+                      <p className="font-man">
+                        Multi-cloud partnerships with AWS, Azure, and Google
+                        Cloud
+                      </p>
+                    </li>
+                    <li className="flex-three">
+                      <i className="icon-Check" />
+                      <p className="font-man">
+                        Pre-built Landing Zone templates and compliance
+                        automation
+                      </p>
+                    </li>
+                    <li className="flex-three">
+                      <i className="icon-Check" />
+                      <p className="font-man">
+                        Automation-first approach leveraging DevOps, IaC, and
+                        FinOps governance
+                      </p>
+                    </li>
+                    <li className="flex-three">
+                      <i className="icon-Check" />
+                      <p className="font-man">
+                        Cross-functional expertise across AI/ML, analytics, and
+                        application modernization
+                      </p>
+                    </li>
+                  </ul>
+                  <h4>Executive Takeaway </h4>
+                  <p>
+                    Through structured assessment, prioritized migration
+                    planning, and robust execution leveraging AWS and Azure
+                    native capabilities, SpikeIT transformed a legacy
+                    transportation enterprise into a modern, cloud-ready
+                    organization—enabling scalability, reliability, and
+                    future-proof digital innovation.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </Layout>
+    </>
+  );
 }
