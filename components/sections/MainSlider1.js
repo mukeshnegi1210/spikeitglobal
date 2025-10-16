@@ -63,7 +63,10 @@ export default function MainSlider1() {
                     className="btn-main wow fadeInUpSmall"
                     data-wow-delay=".4s"
                   >
-                    <Link href="/web-development-services" className="button-src">
+                    <Link
+                      href="/web-development-services"
+                      className="button-src"
+                    >
                       Explore Our Service <i className="icon-angle-right" />
                     </Link>
                   </div>
@@ -74,7 +77,7 @@ export default function MainSlider1() {
           <SwiperSlide>
             <div className="slider-it-main relative over overflow-hiden">
               <div className="slider-image-it">
-                <img src="/assets/images/home/slider1lider2.jpg" alt="" />
+                <img src="/assets/images/home/slider1lider3.jpg" alt="" />
               </div>
               <span className="it-solution fw-600">IT Solutions</span>
 
@@ -85,7 +88,7 @@ export default function MainSlider1() {
                     data-wow-delay=".2s"
                   >
                     Service Excellence Delivered
-                   <br /> Official ServiceNow Partner
+                    <br /> Official ServiceNow Partner
                   </h1>
 
                   <div

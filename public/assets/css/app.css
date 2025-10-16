@@ -4418,11 +4418,13 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  margin: 0 -15px;
 }
 
 .key-outcomes li {
   flex: 0 0 33%;
   max-width: 33%;
+  padding:15px;
 }
 
 .project-details .results {
@@ -12697,9 +12699,19 @@ body .dribbble img {
     position: static;
     margin-right: 0px;
   }
+  .key-outcomes li {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding:15px;
+}
 }
 
 @media only screen and (max-width: 768px) {
+  .key-outcomes li {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding:15px;
+}
   .grid-col-project {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -13787,6 +13799,12 @@ body .dribbble img {
   .mobile-menu-visible .close-btn {
     transition-delay: 0.2s;
   }
+}
+
+.case-studies-img img{
+  max-height: 400px;
+  min-height: 400px;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=app.css.map */

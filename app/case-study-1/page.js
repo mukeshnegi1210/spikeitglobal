@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function CaseStudy() {
   return (
     <>
-      <Layout breadcrumbTitle="Case Study Details">
+      <Layout bgImg="/assets/images/page/case-study.jpg" breadcrumbTitle="Case Study Details">
         <section className="project-details pt-130 pb-130">
           <div className="tf-container">
             <div className="row align-center mb-100">
@@ -28,16 +28,16 @@ export default function CaseStudy() {
                 </div>
               </div>
             </div>
-            <div className="row">
+            <div className="row case-studies-img">
               <div className="col-md-4">
                 <img
-                  src="/assets/images/project/pj-details1.jpg"
+                  src="/assets/images/page/transportation.jpg"
                   alt="image"
                   className="image-two-project"
                 />
               </div>
               <div className="col-md-8">
-                <img src="/assets/images/project/pj-details2.jpg" alt="image" />
+                <img src="/assets/images/page/transportation-2.jpg" alt="image" />
               </div>
             </div>
             <div className="row interesting bb-blog">
