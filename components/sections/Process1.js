@@ -11,7 +11,7 @@ export default function Process1() {
 					<div className="row ">
 						<div className="col-lg-12">
 							<div className="heading-title center mb-50">
-								<span className="sub-title text-blue1 font-man wow fadeInUpSmall" data-wow-delay=".2s">Working Process</span>
+								<span className="sub-title text-white font-man wow fadeInUpSmall" data-wow-delay=".2s">Working Process</span>
 								<h2 className="title text-white wow fadeInUpSmall" data-wow-delay=".3s">How SpikeIT Drives Digital Transformation
 									{/* <span className=" text-blue1 mask">
 										<TextAnimation text1="Works" text2="Wetech" />
