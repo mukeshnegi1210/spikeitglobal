@@ -1,6 +1,6 @@
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
-export default function ProjectDetails() {
+export default function CaseStudy() {
   return (
     <>
       <Layout breadcrumbTitle="Case Study Details">
