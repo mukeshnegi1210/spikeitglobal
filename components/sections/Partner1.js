@@ -31,12 +31,10 @@ export default function Partner1() {
                   <div className="icon mb-30">
                     <i className="icon-effectiveness" />
                   </div>
-                  <h3 className="title mb-13">
-                  Cost-effectiveness
-                  </h3>
+                  <h3 className="title mb-13">Cost-effectiveness</h3>
                   <p className="des mb-26">
-                    We offer affordable IT solutions that help you reduce costs
-                    and improve
+                    Optimized delivery models that balance innovation with
+                    measurable ROI.
                   </p>
                   {/* <Link href="/#" className="btn-icon-box bd-rd-12">
                     Read More <i className="icon-right" />
@@ -64,12 +62,10 @@ export default function Partner1() {
                   <div className="icon mb-30">
                     <i className="icon-project-management-1" />
                   </div>
-                  <h3 className="title mb-13">
-                    Innovative Technology
-                  </h3>
+                  <h3 className="title mb-13">Innovative Technology</h3>
                   <p className="des mb-26">
-                    We offer affordable IT solutions that help you reduce costs
-                    and improve
+                    Harnessing next-gen cloud and AI solutions to accelerate
+                    transformation.
                   </p>
                   {/* <Link href="/#" className="btn-icon-box bd-rd-12">
                     Read More <i className="icon-right" />
@@ -97,12 +93,10 @@ export default function Partner1() {
                   <div className="icon mb-30">
                     <i className="icon-customer-satisfaction-1" />
                   </div>
-                  <h3 className="title mb-13">
-                  Industry Expertise
-                  </h3>
+                  <h3 className="title mb-13">Industry Expertise</h3>
                   <p className="des mb-26">
-                    We offer affordable IT solutions that help you reduce costs
-                    and improve
+                    Proven cross-sector experience turning complex challenges
+                    into outcomes.{" "}
                   </p>
                   {/* <Link href="/#" className="btn-icon-box bd-rd-12">
                     Read More <i className="icon-right" />
