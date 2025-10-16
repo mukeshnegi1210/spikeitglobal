@@ -92,7 +92,7 @@ export default function Footer2() {
                   </li>
 
                   <li>
-                    <Link href="/infrastructure-services">
+                    <Link href="/cyber-security-services">
                       Cyber Security 
                     </Link>
                   </li>
@@ -103,7 +103,7 @@ export default function Footer2() {
                   </li>
 
                   <li>
-                    <Link href="/services-management">
+                    <Link href="/itsm-services">
                       Service Management - ServiceNow
                     </Link>
                   </li>
