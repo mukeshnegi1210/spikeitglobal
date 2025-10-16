@@ -11,7 +11,7 @@ export default function Partner2() {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="heading-title mb-60 center">
-								<span className="sub-title texts-blue font-man">Global Partners</span>
+								<span className="sub-title texts-blue font-man">Global Partners & Clients</span>
 								<h2 className="title">Trusted by leading global brands</h2>
 							</div>
 						</div>
@@ -59,7 +59,7 @@ export default function Partner2() {
 									</SwiperSlide>
 									<SwiperSlide>
 										<div className="image-partner-logo">
-											<img src="/assets/images/brand/INDIANAWITHSTATE.png" alt="image" />
+											<img src="/assets/images/brand/cai.png" alt="image" />
 										</div>
 									</SwiperSlide>
 									<SwiperSlide>

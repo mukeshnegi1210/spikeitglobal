@@ -54,7 +54,7 @@ export default function Menu() {
             "/itsm-services",
           ])}`}
         >
-          <Link href="/services">Services</Link>
+          <Link href="javascript:void(0)">Services</Link>
           <ul>
             <li
               className={`${checkCurrentMenuItem(
@@ -99,7 +99,7 @@ export default function Menu() {
             "/industries",
           ])}`}
         >
-          <Link href="/#">Industries</Link>
+          <Link href="/industries">Industries</Link>
           <ul>
             <li className={`${checkCurrentMenuItem("/industries/#Transportation")}`}>
               <Link href="/industries/#Transportation">Transportation</Link>
