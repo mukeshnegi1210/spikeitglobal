@@ -3,7 +3,6 @@ import Layout from "@/components/layout/Layout";
 
 import Contact1 from "@/components/sections/Contact1";
 export default function ServiceDetails() {
-
   return (
     <>
       <Layout
@@ -58,8 +57,8 @@ export default function ServiceDetails() {
                           <h4> Digital Transformation Strategy</h4>
                         </div>
                         <p>
-                        Leverage emerging technologies to innovate and future-proof operations. 
- 
+                          Leverage emerging technologies to innovate and
+                          future-proof operations.
                         </p>
                       </li>
                       <li>
@@ -68,8 +67,8 @@ export default function ServiceDetails() {
                           <h4> Competitive Market Analysis</h4>
                         </div>
                         <p>
-                       Gain a strategic edge by understanding your industry landscape. 
-
+                          Gain a strategic edge by understanding your industry
+                          landscape.
                         </p>
                       </li>
                       <li>
@@ -78,8 +77,8 @@ export default function ServiceDetails() {
                           <h4> Operational Efficiency Optimization</h4>
                         </div>
                         <p>
-                          Streamline processes and reduce waste to maximize performance. 
-
+                          Streamline processes and reduce waste to maximize
+                          performance.
                         </p>
                       </li>
                       <li>
@@ -88,7 +87,8 @@ export default function ServiceDetails() {
                           <h4> Customer-Centric Innovation</h4>
                         </div>
                         <p>
-                         Align offerings with real customer needs through research and design thinking.
+                          Align offerings with real customer needs through
+                          research and design thinking.
                         </p>
                       </li>
                     </ul>
@@ -162,6 +162,44 @@ export default function ServiceDetails() {
                       src="/assets/images/services/strategy-consultation-services-3.jpg"
                       alt="image"
                     />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section className="section-it-manager pt-130 pb-130">
+            <div className="tf-container">
+              <div className="row">
+                <div className="col-md-5 order-md-1 order-2">
+                  <div className="it-manager-image">
+                    <img
+                      src="/assets/images/services/it-staffing.jpg"
+                      alt="image"
+                    />
+                  </div>
+                </div>
+                <div className="col-md-7 order-md-2 order-1">
+                  <div className="it-manager-content right">
+                    <div className="heading-title mb-20">
+                      <h2 className="title">
+                        IT Staffing & Consulting Services
+                      </h2>
+                    </div>
+
+                    <div className="content-tab-service-details">
+                      <p className="des">
+                        SpikeIT supports clients in building high-performing
+                        global technology teams through our specialized IT
+                        staffing and consulting services. We deliver skilled
+                        professionals across a wide spectrum of technologies —
+                        including Cloud (AWS, Azure, GCP), ServiceNow, Data &
+                        AI, Cybersecurity, DevOps, Full-Stack Development, ERP,
+                        and Project Management. With our proven expertise and
+                        agile delivery model, we help organizations scale
+                        efficiently and achieve their digital transformation
+                        goals.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>

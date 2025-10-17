@@ -13,25 +13,36 @@ export default function Footer2() {
             </div>
             <div className="col-md-9">
               <ul className="social-footer flex-six">
-                <li>
-                  <Link  target="_blank" href="https://www.facebook.com/SpikeITGlobalSolutions" className="font-man">
+                <li className="fw-700">
+                  <Link
+                    target="_blank"
+                    href="https://www.facebook.com/SpikeITGlobalSolutions"
+                    className="font-man"
+                  >
                     <i className="icon-facebook" />
                     Facebook
                   </Link>
                 </li>
-                <li>
-                  <Link  target="_blank" href="https://x.com/SpikeIT_Global" className="font-man">
+                <li  className="fw-700">
+                  <Link
+                    target="_blank"
+                    href="https://x.com/SpikeIT_Global"
+                    className="font-man"
+                  >
                     <i className="icon-tw" />
                     Twitter
                   </Link>
                 </li>
-                <li>
-                  <Link target="_blank" href="https://www.linkedin.com/company/spikeit-global-solutions-inc" className="font-man">
+                <li className="fw-700">
+                  <Link
+                    target="_blank"
+                    href="https://www.linkedin.com/company/spikeit-global-solutions-inc"
+                    className="font-man"
+                  >
                     <i className="icon-in" />
                     LinkedIn
                   </Link>
                 </li>
-              
               </ul>
             </div>
           </div>
@@ -66,13 +77,19 @@ export default function Footer2() {
                     <Link href="/industries#Healthcare">Healthcare </Link>
                   </li>
                   <li>
-                    <Link href="/industries#LifeSciencesPharma">Life Sciences & Pharma </Link>
+                    <Link href="/industries#LifeSciencesPharma">
+                      Life Sciences & Pharma{" "}
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/industries#BankingFinancialServices">Banking & Financial </Link>
+                    <Link href="/industries#BankingFinancialServices">
+                      Banking & Financial{" "}
+                    </Link>
                   </li>
-                   <li>
-                    <Link href="/industries#MediaEntertainment">Media & Entertainment </Link>
+                  <li>
+                    <Link href="/industries#MediaEntertainment">
+                      Media & Entertainment{" "}
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -92,9 +109,7 @@ export default function Footer2() {
                   </li>
 
                   <li>
-                    <Link href="/cyber-security-services">
-                      Cyber Security 
-                    </Link>
+                    <Link href="/cyber-security-services">Cyber Security</Link>
                   </li>
                   <li>
                     <Link href="/web-development-services">
@@ -111,16 +126,16 @@ export default function Footer2() {
               </div>
 
               <div className="footer-main-locations">
-                <h5 className="title-footer text-white">Locations</h5>
-                <p className="font-man text-lcation text-white mb-20">
+                <h5 className="title-footer text-white">Address</h5>
+                <p className="mb-20">
                   SpikeIT Global Solutions, Inc <br />
                   100 Horizon Center Blvd,
                   <br />
                   Hamilton, NJ 08691
                 </p>
                 <h5 className="title-footer text-white">Contact Us</h5>
-                <p className="font-man text-lcation ">info@spikeitglobal.com</p>
-                <p className="phone text-white">+1 732-820-0276</p>
+                <p>Mail: info@spikeitglobal.com</p>
+                <p>Phone: +1 732-820-0276</p>
               </div>
             </div>
           </div>

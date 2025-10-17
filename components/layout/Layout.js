@@ -16,7 +16,7 @@ export default function Layout({
   bgImg,
   pageTitle,
 }) {
-  const [scroll, setScroll] = useState(0);
+  // const [scroll, setScroll] = useState(0);
 
   // MoblileMenu
   const [isMobileMenu, setMobileMenu] = useState(false);
@@ -42,12 +42,12 @@ export default function Layout({
     });
     window.wow.init();
 
-    const onScroll = () => {
-      setScroll(window.scrollY > 100);
-    };
+    // const onScroll = () => {
+    //   setScroll(window.scrollY > 100);
+    // };
 
-    window.addEventListener("scroll", onScroll);
-    return () => window.removeEventListener("scroll", onScroll);
+    // window.addEventListener("scroll", onScroll);
+    // return () => window.removeEventListener("scroll", onScroll);
   }, []);
   return (
     <>

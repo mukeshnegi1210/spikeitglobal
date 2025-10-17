@@ -6,7 +6,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
   return (
     <>
       <header className="main-header header-style1">
-        <div className={`header-lower ${scroll ? "is-fixed is-small" : ""}`}>
+        <div className={`header-lower is-fixed ${scroll ? "is-fixed is-small" : ""}`}>
           <div className="tf-container full">
             <div className="row">
               <div className="col-lg-12">

@@ -267,7 +267,7 @@ export default function Service1() {
               <div className="icon-box1-hide">
                 <div className="flex-one">
                   <div className="icon">
-                    <i className="icon-cloud-network" />
+                    <i className="icon-nanotechnology" />
                   </div>
                   <span className="number">06</span>
                 </div>

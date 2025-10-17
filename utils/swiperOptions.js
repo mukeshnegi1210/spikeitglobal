@@ -373,9 +373,10 @@ export const sliderSwiperIt = {
   effect: "fade",
   autoHeight: true,
 
+
   autoplay: {
-      delay: 3000,
-      disableOnInteraction: false,
+      delay: 5000,
+      // disableOnInteraction: false,
   },
   navigation: {
     nextEl: ".swiper-button-next",
