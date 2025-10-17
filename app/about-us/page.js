@@ -127,7 +127,7 @@ export default function AboutCompany() {
               >
                 <div className="icon-box-8 flex">
                   <div className="icon">
-                    <i className="icon-curve" />
+                    <i className="icon-review" />
                   </div>
                   <div className="content">
                     <h3 className="title text-white">Client First</h3>
@@ -146,7 +146,7 @@ export default function AboutCompany() {
               >
                 <div className="icon-box-8 flex">
                   <div className="icon">
-                    <i className="icon-data-security" />
+                    <i className="icon-management" />
                   </div>
                   <div className="content">
                     <h3 className="title text-white">People as Core Assets</h3>
@@ -165,7 +165,7 @@ export default function AboutCompany() {
               >
                 <div className="icon-box-8 flex">
                   <div className="icon">
-                    <i className="icon-analysis" />
+                    <i className="icon-milestones" />
                   </div>
                   <div className="content">
                     <h3 className="title text-white">
@@ -185,7 +185,7 @@ export default function AboutCompany() {
               >
                 <div className="icon-box-8 flex">
                   <div className="icon">
-                    <i className="icon-group" />
+                    <i className="icon-expert" />
                   </div>
                   <div className="content">
                     <h3 className="title text-white">Shoring Advantage</h3>
@@ -204,7 +204,7 @@ export default function AboutCompany() {
               >
                 <div className="icon-box-8 flex">
                   <div className="icon">
-                    <i className="icon-datas" />
+                    <i className="icon-medal" />
                   </div>
                   <div className="content">
                     <h3 className="title text-white">Values that Last</h3>
@@ -223,7 +223,7 @@ export default function AboutCompany() {
               >
                 <div className="icon-box-8 flex">
                   <div className="icon">
-                    <i className="icon-datas" />
+                    <i className="icon-collaboration" />
                   </div>
                   <div className="content">
                     <h3 className="title text-white">Innovation with Impact</h3>
