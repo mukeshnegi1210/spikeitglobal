@@ -57,7 +57,7 @@ export default function Layout({
       <div id="wrapper">
         <div id="pagee" className="clearfix">
           <Header1
-            scroll={scroll}
+            // scroll={scroll}
             isMobileMenu={isMobileMenu}
             handleMobileMenu={handleMobileMenu}
             handleSearch={handleSearch}
