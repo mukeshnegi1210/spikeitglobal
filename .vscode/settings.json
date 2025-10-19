@@ -1,0 +1,11 @@
+{
+  "emmet.preferences": {
+  "filter.commentAfter": "\n<!-- /[#ID][.CLASS] -->"
+},
+"emmet.syntaxProfiles": {
+   "html": {
+    "filters": "bem"
+  }
+}
+
+}
