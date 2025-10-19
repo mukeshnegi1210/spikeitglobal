@@ -12,7 +12,7 @@ export default function Header1({
       <header className="main-header header-style1">
         {/* ${scroll ? "is-fixed is-small" : ""} */}
         <div
-          className={`header-lower is-fixed`}
+          className={`header-lower is-fixed is-small`}
         >
           <div className="tf-container full">
             <div className="row">
