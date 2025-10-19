@@ -31,8 +31,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
                         <div
                           className="navbar-collapse collapse clearfix"
                           id="navbarSupportedContent"
-                        >
-                          <Menu />
+                        >                          <Menu />
                         </div>
                       </nav>
                       {/* Main Menu End*/}
