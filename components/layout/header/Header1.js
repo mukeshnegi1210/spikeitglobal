@@ -2,11 +2,18 @@ import Link from "next/link";
 import Menu from "../Menu";
 import MobileMenu from "../MobileMenu";
 
-export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
+export default function Header1({
+  //  scroll,
+  // isMobileMenu,
+  handleMobileMenu,
+}) {
   return (
     <>
       <header className="main-header header-style1">
-        <div className={`header-lower is-fixed ${scroll ? "is-fixed is-small" : ""}`}>
+        {/* ${scroll ? "is-fixed is-small" : ""} */}
+        <div
+          className={`header-lower is-fixed`}
+        >
           <div className="tf-container full">
             <div className="row">
               <div className="col-lg-12">
@@ -16,10 +23,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
                     <div className="logo-box">
                       <div className="logo">
                         <Link href="/">
-                          <img
-                            src="/assets/images/logo.png"
-                            alt="Logo"
-                          />
+                          <img src="/assets/images/logo.png" alt="Logo" />
                         </Link>
                       </div>
                     </div>
@@ -31,7 +35,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
                         <div
                           className="navbar-collapse collapse clearfix"
                           id="navbarSupportedContent"
-                        >                          <Menu />
+                        >
+                          {" "}
+                          <Menu />
                         </div>
                       </nav>
                       {/* Main Menu End*/}
