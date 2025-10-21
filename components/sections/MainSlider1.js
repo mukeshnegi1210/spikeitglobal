@@ -11,7 +11,7 @@ export default function MainSlider1() {
           <SwiperSlide>
             <div className="slider-it-main relative over overflow-hiden">
               <div className="slider-image-it">
-                <img src="/assets/images/home/slider1lider1.jpg" alt="" />
+                <img src="/assets/images/home/banner-1.jpg" alt="" />
               </div>
               <span className="it-solution fw-600">IT Solutions</span>
 
@@ -46,7 +46,7 @@ export default function MainSlider1() {
           <SwiperSlide>
             <div className="slider-it-main relative over overflow-hiden">
               <div className="slider-image-it">
-                <img src="/assets/images/home/slider1lider2.jpg" alt="" />
+                <img src="/assets/images/home/banner-2.jpg" alt="" />
               </div>
               <span className="it-solution fw-600">IT Solutions</span>
 
@@ -77,7 +77,7 @@ export default function MainSlider1() {
           <SwiperSlide>
             <div className="slider-it-main relative over overflow-hiden">
               <div className="slider-image-it">
-                <img src="/assets/images/home/slider1lider3.jpg" alt="" />
+                <img src="/assets/images/home/banner-3.jpg" alt="" />
               </div>
               <span className="it-solution fw-600">IT Solutions</span>
 

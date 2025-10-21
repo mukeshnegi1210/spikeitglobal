@@ -26,7 +26,6 @@ export default function ServiceDetails() {
                       </span>
                       <h2 className="title">IT Service Management (ITSM)</h2>
                       <p className="des">
-                        {" "}
                         Empower your organization with automated workflows,
                         integrated platforms, and strategic IT operations —
                         powered by ServiceNow expertise.
@@ -135,7 +134,7 @@ export default function ServiceDetails() {
                 </div>
                 <div className="col-md-5">
                   <div className="it-manager-image">
-                    <img src="/assets/images/Services/itsm-3.jpg" alt="image" />
+                    <img src="/assets/images/services/itsm-3.jpg" alt="image" />
                   </div>
                 </div>
               </div>
