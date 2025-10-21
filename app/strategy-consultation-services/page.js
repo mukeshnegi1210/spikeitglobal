@@ -9,7 +9,7 @@ export default function ServiceDetails() {
         headerStyle={1}
         footerStyle={2}
         breadcrumbTitle="Strategy and Consultation"
-        bgImg={"/assets/images/services/strategy-consultation-services-1.jpg"}
+        bgImg={"/assets/images/services/strategy-consultation-services.jpg"}
         pageTitle="Empower Growth with Strategic Consulting Services"
       >
         <div>

@@ -5,7 +5,7 @@ export default function ServiceDetails() {
   return (
     <>
       <Layout
-        src="/assets/images/services/webdevelopment-1.jpg"
+        bgImg="/assets/images/services/webdevelopment-1.jpg"
         breadcrumbTitle="Application & Web Development"
         pageTitle="Design. Develop. Deliver — Modern Applications & Web Experiences."
         headerStyle={1}

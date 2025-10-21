@@ -8,7 +8,7 @@ export default function ServiceDetails() {
   return (
     <>
       <Layout
-        src="/assets/images/services/itsm-1.jpg"
+        bgImg="/assets/images/services/itsm-1.jpg"
         breadcrumbTitle="IT Management Services"
         pageTitle="Next-Level Service Management. Powered by ServiceNow"
         headerStyle={1}

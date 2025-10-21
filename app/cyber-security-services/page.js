@@ -2,14 +2,14 @@
 import Layout from "@/components/layout/Layout";
 import Contact1 from "@/components/sections/Contact1";
 export default function ServiceDetails() {
-  
   return (
     <>
       <Layout
         headerStyle={1}
         footerStyle={2}
         breadcrumbTitle="Cyber Security Services"
-        src="/assets/images/services/cybersecurity-1.jpg"
+        bgImg="/assets/images/services/cybersecurity-1.jpg"
+      
         pageTitle="Secure Your Digital Future with Cyber Security Services"
       >
         <div>
@@ -140,10 +140,10 @@ export default function ServiceDetails() {
                             Compliance Reporting & Ongoing Support
                           </p>
                         </li>
-                          <li className="flex-three">
+                        <li className="flex-three">
                           <i className="icon-Check" />
                           <p className="font-man">
-                           Security Architecture & Policy Setup 
+                            Security Architecture & Policy Setup
                           </p>
                         </li>
                       </ul>
