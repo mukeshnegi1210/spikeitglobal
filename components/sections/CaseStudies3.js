@@ -39,9 +39,9 @@ export default function CaseStudies3() {
                       <div className="content">
                         <div className="inner-title">
                           <h3 className="title">
-                            <Link href="/case-study-1">Transporation</Link>
+                            <Link href="/case-study-1">Cloud Transformation</Link>
                           </h3>
-                          <p>Web Design &amp; Development</p>
+                          {/* <p>Web Design &amp; Development</p> */}
                         </div>
                         <div className="btn-main">
                           <Link href="/case-study-1" className="link-portfolio">
@@ -62,9 +62,9 @@ export default function CaseStudies3() {
                       <div className="content">
                         <div className="inner-title">
                           <h3 className="title">
-                            <Link href="/case-study-2">Telecom  </Link>
+                            <Link href="/case-study-2">Driving Transformation with ServiceNow  </Link>
                           </h3>
-                          <p>ServiceNow-IT service management</p>
+                          {/* <p>ServiceNow-IT service management</p> */}
                         </div>
                         <div className="btn-main">
                           <Link href="/case-study-2" className="link-portfolio">
@@ -85,9 +85,9 @@ export default function CaseStudies3() {
                       <div className="content">
                         <div className="inner-title">
                           <h3 className="title">
-                            <Link href="/case-study-3"> Healthcare </Link>
+                            <Link href="/case-study-3"> Cloud Security & Managed Services </Link>
                           </h3>
-                          <p>Cloud Security</p>
+                          {/* <p>Cloud Security</p> */}
                         </div>
                         <div className="btn-main">
                           <Link href="/case-study-3" className="link-portfolio">

@@ -1445,13 +1445,12 @@
 /* breadcumb
 -------------------------------------------------------------- */
 .breadcumb-section {
-  padding-top: 250px;
-  padding-bottom: 161px;
+padding:250px 0;
   background-image: url(../../assets/images/page/page-title.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 .breadcumb-section::before {
@@ -1461,11 +1460,12 @@
   left: 0;
   bottom: 0;
   position: absolute;
-  background: linear-gradient(
+  /* background: linear-gradient(
     180deg,
     rgba(2, 6, 38, 0.85),
     rgba(2, 6, 38, 0.4)
-  );
+  ); */
+  background: linear-gradient(180deg, rgb(191 55 15 / 49%), rgba(2, 6, 38, 0.4));
 }
 
 .breadcumb-section .title-group a {

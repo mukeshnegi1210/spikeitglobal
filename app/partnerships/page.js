@@ -8,7 +8,7 @@ export default function ServiceDetails() {
         headerStyle={1}
         footerStyle={2}
         breadcrumbTitle="Partnerships"
-        bgImg="/assets/images/services/infrastructure-2.jpg"
+        bgImg="/assets/images/page/partnership.jpg"
         pageTitle="Partnering with AWS, Google, Azure, and ServiceNow to power innovation and digital transformation"
       >
         <section className="partnership-section light section-partner-h2">

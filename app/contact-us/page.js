@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import Layout from "@/components/layout/Layout";
@@ -47,7 +47,10 @@ export default function ContactUs() {
   };
 
   return (
-    <Layout breadcrumbTitle="Contact Us">
+    <Layout
+      breadcrumbTitle="Contact Us"
+      bgImg="/assets/images/page/contact-us.jpg"
+    >
       <section className="contact-us-page pt-130 pb-130">
         <div className="tf-container">
           <div className="row">

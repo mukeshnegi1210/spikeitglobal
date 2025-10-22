@@ -11,9 +11,9 @@ export default function MainSlider1() {
           <SwiperSlide>
             <div className="slider-it-main relative over overflow-hiden">
               <div className="slider-image-it">
-                <img src="/assets/images/home/banner-1.jpg" alt="" />
+                <img src="/assets/images/home/cloud-tranformation.jpg" alt="" />
               </div>
-              <span className="it-solution fw-600">IT Solutions</span>
+              <span className="it-solution fw-600">Cloud Tranformation</span>
 
               <div className="tf-container">
                 <div className="slider-content-it relative z-index-3">
@@ -46,9 +46,9 @@ export default function MainSlider1() {
           <SwiperSlide>
             <div className="slider-it-main relative over overflow-hiden">
               <div className="slider-image-it">
-                <img src="/assets/images/home/banner-2.jpg" alt="" />
+                <img src="/assets/images/home/digital-tranformation.jpg" alt="" />
               </div>
-              <span className="it-solution fw-600">IT Solutions</span>
+              <span className="it-solution fw-600">Digital Tranformation</span>
 
               <div className="tf-container">
                 <div className="slider-content-it relative z-index-3">
@@ -77,9 +77,9 @@ export default function MainSlider1() {
           <SwiperSlide>
             <div className="slider-it-main relative over overflow-hiden">
               <div className="slider-image-it">
-                <img src="/assets/images/home/banner-3.jpg" alt="" />
+                <img src="/assets/images/home/itsm.jpg" alt="" />
               </div>
-              <span className="it-solution fw-600">IT Solutions</span>
+              <span className="it-solution fw-600">ServiceNow</span>
 
               <div className="tf-container">
                 <div className="slider-content-it relative z-index-3">

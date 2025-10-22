@@ -7,6 +7,7 @@ export default function AboutCompany() {
         breadcrumbTitle="About Us"
         pageTitle="About SpikeIT"
         headerStyle={1}
+       bgImg="/assets/images/page/about-us.jpg"
       >
         <section className="why-chose-us pt-122 pb-130" id="About">
           <div className="tf-container">

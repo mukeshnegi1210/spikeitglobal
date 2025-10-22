@@ -7,7 +7,7 @@ export default function ServiceDetails() {
         headerStyle={1}
         footerStyle={2}
         breadcrumbTitle="Industries"
-        bgImg="/assets/images/services/infrastructure-2.jpg"
+        bgImg="/assets/images/services/industries.jpg"
         pageTitle="Transforming Key Industries with Technology and Innovation"
       >
         <section
