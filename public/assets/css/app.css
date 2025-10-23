@@ -1460,12 +1460,12 @@ padding:250px 0;
   left: 0;
   bottom: 0;
   position: absolute;
-  /* background: linear-gradient(
+  background: linear-gradient(
     180deg,
     rgba(2, 6, 38, 0.85),
     rgba(2, 6, 38, 0.4)
-  ); */
-  background: linear-gradient(180deg, rgb(191 55 15 / 49%), rgba(2, 6, 38, 0.4));
+  );
+  /* background: linear-gradient(180deg, rgb(191 55 15 / 49%), rgba(2, 6, 38, 0.4)); */
 }
 
 .breadcumb-section .title-group a {
