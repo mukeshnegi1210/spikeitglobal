@@ -11,14 +11,7 @@ export default function MainSlider1() {
           <SwiperSlide>
             <div className="slider-it-main relative over overflow-hiden">
               <div className="slider-image-it">
-                <img
-                  // src="https://media.istockphoto.com/id/2153255067/photo/cloud-computing-security-service-big-data-technology-concept.jpg?s=2048x2048&w=is&k=20&c=UySC-qXD3sPjLCY4EwH1vgMbBZs-cCLOizHRYTYeU94="
-
-                  // src="https://media.istockphoto.com/id/1432660477/photo/cloud-computing-technology-big-data-concept.jpg?s=2048x2048&w=is&k=20&c=EgJOO2ljOASGZB8m6wAYpIiGnsLee97BJ0wlBTxkmtE="
-
-                  src="/assets/images/home/cloud2.jpg"
-                  alt=""
-                />
+                <img src="/assets/images/home/cloud2.jpg" alt="" />
               </div>
               <span className="it-solution fw-600">Cloud Tranformation</span>
 
@@ -53,7 +46,7 @@ export default function MainSlider1() {
           <SwiperSlide>
             <div className="slider-it-main relative over overflow-hiden">
               <div className="slider-image-it">
-                <img src="https://media.istockphoto.com/id/2214689031/photo/person-using-laptop-with-ai-content-generator-interaction-with-the-ai-assistant-to-solve-some.jpg?s=2048x2048&w=is&k=20&c=mdwYIM_VSPFdxt7Fxa5X4rMRVKtiF80juoaZ5acFWIg=" />
+                <img src="/assets/images/home/digital-tranformation.jpg" alt="" />
               </div>
               <span className="it-solution fw-600">Digital Tranformation</span>
 
@@ -85,11 +78,7 @@ export default function MainSlider1() {
           <SwiperSlide>
             <div className="slider-it-main relative over overflow-hiden">
               <div className="slider-image-it">
-                <img
-                  //  src="/assets/images/home/itsm.jpg"
-                  src=" https://media.istockphoto.com/id/928453496/photo/her-presentation-is-perfect.jpg?s=2048x2048&w=is&k=20&c=btNRoV-fNtD4gE5mlFdrWvxx9RLKW3pg7vKMGq8d5OY="
-                  alt=""
-                />
+                <img src="/assets/images/home/itsm.jpg" alt="" />
               </div>
               <span className="it-solution fw-600">ServiceNow</span>
 
