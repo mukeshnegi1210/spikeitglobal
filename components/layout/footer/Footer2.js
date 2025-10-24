@@ -113,7 +113,7 @@ export default function Footer2() {
                   </li>
                   <li>
                     <Link href="/web-development-services">
-                      Application & Web development
+                      Application & Web Development
                     </Link>
                   </li>
 
