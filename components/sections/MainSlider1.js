@@ -69,7 +69,7 @@ export default function MainSlider1() {
                 with SpikeIT
               </h1>
               <div className="btn-main wow fadeInUpSmall">
-                <Link href="/web-development-services" className="button-src">
+                <Link href="/data-ai-services" className="button-src">
                   Know More
                   <i className="icon-angle-right" />
                 </Link>
