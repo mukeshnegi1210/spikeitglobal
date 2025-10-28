@@ -2403,8 +2403,8 @@ padding:250px 0;
 /* Marque text
 -------------------------------------------------------------- */
 .section-marque-text {
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .marquee-wrapper {
