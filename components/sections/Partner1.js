@@ -1,7 +1,4 @@
 "use client";
-import { Swiper, SwiperSlide } from "swiper/react";
-import Link from "next/link";
-import { brandLogo } from "@/utils/swiperOptions";
 import MarqueText1 from "./MarqueText1";
 
 export default function Partner1() {
