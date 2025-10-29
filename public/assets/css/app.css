@@ -12077,10 +12077,7 @@ body .dribbble img {
     margin-bottom: 0px;
   }
 
-  .section-marque-text {
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
+ 
 
   .service-item .content {
     padding-right: 0em;
@@ -13841,9 +13838,8 @@ body .dribbble img {
   position: relative;
 }
 
-.banner-slider .slide{
+.banner-slider .slide {
   min-height: 770px;
-
 }
 
 .banner-slider .slide::before {
@@ -13971,9 +13967,13 @@ body .dribbble img {
     width: 40px;
     height: 40px;
   }
-  .banner-slider .slide{
-  min-height: auto;
-
+  .banner-slider .slide {
+    min-height: auto;
+  }
+  .marquee-inner.to-left {
+  animation: marqueeLeft 10s linear infinite;
 }
-
+.text-slider{
+  height: 55px;
+}
 }

@@ -14,7 +14,7 @@ export default function MainSlider1() {
         modules={[Navigation, Keyboard, Autoplay]}
         slidesPerView={1}
         loop={true}
-        autoHeight={true}
+        autoHeight={false}
         keyboard={{ enabled: true }}
         autoplay={{
           delay: 4000, // 4 seconds between slides
