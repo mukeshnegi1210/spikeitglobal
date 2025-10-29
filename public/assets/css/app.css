@@ -13840,6 +13840,12 @@ body .dribbble img {
 .banner-slider {
   position: relative;
 }
+
+.banner-slider .slide{
+  min-height: 770px;
+
+}
+
 .banner-slider .slide::before {
   top: 0;
   right: 0;
@@ -13866,12 +13872,13 @@ body .dribbble img {
   transition: all 200ms ease-in-out;
   transform: scale(1);
   transition: all 5s ease-out 0s;
+  min-height: 770px;
 }
 .banner-slider .swiper-slide.swiper-slide-active .slide-img img {
   transform: scale(1.12);
 }
 .banner-slider .slide {
-  padding:250px 0 200px;
+  padding: 250px 0 250px;
 }
 .banner-slider .slide .banner-content {
   position: relative;
@@ -13953,12 +13960,20 @@ body .dribbble img {
   .banner-slider .slide {
     padding: 100px 0;
   }
-  .banner-slider .slide  h1{
+  .banner-slider .slide-img img {
+    min-height: auto;
+  }
+  .banner-slider .slide h1 {
     font-size: 40px;
     line-height: 1.2;
   }
-  .banner-slider-navigations .custom-swiper-button{
+  .banner-slider-navigations .custom-swiper-button {
     width: 40px;
     height: 40px;
   }
+  .banner-slider .slide{
+  min-height: auto;
+
+}
+
 }
