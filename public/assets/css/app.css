@@ -13871,7 +13871,7 @@ body .dribbble img {
   transform: scale(1.12);
 }
 .banner-slider .slide {
-  padding: 150px 0;
+  padding:250px 0 200px;
 }
 .banner-slider .slide .banner-content {
   position: relative;
